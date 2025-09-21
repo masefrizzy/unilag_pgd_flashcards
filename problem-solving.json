@@ -1,0 +1,1160 @@
+{
+  "subject": "Problem Solving & Creativity",
+  "questions": [
+    {
+      "question": "Which of the following best defines *problem solving*?",
+      "options": [
+        "A. Guessing answers until something works",
+        "B. A systematic process of identifying an issue, analysing it and developing solutions",
+        "C. Waiting for others to fix the problem",
+        "D. Avoiding difficult situations"
+      ],
+      "answer": "B",
+      "explanation": "Problem solving is a structured approach that involves identifying issues, analyzing them thoroughly, and developing effective solutions rather than guessing or avoiding challenges."
+    },
+    {
+      "question": "Which is the **first step** in effective problem solving?",
+      "options": [
+        "A. Evaluating alternatives",
+        "B. Identifying and defining the problem clearly",
+        "C. Implementing a solution immediately",
+        "D. Writing a report"
+      ],
+      "answer": "B",
+      "explanation": "The foundation of effective problem solving is clearly identifying and defining the problem. Without a clear understanding of the issue, subsequent steps may address symptoms rather than root causes."
+    },
+    {
+      "question": "Which of these is an example of *creative thinking*?",
+      "options": [
+        "A. Repeating the same process without change",
+        "B. Generating new ideas to improve an existing product",
+        "C. Copying competitors' work exactly",
+        "D. Avoiding experimentation"
+      ],
+      "answer": "B",
+      "explanation": "Creative thinking involves generating novel ideas and approaches to improve existing solutions, rather than simply repeating established processes or copying others without innovation."
+    },
+    {
+      "question": "Which practice best supports *brainstorming*?",
+      "options": [
+        "A. Encouraging all ideas without criticism initially",
+        "B. Criticising every idea immediately",
+        "C. Allowing only one person to speak",
+        "D. Stopping after the first idea"
+      ],
+      "answer": "A",
+      "explanation": "Effective brainstorming requires creating a safe environment where all ideas are welcomed without immediate judgment, allowing for maximum idea generation before evaluation begins."
+    },
+    {
+      "question": "In problem solving, a *root cause analysis* aims to:",
+      "options": [
+        "A. Identify the underlying reason for a problem",
+        "B. Develop marketing strategies",
+        "C. Avoid decision making",
+        "D. Implement solutions without research"
+      ],
+      "answer": "A",
+      "explanation": "Root cause analysis focuses on identifying the fundamental underlying reasons for problems rather than just addressing surface symptoms, enabling more effective and lasting solutions."
+    },
+    {
+      "question": "Which of the following best demonstrates *lateral thinking*?",
+      "options": [
+        "A. Looking at a problem from an unusual perspective to generate new ideas",
+        "B. Following a rigid procedure",
+        "C. Only considering past solutions",
+        "D. Waiting for someone else to decide"
+      ],
+      "answer": "A",
+      "explanation": "Lateral thinking involves approaching problems from unconventional angles and perspectives to generate innovative solutions that might not emerge through traditional linear thinking."
+    },
+    {
+      "question": "Which is an example of *evaluating alternatives*?",
+      "options": [
+        "A. Listing possible solutions and weighing their pros and cons",
+        "B. Implementing the first idea you hear",
+        "C. Ignoring all but one option",
+        "D. Avoiding decisions"
+      ],
+      "answer": "A",
+      "explanation": "Evaluating alternatives involves systematically comparing different solutions by considering their advantages, disadvantages, and potential outcomes before making a decision."
+    },
+    {
+      "question": "Which practice helps develop *innovative solutions*?",
+      "options": [
+        "A. Encouraging diverse viewpoints and interdisciplinary input",
+        "B. Only consulting people who agree with you",
+        "C. Sticking to familiar methods",
+        "D. Rejecting unusual suggestions"
+      ],
+      "answer": "A",
+      "explanation": "Innovation thrives when diverse perspectives and interdisciplinary approaches are encouraged, as this combination often leads to breakthrough ideas that homogeneous groups might miss."
+    },
+    {
+      "question": "When implementing a solution, which action improves success?",
+      "options": [
+        "A. Communicating the plan clearly and monitoring progress",
+        "B. Avoiding feedback from stakeholders",
+        "C. Making changes without informing anyone",
+        "D. Ignoring potential obstacles"
+      ],
+      "answer": "A",
+      "explanation": "Clear communication and ongoing monitoring are essential for successful implementation, as they ensure alignment, enable timely adjustments, and maintain stakeholder engagement throughout the process."
+    },
+    {
+      "question": "Which is an example of *critical thinking* during problem solving?",
+      "options": [
+        "A. Checking evidence before accepting a claim",
+        "B. Accepting information at face value",
+        "C. Making decisions based on assumptions",
+        "D. Ignoring inconsistencies"
+      ],
+      "answer": "A",
+      "explanation": "Critical thinking involves systematically evaluating information, questioning assumptions, and verifying evidence before drawing conclusions or making decisions."
+    },
+    {
+      "question": "Which of these best describes *divergent thinking*?",
+      "options": [
+        "A. Generating many possible ideas before narrowing down",
+        "B. Choosing only one solution immediately",
+        "C. Following a single path",
+        "D. Avoiding new ideas"
+      ],
+      "answer": "A",
+      "explanation": "Divergent thinking is the process of generating multiple ideas, options, or possibilities in an exploratory manner before converging on specific solutions."
+    },
+    {
+      "question": "Which practice strengthens *decision making under uncertainty*?",
+      "options": [
+        "A. Gathering as much relevant information as possible and weighing risks",
+        "B. Guessing without data",
+        "C. Avoiding decisions entirely",
+        "D. Relying solely on intuition with no analysis"
+      ],
+      "answer": "A",
+      "explanation": "Effective decision-making under uncertainty involves systematically gathering available information, assessing risks, and making informed choices rather than guessing or avoiding decisions."
+    },
+    {
+      "question": "Which is an example of *creative problem solving in a team*?",
+      "options": [
+        "A. Building on each other's ideas to design a new service",
+        "B. Criticising new suggestions immediately",
+        "C. Refusing to collaborate",
+        "D. Waiting for a manager to solve it"
+      ],
+      "answer": "A",
+      "explanation": "Creative team problem solving involves collaborative ideation where team members build upon each other's ideas to develop innovative solutions collectively."
+    },
+    {
+      "question": "Which practice supports **continuous improvement**?",
+      "options": [
+        "A. Reviewing implemented solutions and learning from outcomes",
+        "B. Implementing changes without evaluation",
+        "C. Avoiding feedback to prevent criticism",
+        "D. Repeating the same mistakes"
+      ],
+      "answer": "A",
+      "explanation": "Continuous improvement involves systematically reviewing outcomes, learning from both successes and failures, and applying these insights to enhance future solutions and processes."
+    },
+    {
+      "question": "Which of these best describes **convergent thinking**?",
+      "options": [
+        "A. Narrowing down many ideas to select the most feasible solution",
+        "B. Generating as many ideas as possible",
+        "C. Avoiding decisions altogether",
+        "D. Ignoring evidence when choosing"
+      ],
+      "answer": "A",
+      "explanation": "Convergent thinking is the process of analyzing, evaluating, and selecting the most promising ideas from multiple options to identify the best solution."
+    },
+    {
+      "question": "Which behaviour demonstrates **analytical problem solving**?",
+      "options": [
+        "A. Breaking a complex issue into smaller parts to understand it",
+        "B. Guessing without looking at details",
+        "C. Avoiding information gathering",
+        "D. Copying another team's solution blindly"
+      ],
+      "answer": "A",
+      "explanation": "Analytical problem solving involves systematically deconstructing complex problems into manageable components to better understand underlying structures and relationships."
+    },
+    {
+      "question": "Which practice helps improve **team creativity**?",
+      "options": [
+        "A. Encouraging open dialogue and valuing all contributions",
+        "B. Criticising unusual ideas immediately",
+        "C. Limiting discussions to one person's viewpoint",
+        "D. Avoiding collaboration"
+      ],
+      "answer": "A",
+      "explanation": "Team creativity flourishes in environments that foster psychological safety, open communication, and appreciation for diverse perspectives and contributions."
+    },
+    {
+      "question": "Which is an example of **risk assessment in problem solving**?",
+      "options": [
+        "A. Identifying potential obstacles and their impact before implementing a solution",
+        "B. Implementing changes without any evaluation",
+        "C. Ignoring possible downsides",
+        "D. Acting only on intuition"
+      ],
+      "answer": "A",
+      "explanation": "Risk assessment involves proactively identifying potential challenges, evaluating their likelihood and impact, and developing strategies to mitigate them before implementation."
+    },
+    {
+      "question": "Which of the following best supports **innovation**?",
+      "options": [
+        "A. Allowing time and resources for experimentation",
+        "B. Discouraging new approaches",
+        "C. Penalising mistakes during trials",
+        "D. Relying only on past methods"
+      ],
+      "answer": "A",
+      "explanation": "Innovation requires dedicated resources, time for experimentation, and a culture that views failures as learning opportunities rather than reasons for punishment."
+    },
+    {
+      "question": "Which is an example of **creative thinking under constraints**?",
+      "options": [
+        "A. Finding a cheaper way to deliver the same value when the budget is cut",
+        "B. Waiting until more resources appear",
+        "C. Ignoring constraints completely",
+        "D. Cancelling the project outright"
+      ],
+      "answer": "A",
+      "explanation": "Creative thinking under constraints involves viewing limitations as challenges that can spark innovation rather than as barriers that prevent progress."
+    },
+    {
+      "question": "Which practice improves *decision-making speed without losing quality*?",
+      "options": [
+        "A. Setting clear criteria for evaluating options in advance",
+        "B. Skipping analysis to save time",
+        "C. Making decisions without involving stakeholders",
+        "D. Ignoring available data"
+      ],
+      "answer": "A",
+      "explanation": "Establishing clear evaluation criteria beforehand streamlines the decision-making process by providing a consistent framework for quickly assessing options without compromising quality."
+    },
+    {
+      "question": "Which is an example of *root cause analysis tool*?",
+      "options": [
+        "A. Fishbone (Ishikawa) diagram",
+        "B. Random guessing",
+        "C. Group chat",
+        "D. Job description"
+      ],
+      "answer": "A",
+      "explanation": "The Fishbone diagram is a structured visual tool used in root cause analysis to systematically identify and categorize potential causes of problems across different dimensions."
+    },
+    {
+      "question": "Which behaviour supports *creative confidence*?",
+      "options": [
+        "A. Sharing new ideas even when unsure how they'll be received",
+        "B. Keeping all ideas to yourself to avoid criticism",
+        "C. Waiting for others to speak first",
+        "D. Dismissing your own suggestions"
+      ],
+      "answer": "A",
+      "explanation": "Creative confidence involves the courage to share innovative ideas despite uncertainty about their reception, recognizing that vulnerability is essential for breakthrough thinking."
+    },
+    {
+      "question": "Which is an example of *evaluating the impact of a solution*?",
+      "options": [
+        "A. Measuring outcomes after implementation to see if goals were met",
+        "B. Implementing and moving on without review",
+        "C. Assuming the solution worked",
+        "D. Ignoring results"
+      ],
+      "answer": "A",
+      "explanation": "Proper evaluation involves systematically measuring outcomes against predefined goals and metrics to determine a solution's effectiveness and identify areas for improvement."
+    },
+    {
+      "question": "Which practice fosters *diverse thinking in teams*?",
+      "options": [
+        "A. Involving people from different backgrounds and disciplines",
+        "B. Selecting only those who think the same way",
+        "C. Limiting discussion to senior staff",
+        "D. Avoiding new perspectives"
+      ],
+      "answer": "A",
+      "explanation": "Diverse thinking emerges when teams include individuals with varied backgrounds, experiences, and expertise, leading to more comprehensive and innovative problem-solving approaches."
+    },
+    {
+      "question": "Which is an example of *brainstorming rule*?",
+      "options": [
+        "A. Encourage quantity of ideas first, evaluate later",
+        "B. Criticise ideas as they come up",
+        "C. Limit to one idea only",
+        "D. Stop after the first suggestion"
+      ],
+      "answer": "A",
+      "explanation": "A fundamental brainstorming rule is to prioritize idea quantity over initial quality, as this encourages creative flow and prevents premature judgment that can stifle innovation."
+    },
+    {
+      "question": "Which behaviour demonstrates solution implementation planning?",
+      "options": [
+        "A. Setting clear timelines, responsibilities and success measures",
+        "B. Jumping in without a plan",
+        "C. Ignoring stakeholder input",
+        "D. Making changes ad hoc"
+      ],
+      "answer": "A",
+      "explanation": "Effective implementation planning involves establishing clear timelines, assigning responsibilities, defining success metrics, and ensuring stakeholder alignment before execution."
+    },
+    {
+      "question": "Which practice helps develop innovative thinking?",
+      "options": [
+        "A. Reading widely, experimenting and exposing yourself to new fields",
+        "B. Working only within your comfort zone",
+        "C. Avoiding any unfamiliar ideas",
+        "D. Dismissing new information"
+      ],
+      "answer": "A",
+      "explanation": "Innovative thinking develops through continuous learning, cross-disciplinary exploration, and willingness to experiment beyond familiar boundaries and comfort zones."
+    },
+    {
+      "question": "Which is an example of using feedback for improvement?",
+      "options": [
+        "A. Collecting input from users and refining your solution accordingly",
+        "B. Ignoring user comments after launch",
+        "C. Taking criticism personally and abandoning the project",
+        "D. Assuming no changes are needed"
+      ],
+      "answer": "A",
+      "explanation": "Using feedback effectively involves actively seeking input from stakeholders, objectively analyzing their perspectives, and incorporating valuable insights to enhance solutions iteratively."
+    },
+    {
+      "question": "Which behaviour demonstrates critical evaluation of ideas?",
+      "options": [
+        "A. Assessing feasibility, cost and benefits before selecting a solution",
+        "B. Accepting ideas at face value",
+        "C. Choosing the first suggestion offered",
+        "D. Avoiding analysis to save time"
+      ],
+      "answer": "A",
+      "explanation": "Critical evaluation requires systematically assessing ideas against multiple criteria such as feasibility, cost, benefits, and alignment with objectives before making selection decisions."
+    },
+    {
+      "question": "Which of the following best describes design thinking?",
+      "options": [
+        "A. A human-centred approach to problem solving focusing on empathy, ideation and prototyping",
+        "B. A rigid step-by-step process with no iteration",
+        "C. A way to copy competitors' ideas quickly",
+        "D. A method of writing computer code"
+      ],
+      "answer": "A",
+      "explanation": "Design thinking is an iterative, human-centered problem-solving approach that emphasizes understanding user needs, creative ideation, and rapid prototyping to develop innovative solutions."
+    },
+    {
+      "question": "Which practice supports rapid prototyping?",
+      "options": [
+        "A. Building quick, low-cost versions of a solution to test ideas",
+        "B. Waiting until you have a perfect product before testing",
+        "C. Spending all resources on one full build before feedback",
+        "D. Avoiding user input"
+      ],
+      "answer": "A",
+      "explanation": "Rapid prototyping involves creating simple, inexpensive models or mockups to quickly test concepts, gather feedback, and iterate before investing significant resources in final development."
+    },
+    {
+      "question": "Which is an example of a SMART goal in problem solving?",
+      "options": [
+        "A. 'Reduce customer wait times by 20% within three months.'",
+        "B. 'Make things better.'",
+        "C. 'Be the best.'",
+        "D. 'Change something soon.'"
+      ],
+      "answer": "A",
+      "explanation": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound, providing clear targets that guide problem-solving efforts and enable objective evaluation of success."
+    },
+    {
+      "question": "Which practice encourages *innovation under pressure*?",
+      "options": [
+        "A. Reframing challenges as opportunities and encouraging experimentation",
+        "B. Discouraging new ideas to avoid mistakes",
+        "C. Ignoring deadlines and constraints",
+        "D. Penalising creative suggestions"
+      ],
+      "answer": "A",
+      "explanation": "Innovation under pressure thrives when constraints are viewed as creative challenges and when experimentation is encouraged despite the risks of failure in demanding circumstances."
+    },
+    {
+      "question": "Which of the following demonstrates *system thinking*?",
+      "options": [
+        "A. Considering how changes in one part of a process affect the whole system",
+        "B. Looking only at the immediate task",
+        "C. Ignoring connections between factors",
+        "D. Solving problems in isolation"
+      ],
+      "answer": "A",
+      "explanation": "Systems thinking involves understanding how components within a system interrelate and how changes in one area can create ripple effects throughout the entire system."
+    },
+    {
+      "question": "Which practice strengthens *collaborative problem solving*?",
+      "options": [
+        "A. Actively listening to others and building on their ideas",
+        "B. Dominating discussions and ignoring feedback",
+        "C. Working entirely alone",
+        "D. Rejecting all suggestions"
+      ],
+      "answer": "A",
+      "explanation": "Effective collaboration requires active listening, respect for diverse perspectives, and the ability to synthesize and build upon others' ideas to develop superior collective solutions."
+    },
+    {
+      "question": "Which is an example of *a creativity technique*?",
+      "options": [
+        "A. SCAMPER (Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse)",
+        "B. Copying competitors' advertisements",
+        "C. Following a routine with no variation",
+        "D. Waiting for inspiration only"
+      ],
+      "answer": "A",
+      "explanation": "SCAMPER is a structured creativity technique that provides specific thinking prompts to help generate innovative ideas by systematically exploring different ways to modify and improve existing solutions."
+    },
+    {
+      "question": "Which behaviour supports *critical reflection after a project*?",
+      "options": [
+        "A. Conducting a lessons-learned review to identify improvements",
+        "B. Moving on immediately without review",
+        "C. Avoiding discussion of failures",
+        "D. Ignoring input from team members"
+      ],
+      "answer": "A",
+      "explanation": "Critical reflection involves systematically reviewing project outcomes, processes, and team dynamics to extract valuable lessons that can improve future performance and problem-solving effectiveness."
+    },
+    {
+      "question": "Which of these best defines *heuristic problem solving*?",
+      "options": [
+        "A. Using rules of thumb and experience to find practical solutions",
+        "B. Conducting complex statistical analysis only",
+        "C. Waiting for complete data before acting",
+        "D. Guessing without rationale"
+      ],
+      "answer": "A",
+      "explanation": "Heuristic problem solving involves using practical shortcuts, rules of thumb, and experiential knowledge to develop workable solutions efficiently, particularly when complete information is unavailable."
+    },
+    {
+      "question": "Which practice improves decision quality when options conflict?",
+      "options": [
+        "A. Using a decision matrix to compare alternatives based on weighted criteria",
+        "B. Choosing randomly",
+        "C. Selecting the cheapest option automatically",
+        "D. Relying only on personal bias"
+      ],
+      "answer": "A",
+      "explanation": "Decision matrices provide a structured approach to evaluate conflicting options by weighting criteria according to importance and systematically scoring alternatives to identify the optimal choice."
+    },
+    {
+      "question": "Which is an example of creative risk-taking?",
+      "options": [
+        "A. Testing a new approach on a small scale before full rollout",
+        "B. Avoiding any changes to existing processes",
+        "C. Implementing a massive change without analysis",
+        "D. Ignoring stakeholder feedback"
+      ],
+      "answer": "A",
+      "explanation": "Creative risk-taking involves experimenting with innovative approaches in controlled, limited contexts to test viability and minimize potential negative impacts before broader implementation."
+    },
+    {
+      "question": "Which practice helps overcome functional fixedness?",
+      "options": [
+        "A. Thinking about alternative uses for familiar objects or processes",
+        "B. Sticking strictly to traditional uses",
+        "C. Ignoring new possibilities",
+        "D. Relying only on established procedures"
+      ],
+      "answer": "A",
+      "explanation": "Overcoming functional fixedness requires consciously challenging conventional assumptions about how objects or processes should be used and exploring novel applications beyond their intended purposes."
+    },
+    {
+      "question": "Which is an example of using data to guide problem solving?",
+      "options": [
+        "A. Analysing performance metrics to identify bottlenecks",
+        "B. Guessing the cause of a problem without evidence",
+        "C. Acting on anecdotes only",
+        "D. Ignoring measurement"
+      ],
+      "answer": "A",
+      "explanation": "Data-driven problem solving involves systematically collecting and analyzing relevant metrics and evidence to identify root causes, patterns, and opportunities for improvement rather than relying on assumptions or anecdotes."
+    },
+    {
+      "question": "Which behaviour demonstrates adaptive thinking?",
+      "options": [
+        "A. Adjusting your approach when circumstances change",
+        "B. Insisting on one plan regardless of feedback",
+        "C. Refusing to modify your ideas",
+        "D. Ignoring new information"
+      ],
+      "answer": "A",
+      "explanation": "Adaptive thinking involves flexibility and responsiveness to changing conditions, new information, and feedback, allowing for continuous adjustment and improvement of strategies and solutions."
+    },
+    {
+      "question": "Which practice improves evaluation of creative ideas?",
+      "options": [
+        "A. Establishing criteria such as feasibility, cost, impact and alignment with goals",
+        "B. Choosing ideas based on personal preference alone",
+        "C. Ignoring practical constraints",
+        "D. Rejecting all new ideas to avoid risk"
+      ],
+      "answer": "A",
+      "explanation": "Effective evaluation of creative ideas requires establishing clear, objective criteria that assess multiple dimensions including feasibility, resource requirements, potential impact, and strategic alignment."
+    },
+    {
+      "question": "Which of the following best describes creative resilience?",
+      "options": [
+        "A. The ability to recover from setbacks and keep generating ideas",
+        "B. Refusing to change your approach even after failure",
+        "C. Avoiding challenges to prevent mistakes",
+        "D. Sticking only to proven methods"
+      ],
+      "answer": "A",
+      "explanation": "Creative resilience involves persevering through failures and setbacks, learning from mistakes, and maintaining motivation to continue generating and developing innovative ideas despite challenges."
+    },
+    {
+      "question": "Which practice supports *structured problem solving*?",
+      "options": [
+        "A. Following a recognised framework such as PDCA (Plan-Do-Check-Act)",
+        "B. Jumping into action without planning",
+        "C. Avoiding documentation",
+        "D. Skipping evaluation steps"
+      ],
+      "answer": "A",
+      "explanation": "Structured problem solving involves using established frameworks like PDCA that provide systematic approaches to planning, implementing, evaluating, and improving solutions in a disciplined manner."
+    },
+    {
+      "question": "Which is an example of *scenario planning*?",
+      "options": [
+        "A. Developing multiple 'what if' stories to prepare for possible futures",
+        "B. Writing a single fixed plan and ignoring change",
+        "C. Waiting for events to happen before planning",
+        "D. Guessing outcomes without data"
+      ],
+      "answer": "A",
+      "explanation": "Scenario planning involves creating multiple plausible future scenarios based on different assumptions and variables to develop flexible strategies that can adapt to various possible outcomes."
+    },
+    {
+      "question": "Which practice strengthens *creative collaboration* in a diverse team?",
+      "options": [
+        "A. Establishing ground rules for respectful communication and equal input",
+        "B. Allowing only one dominant voice",
+        "C. Ignoring cultural differences",
+        "D. Rejecting unfamiliar ideas"
+      ],
+      "answer": "A",
+      "explanation": "Effective creative collaboration in diverse teams requires establishing norms that ensure psychological safety, respect for different perspectives, and equitable participation to harness the full potential of diversity."
+    },
+    {
+      "question": "Which is an example of *incremental innovation*?",
+      "options": [
+        "A. Adding a new feature to improve an existing product",
+        "B. Creating an entirely new industry overnight",
+        "C. Copying a competitor without changes",
+        "D. Stopping all development"
+      ],
+      "answer": "A",
+      "explanation": "Incremental innovation involves making small, continuous improvements to existing products, services, or processes rather than pursuing radical breakthroughs or disruptive changes."
+    },
+    {
+      "question": "Which practice supports *rapid decision making under pressure*?",
+      "options": [
+        "A. Using predefined criteria and clear escalation paths",
+        "B. Gathering endless data with no deadline",
+        "C. Avoiding decisions until someone else acts",
+        "D. Guessing outcomes without analysis"
+      ],
+      "answer": "A",
+      "explanation": "Rapid decision-making under pressure is facilitated by establishing clear decision criteria, authority levels, and escalation procedures in advance to enable quick yet informed choices during urgent situations."
+    },
+    {
+      "question": "Which is an example of *root cause verification*?",
+      "options": [
+        "A. Testing whether the suspected cause actually produces the problem before acting",
+        "B. Acting immediately without checking",
+        "C. Ignoring evidence of causation",
+        "D. Jumping to conclusions"
+      ],
+      "answer": "A",
+      "explanation": "Root cause verification involves empirically testing hypothesized causes to confirm they actually produce the observed problem before implementing solutions, ensuring efforts address the true underlying issues."
+    },
+    {
+      "question": "Which behaviour demonstrates flexible thinking?",
+      "options": [
+        "A. Changing your approach when new information emerges",
+        "B. Insisting on one plan no matter what",
+        "C. Avoiding alternative perspectives",
+        "D. Refusing to adjust to constraints"
+      ],
+      "answer": "A",
+      "explanation": "Flexible thinking involves adaptability and willingness to modify approaches, assumptions, and strategies in response to new information, feedback, or changing circumstances."
+    },
+    {
+      "question": "Which is an example of opportunity recognition?",
+      "options": [
+        "A. Spotting a new customer need during market research and proposing a service",
+        "B. Waiting for instructions from management",
+        "C. Ignoring emerging trends",
+        "D. Avoiding exploration of new markets"
+      ],
+      "answer": "A",
+      "explanation": "Opportunity recognition involves proactively identifying unmet needs, emerging trends, or market gaps through observation and analysis, and developing innovative solutions to address them."
+    },
+    {
+      "question": "Which practice strengthens evaluation of risks in creative projects?",
+      "options": [
+        "A. Identifying, ranking and planning responses for potential risks",
+        "B. Ignoring risks to speed up work",
+        "C. Only focusing on benefits",
+        "D. Assuming risks won't occur"
+      ],
+      "answer": "A",
+      "explanation": "Comprehensive risk evaluation involves systematically identifying potential threats, assessing their likelihood and impact, and developing contingency plans to mitigate negative consequences in creative projects."
+    },
+    {
+      "question": "Which is an example of using analogies to solve problems?",
+      "options": [
+        "A. Borrowing a solution from a different industry to address your challenge",
+        "B. Repeating the same failed approach",
+        "C. Avoiding cross-sector ideas",
+        "D. Copying competitors exactly without adaptation"
+      ],
+      "answer": "A",
+      "explanation": "Using analogies involves drawing insights and solutions from different domains or contexts and adapting them creatively to address current challenges, enabling cross-pollination of ideas."
+    },
+    {
+      "question": "Which behaviour demonstrates continuous learning from mistakes?",
+      "options": [
+        "A. Reviewing what went wrong and applying lessons to future projects",
+        "B. Blaming others and moving on",
+        "C. Ignoring errors to save face",
+        "D. Repeating the same process unchanged"
+      ],
+      "answer": "A",
+      "explanation": "Continuous learning from mistakes involves objectively analyzing failures, extracting valuable insights, and systematically applying these lessons to improve future processes, decisions, and outcomes."
+    },
+    {
+      "question": "Which is an example of ideation technique other than brainstorming?",
+      "options": [
+        "A. Mind mapping",
+        "B. Guessing without structure",
+        "C. Copying existing ideas",
+        "D. Ignoring creativity methods"
+      ],
+      "answer": "A",
+      "explanation": "Mind mapping is a visual ideation technique that helps organize thoughts, explore connections between concepts, and generate new ideas through associative thinking in a structured yet flexible format."
+    },
+    {
+      "question": "Which practice improves implementation of creative solutions?",
+      "options": [
+        "A. Piloting on a small scale, gathering feedback and adjusting before full rollout",
+        "B. Launching company-wide with no testing",
+        "C. Avoiding communication with stakeholders",
+        "D. Ignoring performance indicators"
+      ],
+      "answer": "A",
+      "explanation": "Effective implementation of creative solutions involves testing through small-scale pilots, gathering stakeholder feedback, making iterative improvements, and ensuring readiness before full deployment."
+    },
+    {
+      "question": "Which behaviour supports *measuring the success of innovation*?",
+      "options": [
+        "A. Defining clear metrics and tracking results after launch",
+        "B. Assuming success without evidence",
+        "C. Avoiding measurement to save time",
+        "D. Relying only on anecdotal feedback"
+      ],
+      "answer": "A",
+      "explanation": "Measuring innovation success requires establishing specific, relevant metrics before implementation and systematically tracking outcomes to objectively evaluate effectiveness and return on investment."
+    },
+    {
+      "question": "Which of the following best defines *innovation culture*?",
+      "options": [
+        "A. An organisational environment that encourages new ideas and experimentation",
+        "B. A policy of rejecting all new ideas",
+        "C. Only rewarding routine performance",
+        "D. Avoiding risk at all costs"
+      ],
+      "answer": "A",
+      "explanation": "An innovation culture is an organizational environment that values creativity, encourages experimentation, tolerates calculated risks, and supports the development and implementation of new ideas."
+    },
+    {
+      "question": "Which practice strengthens *creative problem framing*?",
+      "options": [
+        "A. Restating the problem from multiple perspectives to discover new angles",
+        "B. Defining the problem once and never revisiting it",
+        "C. Ignoring stakeholder input",
+        "D. Focusing only on symptoms, not causes"
+      ],
+      "answer": "A",
+      "explanation": "Creative problem framing involves exploring challenges from different viewpoints, reframing questions, and reconsidering assumptions to uncover novel insights and solution approaches."
+    },
+    {
+      "question": "Which is an example of *collaborative ideation*?",
+      "options": [
+        "A. Team members jointly generating and building on each other's ideas",
+        "B. Each person working alone without sharing",
+        "C. Waiting for a manager to decide",
+        "D. Rejecting suggestions from others"
+      ],
+      "answer": "A",
+      "explanation": "Collaborative ideation involves team members working together to generate, share, and develop ideas collectively, creating synergistic outcomes that exceed what individuals could produce alone."
+    },
+    {
+      "question": "Which behaviour demonstrates *systems creativity*?",
+      "options": [
+        "A. Seeing connections between seemingly unrelated processes to create integrated solutions",
+        "B. Treating each component separately without regard to the whole",
+        "C. Avoiding complex interactions",
+        "D. Limiting ideas to one area only"
+      ],
+      "answer": "A",
+      "explanation": "Systems creativity involves recognizing interconnections between different elements, processes, or domains and leveraging these relationships to develop comprehensive, integrated solutions."
+    },
+    {
+      "question": "Which practice supports *rapid learning from prototypes*?",
+      "options": [
+        "A. Testing early versions with users and iterating quickly",
+        "B. Waiting for a perfect design before feedback",
+        "C. Ignoring user responses",
+        "D. Refusing to change design after testing"
+      ],
+      "answer": "A",
+      "explanation": "Rapid learning from prototypes involves creating simple, testable models, gathering user feedback early and often, and making quick iterations to refine concepts based on real-world insights."
+    },
+    {
+      "question": "Which is an example of creative constraint use?",
+      "options": [
+        "A. Designing a lighter product because weight is limited by regulation",
+        "B. Complaining about constraints but making no change",
+        "C. Avoiding projects with any restrictions",
+        "D. Ignoring the rules completely"
+      ],
+      "answer": "A",
+      "explanation": "Creative constraint use involves viewing limitations as design parameters that can spark innovation rather than as barriers, leading to novel solutions that work within given boundaries."
+    },
+    {
+      "question": "Which behaviour demonstrates reflective thinking after problem solving?",
+      "options": [
+        "A. Analysing what worked and what didn't to improve next time",
+        "B. Moving on without evaluation",
+        "C. Blaming others and forgetting lessons",
+        "D. Refusing to document outcomes"
+      ],
+      "answer": "A",
+      "explanation": "Reflective thinking involves systematically reviewing problem-solving processes and outcomes to extract insights, identify improvement opportunities, and enhance future performance through continuous learning."
+    },
+    {
+      "question": "Which practice strengthens decision making in ambiguous situations?",
+      "options": [
+        "A. Identifying assumptions and gathering diverse information before acting",
+        "B. Acting without any data or reflection",
+        "C. Avoiding decisions until clarity appears",
+        "D. Guessing outcomes randomly"
+      ],
+      "answer": "A",
+      "explanation": "Effective decision-making in ambiguity involves explicitly identifying assumptions, seeking diverse perspectives and information, and making informed choices despite uncertainty rather than delaying or guessing."
+    },
+    {
+      "question": "Which is an example of using cross-functional teams for creativity?",
+      "options": [
+        "A. Combining marketing, engineering and customer service staff to develop a new product",
+        "B. Keeping departments isolated",
+        "C. Involving only one department",
+        "D. Excluding external input"
+      ],
+      "answer": "A",
+      "explanation": "Cross-functional teams bring together diverse expertise, perspectives, and skills from different organizational areas, enabling more comprehensive and innovative problem-solving approaches."
+    },
+    {
+      "question": "Which behaviour supports innovative leadership?",
+      "options": [
+        "A. Inspiring others, modelling curiosity and rewarding creative efforts",
+        "B. Punishing all failed experiments",
+        "C. Discouraging risk taking",
+        "D. Demanding strict adherence to old methods"
+      ],
+      "answer": "A",
+      "explanation": "Innovative leadership involves creating a vision for change, demonstrating curiosity and openness, encouraging experimentation, and recognizing creative contributions regardless of immediate outcomes."
+    },
+    {
+      "question": "Which is an example of divergent idea generation?",
+      "options": [
+        "A. Listing as many potential solutions as possible without evaluating them",
+        "B. Narrowing down to one idea immediately",
+        "C. Rejecting unusual ideas at the start",
+        "D. Following a fixed template only"
+      ],
+      "answer": "A",
+      "explanation": "Divergent idea generation focuses on producing a wide variety of possible solutions without initial judgment or evaluation to maximize creative possibilities before converging on specific options."
+    },
+    {
+      "question": "Which practice strengthens criteria-based selection of ideas?",
+      "options": [
+        "A. Scoring alternatives against predefined measures such as cost, impact and feasibility",
+        "B. Picking ideas based on personal preference",
+        "C. Ignoring evaluation metrics",
+        "D. Choosing the first suggestion without comparison"
+      ],
+      "answer": "A",
+      "explanation": "Criteria-based selection involves evaluating ideas against established, objective standards to ensure choices align with strategic goals, resource constraints, and implementation realities."
+    },
+    {
+      "question": "Which is an example of *creative use of technology* in problem solving?",
+      "options": [
+        "A. Adopting new digital tools to streamline processes and improve solutions",
+        "B. Avoiding technology altogether",
+        "C. Using outdated systems without adaptation",
+        "D. Refusing to test new tools"
+      ],
+      "answer": "A",
+      "explanation": "Creative technology use involves leveraging new digital tools, platforms, or systems to enhance problem-solving capabilities, streamline processes, and develop innovative solutions that weren't previously possible."
+    },
+    {
+      "question": "Which behaviour demonstrates *incremental improvement mindset*?",
+      "options": [
+        "A. Continuously looking for small changes that add up to significant gains",
+        "B. Only seeking dramatic breakthroughs",
+        "C. Refusing to make adjustments",
+        "D. Abandoning efforts after minor setbacks"
+      ],
+      "answer": "A",
+      "explanation": "An incremental improvement mindset focuses on making continuous, small enhancements that collectively lead to substantial improvements over time, rather than seeking only major breakthroughs."
+    },
+    {
+      "question": "Which practice supports *sharing innovation success stories*?",
+      "options": [
+        "A. Communicating results and lessons learned across the organisation to encourage more creativity",
+        "B. Keeping all successes secret",
+        "C. Taking sole credit and excluding the team",
+        "D. Avoiding documentation of outcomes"
+      ],
+      "answer": "A",
+      "explanation": "Sharing innovation success stories helps build organizational momentum, demonstrates the value of creative efforts, and provides learning opportunities that can inspire and guide future innovative initiatives."
+    },
+    {
+      "question": "Which of the following best defines *breakthrough innovation*?",
+      "options": [
+        "A. A major, game-changing idea that creates an entirely new market or approach",
+        "B. Adding a small feature to an existing product",
+        "C. Copying a competitor's design",
+        "D. Avoiding risk entirely"
+      ],
+      "answer": "A",
+      "explanation": "Breakthrough innovation involves radical, transformative ideas that fundamentally change markets, industries, or approaches, creating new paradigms rather than incrementally improving existing ones."
+    },
+    {
+      "question": "Which practice strengthens *creative risk management*?",
+      "options": [
+        "A. Testing bold ideas on a pilot scale before full launch",
+        "B. Implementing high-risk changes without evaluation",
+        "C. Ignoring potential downsides to move faster",
+        "D. Avoiding innovation altogether"
+      ],
+      "answer": "A",
+      "explanation": "Creative risk management involves pursuing innovative ideas while mitigating potential negative consequences through controlled testing, phased implementation, and contingency planning."
+    },
+    {
+      "question": "Which is an example of *reverse brainstorming*?",
+      "options": [
+        "A. Asking 'How could we make this problem worse?' to spark new ideas for solutions",
+        "B. Listing only the benefits of a current system",
+        "C. Following standard brainstorming steps only",
+        "D. Avoiding unusual questions"
+      ],
+      "answer": "A",
+      "explanation": "Reverse brainstorming involves approaching problems from the opposite perspective by identifying ways to worsen them, which can reveal unexpected insights and innovative solution approaches."
+    },
+    {
+      "question": "Which behaviour demonstrates openness to feedback in creative work?",
+      "options": [
+        "A. Actively seeking and considering constructive criticism to refine ideas",
+        "B. Rejecting all feedback to protect your ego",
+        "C. Ignoring user input",
+        "D. Taking criticism personally and quitting"
+      ],
+      "answer": "A",
+      "explanation": "Openness to feedback involves proactively seeking diverse perspectives, welcoming constructive criticism, and using input to refine and improve creative work without defensive reactions."
+    },
+    {
+      "question": "Which is an example of constraint-driven creativity?",
+      "options": [
+        "A. Designing a smaller, cheaper product to meet strict cost limits",
+        "B. Waiting until constraints are removed",
+        "C. Complaining about limits but doing nothing",
+        "D. Cancelling the project outright"
+      ],
+      "answer": "A",
+      "explanation": "Constraint-driven creativity involves viewing limitations as catalysts for innovation rather than barriers, leading to novel solutions that work within specific parameters and often create competitive advantages."
+    },
+    {
+      "question": "Which practice supports evaluating innovation impact?",
+      "options": [
+        "A. Establishing measurable outcomes and tracking them over time",
+        "B. Assuming success without metrics",
+        "C. Ignoring negative consequences",
+        "D. Relying only on anecdotal feedback"
+      ],
+      "answer": "A",
+      "explanation": "Evaluating innovation impact requires defining clear success metrics before implementation and systematically measuring outcomes against these standards to assess effectiveness and inform future improvements."
+    },
+    {
+      "question": "Which is an example of idea incubation?",
+      "options": [
+        "A. Stepping away from a problem temporarily and returning with fresh insight",
+        "B. Solving everything immediately under pressure",
+        "C. Ignoring the issue until it disappears",
+        "D. Delegating the problem without thinking"
+      ],
+      "answer": "A",
+      "explanation": "Idea incubation involves allowing subconscious processing time by temporarily stepping away from a problem, often leading to novel insights and creative breakthroughs when returning to the challenge."
+    },
+    {
+      "question": "Which behaviour demonstrates cross-pollination of ideas?",
+      "options": [
+        "A. Adapting a concept from another field to solve your challenge",
+        "B. Keeping strictly within your own discipline",
+        "C. Avoiding exposure to other industries",
+        "D. Refusing to learn from different sectors"
+      ],
+      "answer": "A",
+      "explanation": "Cross-pollination involves transferring ideas, concepts, or solutions from one domain to another, often leading to innovative applications and novel approaches that wouldn't emerge within isolated disciplines."
+    },
+    {
+      "question": "Which practice strengthens problem re-definition?",
+      "options": [
+        "A. Asking 'What's really the challenge?' to uncover underlying issues",
+        "B. Accepting the first definition without question",
+        "C. Avoiding stakeholder input",
+        "D. Defining the problem as narrowly as possible without analysis"
+      ],
+      "answer": "A",
+      "explanation": "Problem re-definition involves critically examining and reframing challenges to uncover root causes, hidden assumptions, and new perspectives that can lead to more effective solution approaches."
+    },
+    {
+      "question": "Which is an example of co-creation with stakeholders?",
+      "options": [
+        "A. Involving customers or end-users directly in designing solutions",
+        "B. Developing ideas in isolation from users",
+        "C. Avoiding external perspectives",
+        "D. Launching a product without testing"
+      ],
+      "answer": "A",
+      "explanation": "Co-creation involves collaborating directly with stakeholders throughout the design and development process, ensuring solutions effectively address real needs and incorporate diverse perspectives."
+    },
+    {
+      "question": "Which behaviour demonstrates *adaptive implementation*?",
+      "options": [
+        "A. Adjusting rollout plans based on feedback and real-world conditions",
+        "B. Sticking rigidly to the original plan regardless of outcomes",
+        "C. Ignoring new information after launch",
+        "D. Refusing to modify timelines"
+      ],
+      "answer": "A",
+      "explanation": "Adaptive implementation involves flexibly adjusting plans, timelines, and approaches based on ongoing feedback, changing conditions, and real-world results during the rollout process."
+    },
+    {
+      "question": "Which is an example of *creative simplification*?",
+      "options": [
+        "A. Streamlining a complicated process to make it faster and easier",
+        "B. Adding unnecessary steps",
+        "C. Complicating a product to appear sophisticated",
+        "D. Avoiding any change"
+      ],
+      "answer": "A",
+      "explanation": "Creative simplification involves reducing complexity, removing unnecessary elements, and designing more efficient processes or products that deliver equal or greater value with less effort or resources."
+    },
+    {
+      "question": "Which practice supports *celebrating small wins* in innovation?",
+      "options": [
+        "A. Recognising incremental achievements to maintain momentum",
+        "B. Waiting to celebrate only at final launch",
+        "C. Ignoring team contributions",
+        "D. Discouraging public recognition"
+      ],
+      "answer": "A",
+      "explanation": "Celebrating small wins helps maintain motivation, build momentum, and reinforce positive behaviors throughout the innovation process, not just upon final completion."
+    },
+    {
+      "question": "Which is an example of *structured idea evaluation tool*?",
+      "options": [
+        "A. Using a scoring matrix to compare ideas on impact, cost and feasibility",
+        "B. Picking an idea based on gut feeling only",
+        "C. Ignoring evaluation criteria",
+        "D. Choosing the most popular idea without analysis"
+      ],
+      "answer": "A",
+      "explanation": "Structured evaluation tools like scoring matrices provide systematic frameworks for comparing ideas against multiple criteria to ensure objective, comprehensive assessment rather than relying on intuition or popularity."
+    },
+    {
+      "question": "Which behaviour demonstrates *resilience in creative projects*?",
+      "options": [
+        "A. Learning from setbacks and persisting until a solution is found",
+        "B. Giving up after the first failure",
+        "C. Blaming others and quitting",
+        "D. Avoiding challenging projects"
+      ],
+      "answer": "A",
+      "explanation": "Creative resilience involves maintaining commitment and motivation through challenges and failures, viewing setbacks as learning opportunities, and persisting until successful solutions are developed."
+    },
+    {
+      "question": "Which of the following best defines *innovative mindset*?",
+      "options": [
+        "A. A habitual openness to new ideas, experimentation and learning from mistakes",
+        "B. Relying only on established procedures",
+        "C. Avoiding change and risk",
+        "D. Waiting for others to innovate"
+      ],
+      "answer": "A",
+      "explanation": "An innovative mindset involves consistent curiosity, willingness to experiment, acceptance of failure as learning, and proactive pursuit of new ideas and improvements in all aspects of work."
+    },
+    {
+      "question": "Which practice strengthens *integrating creativity into daily work*?",
+      "options": [
+        "A. Setting aside regular time for idea generation and improvement",
+        "B. Only thinking creatively during special events",
+        "C. Ignoring suggestions from staff",
+        "D. Waiting for instructions from management"
+      ],
+      "answer": "A",
+      "explanation": "Integrating creativity into daily work involves establishing routines and practices that make innovative thinking a consistent part of normal operations rather than an occasional special activity."
+    },
+    {
+      "question": "Which is an example of *crowdsourcing ideas*?",
+      "options": [
+        "A. Inviting suggestions from a large group of employees or customers online",
+        "B. Asking only senior managers for input",
+        "C. Brainstorming with a small closed group",
+        "D. Developing ideas in isolation"
+      ],
+      "answer": "A",
+      "explanation": "Crowdsourcing involves soliciting ideas, feedback, or solutions from a large, diverse group of people, often through digital platforms, to generate innovative perspectives and approaches."
+    },
+    {
+      "question": "Which behaviour demonstrates *creative leadership*?",
+      "options": [
+        "A. Encouraging experimentation, modelling curiosity and supporting calculated risk-taking",
+        "B. Penalising all failed experiments",
+        "C. Rejecting new ideas to maintain control",
+        "D. Limiting discussion to top management"
+      ],
+      "answer": "A",
+      "explanation": "Creative leadership involves fostering an environment of psychological safety, demonstrating curiosity and openness, encouraging experimentation, and supporting appropriate risk-taking to drive innovation."
+    },
+    {
+      "question": "Which is an example of *idea scaling*?",
+      "options": [
+        "A. Expanding a successful pilot project across the organisation",
+        "B. Keeping a new solution only in one small area",
+        "C. Cancelling a project after pilot success",
+        "D. Avoiding growth to reduce risk"
+      ],
+      "answer": "A",
+      "explanation": "Idea scaling involves systematically expanding successful innovations from limited pilots to broader implementation, ensuring appropriate adaptation and resource allocation for wider impact."
+    },
+    {
+      "question": "Which practice supports *ethical innovation*?",
+      "options": [
+        "A. Considering potential social and environmental impacts when developing new solutions",
+        "B. Ignoring ethical implications to move faster",
+        "C. Hiding negative consequences",
+        "D. Copying others without consent"
+      ],
+      "answer": "A",
+      "explanation": "Ethical innovation involves proactively assessing potential social, environmental, and ethical implications of new solutions and making conscious choices to maximize positive impact while minimizing harm."
+    },
+    {
+      "question": "Which is an example of *open innovation*?",
+      "options": [
+        "A. Partnering with external organisations or individuals to co-develop solutions",
+        "B. Restricting idea development strictly within the company",
+        "C. Avoiding collaboration to protect secrecy",
+        "D. Rejecting outside input"
+      ],
+      "answer": "A",
+      "explanation": "Open innovation involves collaborating with external partners, customers, or communities to co-create solutions, leveraging diverse expertise and perspectives beyond organizational boundaries."
+    },
+    {
+      "question": "Which behaviour demonstrates *iterative improvement*?",
+      "options": [
+        "A. Testing, gathering feedback and refining solutions repeatedly",
+        "B. Launching once and never revisiting the product",
+        "C. Ignoring user experience after rollout",
+        "D. Refusing to adjust despite poor results"
+      ],
+      "answer": "A",
+      "explanation": "Iterative improvement involves continuously testing, gathering feedback, and making incremental enhancements to solutions over time, creating a cycle of continuous learning and refinement."
+    },
+    {
+      "question": "Which is an example of *creative benchmarking*?",
+      "options": [
+        "A. Studying best practices in another industry to inspire your own improvements",
+        "B. Copying competitors without change",
+        "C. Avoiding comparisons entirely",
+        "D. Guessing what others do"
+      ],
+      "answer": "A",
+      "explanation": "Creative benchmarking involves looking beyond immediate competitors to learn from excellence in other industries or domains, then adapting and innovating upon these insights rather than simply copying."
+    },
+    {
+      "question": "Which practice strengthens *evaluating feasibility of creative ideas*?",
+      "options": [
+        "A. Assessing required resources, risks, technical constraints and stakeholder support",
+        "B. Approving every idea regardless of cost",
+        "C. Ignoring logistical challenges",
+        "D. Deciding without any analysis"
+      ],
+      "answer": "A",
+      "explanation": "Feasibility evaluation involves systematically assessing practical considerations including resource requirements, technical constraints, implementation risks, and stakeholder support before committing to creative ideas."
+    },
+    {
+      "question": "Which is an example of *problem reframing to unlock creativity*?",
+      "options": [
+        "A. Asking 'How might we...?' instead of 'We can't because...'",
+        "B. Sticking to one negative definition of the issue",
+        "C. Rejecting new ways of describing a problem",
+        "D. Avoiding questions altogether"
+      ],
+      "answer": "A",
+      "explanation": "Problem reframing involves changing how challenges are described and approached, using open-ended, possibility-oriented language to unlock creative thinking and generate innovative solutions."
+    },
+    {
+      "question": "Which behaviour demonstrates *creative use of feedback loops*?",
+      "options": [
+        "A. Continuously collecting performance data and adjusting accordingly",
+        "B. Acting once without monitoring results",
+        "C. Ignoring feedback until the end",
+        "D. Stopping data collection after launch"
+      ],
+      "answer": "A",
+      "explanation": "Creative use of feedback loops involves establishing systems for ongoing data collection, analysis, and response, enabling continuous adaptation and improvement based on real-world results."
+    },
+    {
+      "question": "Which is an example of *celebrating innovation failures constructively*?",
+      "options": [
+        "A. Sharing lessons learned from failed experiments to encourage learning",
+        "B. Punishing failure publicly",
+        "C. Hiding mistakes to protect reputation",
+        "D. Ignoring any discussion of failed attempts"
+      ],
+      "answer": "A",
+      "explanation": "Constructive celebration of failure involves openly discussing and learning from unsuccessful experiments, recognizing the value of risk-taking, and extracting insights that inform future innovation efforts."
+    },
+    {
+      "question": "Which practice supports *knowledge sharing for problem solving*?",
+      "options": [
+        "A. Documenting and distributing insights and best practices to others in the organisation",
+        "B. Keeping useful information private",
+        "C. Limiting knowledge to a small team",
+        "D. Avoiding written records"
+      ],
+      "answer": "A",
+      "explanation": "Knowledge sharing involves systematically capturing, organizing, and distributing insights, lessons, and best practices across the organization to enhance collective problem-solving capabilities."
+    },
+    {
+      "question": "Which is an example of _sustainable creativity_?",
+      "options": [
+        "A. Establishing processes, support and resources to keep innovation going over time",
+        "B. Running one-off events without follow-up",
+        "C. Depending only on occasional inspiration",
+        "D. Avoiding investment in idea development"
+      ],
+      "answer": "A",
+      "explanation": "Sustainable creativity involves creating systems, structures, and cultures that support ongoing innovation rather than relying on sporadic events or individual inspiration alone."
+    }
+  ]
+}

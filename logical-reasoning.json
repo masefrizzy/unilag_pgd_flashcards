@@ -1,0 +1,1158 @@
+{
+  "subject": "Logical Reasoning",
+  "questions": [
+    {
+      "question": "If all cats are animals, and some animals are wild, can we conclude some cats are wild?",
+      "options": [
+        "A. Yes, definitely",
+        "B. Not necessarily",
+        "C. All cats are wild",
+        "D. No cats are wild"
+      ],
+      "answer": "B",
+      "explanation": "The premises state that all cats are animals and some animals are wild, but they do not specify that the wild animals include cats. Therefore, it is possible but not necessary that some cats are wild."
+    },
+    {
+      "question": "Sequence: 2, 6, 12, 20, 30, ?",
+      "options": [
+        "A. 36",
+        "B. 42",
+        "C. 44",
+        "D. 48"
+      ],
+      "answer": "B",
+      "explanation": "The pattern in the sequence is that each term increases by consecutive even numbers: 2 + 4 = 6, 6 + 6 = 12, 12 + 8 = 20, 20 + 10 = 30, 30 + 12 = 42."
+    },
+    {
+      "question": "If A = 1, B = 2, C = 3, what is the total for ACE?",
+      "options": [
+        "A. 6",
+        "B. 9",
+        "C. 12",
+        "D. 15"
+      ],
+      "answer": "B",
+      "explanation": "Assigning numerical values based on alphabetical positions: A=1, C=3, E=5. The sum is 1 + 3 + 5 = 9."
+    },
+    {
+      "question": "Book : Reading :: Fork : ?",
+      "options": [
+        "A. Cooking",
+        "B. Eating",
+        "C. Knife",
+        "D. Writing"
+      ],
+      "answer": "B",
+      "explanation": "The analogy is that a book is used for reading, similarly, a fork is used for eating."
+    },
+    {
+      "question": "If today is Friday, what day will it be 100 days from now?",
+      "options": [
+        "A. Friday",
+        "B. Saturday",
+        "C. Sunday",
+        "D. Monday"
+      ],
+      "answer": "C",
+      "explanation": "There are 7 days in a week. 100 divided by 7 is 14 weeks with a remainder of 2 days. Adding 2 days to Friday gives Sunday."
+    },
+    {
+      "question": "Odd one out: Circle, Square, Triangle, Cube.",
+      "options": [
+        "A. Circle",
+        "B. Square",
+        "C. Triangle",
+        "D. Cube"
+      ],
+      "answer": "D",
+      "explanation": "Circle, square, and triangle are two-dimensional shapes, while cube is three-dimensional."
+    },
+    {
+      "question": "“If it rains, the ground gets wet. It is raining.” What follows logically?",
+      "options": [
+        "A. The ground stays dry",
+        "B. The ground is wet",
+        "C. It will not rain tomorrow",
+        "D. Nothing follows"
+      ],
+      "answer": "B",
+      "explanation": "This is an example of modus ponens: If P then Q, P is true, therefore Q is true. Here, raining implies wet ground, and it is raining, so the ground is wet."
+    },
+    {
+      "question": "Find the missing number: 9, 16, 25, 36, ?",
+      "options": [
+        "A. 42",
+        "B. 44",
+        "C. 49",
+        "D. 64"
+      ],
+      "answer": "C",
+      "explanation": "The sequence consists of perfect squares: 3²=9, 4²=16, 5²=25, 6²=36, 7²=49."
+    },
+    {
+      "question": "A man is 4 times as old as his son. In 20 years, he’ll be twice as old. Current ages?",
+      "options": [
+        "A. Man 40, Son 10",
+        "B. Man 36, Son 9",
+        "C. Man 50, Son 15",
+        "D. Man 60, Son 12"
+      ],
+      "answer": "A",
+      "explanation": "Let the son's current age be S, man's age 4S. In 20 years: 4S + 20 = 2(S + 20). Solving: 4S + 20 = 2S + 40, 2S = 20, S=10, man=40."
+    },
+    {
+      "question": "TRUE or FALSE: If some students are tall, then all students are tall.",
+      "options": [
+        "A. TRUE",
+        "B. FALSE"
+      ],
+      "answer": "B",
+      "explanation": "The statement is false because 'some' does not imply 'all'; it only means at least one, not everyone."
+    },
+    {
+      "question": "If all cats are mammals, and all mammals are warm-blooded, which conclusion follows?",
+      "options": [
+        "A. All cats are reptiles",
+        "B. All warm-blooded animals are cats",
+        "C. All cats are warm-blooded",
+        "D. Some mammals are not cats"
+      ],
+      "answer": "C",
+      "explanation": "This is a valid syllogism: All cats are mammals, all mammals are warm-blooded, therefore all cats are warm-blooded."
+    },
+    {
+      "question": "Which of the following is an example of a syllogism?",
+      "options": [
+        "A. “I am tired, so I’ll sleep.”",
+        "B. “All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.”",
+        "C. “The sun rises every day, so it will rise tomorrow.”",
+        "D. “The car is red, so it must be fast.”"
+      ],
+      "answer": "B",
+      "explanation": "A syllogism is a form of deductive reasoning with two premises leading to a conclusion, as in option B."
+    },
+    {
+      "question": "“If it rains, the ground will be wet. It is not raining. Therefore, the ground is not wet.” This reasoning is:",
+      "options": [
+        "A. Valid",
+        "B. Invalid (denying the antecedent)",
+        "C. Circular",
+        "D. Sound"
+      ],
+      "answer": "B",
+      "explanation": "This is the fallacy of denying the antecedent: Not raining does not necessarily mean the ground is not wet, as there could be other causes."
+    },
+    {
+      "question": "Which argument is valid?",
+      "options": [
+        "A. If A = B, and B = C, then A = C",
+        "B. If A = B, and C = D, then A = D",
+        "C. If A = C, and C = B, then A cannot equal B",
+        "D. If A = B, and B = C, then A may not equal C"
+      ],
+      "answer": "A",
+      "explanation": "This is the transitive property: If A equals B and B equals C, then A must equal C."
+    },
+    {
+      "question": "Which reasoning pattern describes: “If X is true, then Y is true. Y is true, therefore X is true”?",
+      "options": [
+        "A. Modus ponens",
+        "B. Modus tollens",
+        "C. Affirming the consequent",
+        "D. Denying the consequent"
+      ],
+      "answer": "C",
+      "explanation": "Affirming the consequent is a fallacy where the truth of the consequent is used to affirm the antecedent, which is not necessarily true."
+    },
+    {
+      "question": "Which of the following best represents inductive reasoning?",
+      "options": [
+        "A. All humans breathe air; John is human; John breathes air.",
+        "B. Every swan I’ve seen is white, so all swans are white.",
+        "C. If today is Monday, then tomorrow is Tuesday. Today is Monday, so tomorrow is Tuesday.",
+        "D. If P, then Q. Not Q, so not P."
+      ],
+      "answer": "B",
+      "explanation": "Inductive reasoning generalizes from specific observations to broader conclusions, as in assuming all swans are white based on observed ones."
+    },
+    {
+      "question": "Which conclusion follows: “Some researchers are lecturers. All lecturers are professionals.”",
+      "options": [
+        "A. All researchers are professionals",
+        "B. Some researchers are professionals",
+        "C. No researchers are professionals",
+        "D. All professionals are lecturers"
+      ],
+      "answer": "B",
+      "explanation": "Since some researchers are lecturers and all lecturers are professionals, it follows that some researchers are professionals."
+    },
+    {
+      "question": "Which fallacy assumes that because one event followed another, the first caused the second?",
+      "options": [
+        "A. False dilemma",
+        "B. Post hoc fallacy",
+        "C. Circular reasoning",
+        "D. Strawman"
+      ],
+      "answer": "B",
+      "explanation": "The post hoc fallacy (post hoc ergo propter hoc) mistakenly infers causation from temporal sequence alone."
+    },
+    {
+      "question": "If either A or B is true, and A is false, then:",
+      "options": [
+        "A. B must be false",
+        "B. B must be true",
+        "C. A must be true",
+        "D. Neither A nor B can be true"
+      ],
+      "answer": "B",
+      "explanation": "In a disjunctive statement (A or B), if one is false, the other must be true for the statement to hold."
+    },
+    {
+      "question": "Which reasoning is used when a detective infers the most likely suspect from incomplete evidence?",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Circular reasoning"
+      ],
+      "answer": "C",
+      "explanation": "Abductive reasoning involves inferring the most likely explanation from incomplete data."
+    },
+    {
+      "question": "If no dogs are cats, and some cats are pets, which conclusion is valid?",
+      "options": [
+        "A. Some dogs are pets",
+        "B. No pets are dogs",
+        "C. No cats are dogs",
+        "D. All pets are cats"
+      ],
+      "answer": "C",
+      "explanation": "The premise 'no dogs are cats' directly implies that no cats are dogs, as the relation is symmetric."
+    },
+    {
+      "question": "Which of the following represents modus tollens?",
+      "options": [
+        "A. If it rains, the ground gets wet. It rained, so the ground is wet.",
+        "B. If it rains, the ground gets wet. The ground is not wet, so it did not rain.",
+        "C. If it rains, the ground gets wet. The ground is wet, so it rained.",
+        "D. If it rains, the ground gets wet. It did not rain, so the ground is not wet."
+      ],
+      "answer": "B",
+      "explanation": "Modus tollens is: If P then Q, not Q, therefore not P."
+    },
+    {
+      "question": "A student argues: “All postgraduate students are hardworking. Tunde is hardworking, so Tunde is a postgraduate student.” This is an error known as:",
+      "options": [
+        "A. Valid deduction",
+        "B. Affirming the consequent",
+        "C. Modus ponens",
+        "D. Modus tollens"
+      ],
+      "answer": "B",
+      "explanation": "Affirming the consequent: Assuming the converse of the premise is true, which is not necessarily the case."
+    },
+    {
+      "question": "Which logical fallacy is: “If we don’t pass this exam, life will be over”?",
+      "options": [
+        "A. False dilemma",
+        "B. Slippery slope",
+        "C. Red herring",
+        "D. Hasty generalization"
+      ],
+      "answer": "A",
+      "explanation": "False dilemma presents limited options when more exist, here assuming failure means total ruin."
+    },
+    {
+      "question": "Which of these BEST distinguishes deductive reasoning from inductive reasoning?",
+      "options": [
+        "A. Deductive moves from specific to general; inductive moves from general to specific",
+        "B. Deductive provides absolute certainty if valid; inductive gives probable conclusions",
+        "C. Deductive is less formal than inductive",
+        "D. Deductive relies on incomplete data; inductive on complete data"
+      ],
+      "answer": "B",
+      "explanation": "Deductive reasoning, if valid and premises true, guarantees the conclusion; inductive offers probability based on observations."
+    },
+    {
+      "question": "Which of the following is always true for a sound argument?",
+      "options": [
+        "A. Premises are true and reasoning is valid",
+        "B. Premises are true, but reasoning may be invalid",
+        "C. Premises may be false, but reasoning is valid",
+        "D. Premises are opinions, not facts"
+      ],
+      "answer": "A",
+      "explanation": "A sound argument has both true premises and valid logical structure."
+    },
+    {
+      "question": "If some fruits are apples and all apples are sweet, which of the following must be true?",
+      "options": [
+        "A. All fruits are sweet",
+        "B. Some fruits are sweet",
+        "C. No fruit is sweet",
+        "D. Only apples are fruits"
+      ],
+      "answer": "B",
+      "explanation": "Since some fruits are apples and all apples are sweet, at least those apples (which are fruits) are sweet."
+    },
+    {
+      "question": "Which type of fallacy is: “You should not trust her opinion on research methods because she failed an exam last year”?",
+      "options": [
+        "A. Strawman",
+        "B. Ad hominem",
+        "C. False cause",
+        "D. Appeal to authority"
+      ],
+      "answer": "B",
+      "explanation": "Ad hominem attacks the person rather than addressing the argument or opinion."
+    },
+    {
+      "question": "Which of the following is an example of circular reasoning?",
+      "options": [
+        "A. I know he’s trustworthy because he says he is trustworthy.",
+        "B. I passed because I studied well.",
+        "C. If it rains, the ground gets wet. It rained, so the ground is wet.",
+        "D. Smoking causes cancer, as proven by research."
+      ],
+      "answer": "A",
+      "explanation": "Circular reasoning uses the conclusion as part of the premise, here trustworthiness is assumed to prove itself."
+    },
+    {
+      "question": "If all postgraduate students write exams, and Sandra is a postgraduate student, what follows?",
+      "options": [
+        "A. Sandra may not write exams",
+        "B. Sandra writes exams",
+        "C. Sandra is not a postgraduate",
+        "D. Exams are optional for Sandra"
+      ],
+      "answer": "B",
+      "explanation": "Deductive reasoning: All in the group do something, Sandra is in the group, so she does it."
+    },
+    {
+      "question": "Which of the following represents a false analogy?",
+      "options": [
+        "A. Students are like cars; if one fails, all must fail.",
+        "B. If it rains, the ground gets wet.",
+        "C. All mammals have lungs; dogs are mammals, so dogs have lungs.",
+        "D. Everyone says this is true, so it must be true."
+      ],
+      "answer": "A",
+      "explanation": "False analogy compares two things that are not sufficiently similar, here students and cars in terms of failure."
+    },
+    {
+      "question": "If it is true that “All professors are educated,” which conclusion is valid?",
+      "options": [
+        "A. Some educated people are professors",
+        "B. All educated people are professors",
+        "C. No educated person is a professor",
+        "D. Professors are not educated"
+      ],
+      "answer": "A",
+      "explanation": "If all professors are educated, then at least some educated people must be professors."
+    },
+    {
+      "question": "Which of the following fallacies occurs when someone argues that a claim must be true because it hasn’t been proven false?",
+      "options": [
+        "A. Slippery slope",
+        "B. Appeal to ignorance",
+        "C. False dilemma",
+        "D. Hasty generalization"
+      ],
+      "answer": "B",
+      "explanation": "Appeal to ignorance claims something is true simply because there's no evidence against it."
+    },
+    {
+      "question": "Which is the correct conclusion: “All birds can fly. Penguins are birds.”",
+      "options": [
+        "A. Penguins can fly",
+        "B. Penguins cannot fly",
+        "C. Some birds cannot fly",
+        "D. The argument is invalid because the premise is false in reality"
+      ],
+      "answer": "D",
+      "explanation": "The premise 'all birds can fly' is false, as penguins cannot, making the argument unsound despite valid structure."
+    },
+    {
+      "question": "Which type of reasoning is being used: “The last five times I drank coffee, I stayed awake longer. Therefore, coffee keeps me awake.”",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Inductive reasoning draws a general conclusion from specific observations."
+    },
+    {
+      "question": "A student argues: “If we don’t win this scholarship, then our future is ruined.” This is an example of:",
+      "options": [
+        "A. Red herring",
+        "B. False dilemma",
+        "C. Post hoc",
+        "D. Appeal to popularity"
+      ],
+      "answer": "B",
+      "explanation": "False dilemma limits options to two extremes when other possibilities exist."
+    },
+    {
+      "question": "Which of the following BEST describes a valid argument?",
+      "options": [
+        "A. If the premises are true, the conclusion must be true",
+        "B. The conclusion sounds reasonable",
+        "C. The argument has no counterexamples",
+        "D. The argument is persuasive to many people"
+      ],
+      "answer": "A",
+      "explanation": "Validity means the conclusion logically follows from the premises, such that if premises are true, conclusion must be."
+    },
+    {
+      "question": "Which fallacy occurs when a person misrepresents another’s argument in order to attack it?",
+      "options": [
+        "A. Strawman",
+        "B. Red herring",
+        "C. Ad hominem",
+        "D. False cause"
+      ],
+      "answer": "A",
+      "explanation": "Strawman fallacy involves distorting the opponent's argument to make it easier to refute."
+    },
+    {
+      "question": "Which of the following is an example of deductive reasoning?",
+      "options": [
+        "A. This medicine worked for three patients, so it will work for all patients.",
+        "B. If a figure is a square, it has four sides. This figure is a square, so it has four sides.",
+        "C. I saw dark clouds, so it will probably rain.",
+        "D. Since he is late often, he will be late again today."
+      ],
+      "answer": "B",
+      "explanation": "Deductive reasoning applies general rules to specific cases, as in this syllogism."
+    },
+    {
+      "question": "Which of the following describes a tautology?",
+      "options": [
+        "A. A conclusion that follows logically from valid premises",
+        "B. A statement that is true in every possible interpretation",
+        "C. A contradictory statement",
+        "D. An argument with false premises"
+      ],
+      "answer": "B",
+      "explanation": "A tautology is a statement that is always true, regardless of the truth values of its components."
+    },
+    {
+      "question": "If all postgraduate candidates use the online exam portal, and Ada is a postgraduate candidate, what conclusion follows?",
+      "options": [
+        "A. Ada might not use the portal",
+        "B. Ada uses the portal",
+        "C. Ada is not a postgraduate",
+        "D. Ada uses a different portal"
+      ],
+      "answer": "B",
+      "explanation": "Deductive: All in group do action, Ada in group, so Ada does action."
+    },
+    {
+      "question": "Which fallacy is: “Everyone in my class is using this app, so it must be the best app for learning.”",
+      "options": [
+        "A. Appeal to tradition",
+        "B. Appeal to popularity (bandwagon)",
+        "C. Circular reasoning",
+        "D. False cause"
+      ],
+      "answer": "B",
+      "explanation": "Appeal to popularity assumes something is true or better because many people do or believe it."
+    },
+    {
+      "question": "If it is true that “No lecturers are lazy,” which of the following must also be true?",
+      "options": [
+        "A. Some lecturers are lazy",
+        "B. All lecturers are hardworking",
+        "C. All lazy people are lecturers",
+        "D. No hardworking person is a lecturer"
+      ],
+      "answer": "B",
+      "explanation": "'No lecturers are lazy' is equivalent to 'all lecturers are not lazy,' i.e., all are hardworking."
+    },
+    {
+      "question": "Which of the following is a contradiction?",
+      "options": [
+        "A. All students write exams, and Sandra is a student.",
+        "B. Some cats are not cats.",
+        "C. If it rains, the ground gets wet.",
+        "D. Some students fail exams."
+      ],
+      "answer": "B",
+      "explanation": "A contradiction is a statement that cannot be true, like something being and not being at the same time."
+    },
+    {
+      "question": "If either the library is open or the exam is cancelled, and the exam is not cancelled, then:",
+      "options": [
+        "A. The library must be closed",
+        "B. The library must be open",
+        "C. The exam must be postponed",
+        "D. Both library and exam are cancelled"
+      ],
+      "answer": "B",
+      "explanation": "Disjunctive syllogism: A or B, not B, therefore A."
+    },
+    {
+      "question": "Which fallacy is: “If we allow phones in class, soon students will stop reading entirely.”",
+      "options": [
+        "A. False dilemma",
+        "B. Slippery slope",
+        "C. Red herring",
+        "D. Strawman"
+      ],
+      "answer": "B",
+      "explanation": "Slippery slope assumes one small step leads to extreme consequences without evidence."
+    },
+    {
+      "question": "Which of the following represents a disjunctive syllogism?",
+      "options": [
+        "A. Either A or B. Not A. Therefore, B.",
+        "B. If A then B. A, so B.",
+        "C. All A are B. C is A, so C is B.",
+        "D. A is true because A is true."
+      ],
+      "answer": "A",
+      "explanation": "Disjunctive syllogism eliminates one possibility in an 'or' statement to affirm the other."
+    },
+    {
+      "question": "Which of these is an example of an invalid argument?",
+      "options": [
+        "A. If it rains, the ground gets wet. It did not rain, so the ground is not wet.",
+        "B. If the ground is wet, then it rained. The ground is wet, so it rained.",
+        "C. All men are mortal. Socrates is a man. Socrates is mortal.",
+        "D. No birds are mammals. A parrot is a bird, so it is not a mammal."
+      ],
+      "answer": "B",
+      "explanation": "This is affirming the consequent; wetness could have other causes besides rain."
+    },
+    {
+      "question": "Which of these BEST defines a paradox?",
+      "options": [
+        "A. A statement that contradicts itself but may still be true",
+        "B. A valid argument with true premises",
+        "C. An invalid reasoning with false premises",
+        "D. A conclusion that follows necessarily from premises"
+      ],
+      "answer": "A",
+      "explanation": "A paradox is a seemingly self-contradictory statement that may reveal a truth upon closer examination."
+    },
+    {
+      "question": "“If it rains today, the picnic will be cancelled. The picnic is not cancelled. Therefore, it did not rain today.” This is an example of:",
+      "options": [
+        "A. Modus ponens",
+        "B. Modus tollens",
+        "C. Affirming the consequent",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Modus tollens: If P then Q, not Q, therefore not P."
+    },
+    {
+      "question": "Which reasoning is used: “Since every exam so far has had at least 5 logic questions, the next exam will too.”",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. False analogy"
+      ],
+      "answer": "B",
+      "explanation": "Inductive: Generalizing from past patterns to predict future instances."
+    },
+    {
+      "question": "Which fallacy is committed when someone says: “You must be wrong because you are too young to understand.”",
+      "options": [
+        "A. Ad hominem",
+        "B. Strawman",
+        "C. Appeal to tradition",
+        "D. Red herring"
+      ],
+      "answer": "A",
+      "explanation": "Ad hominem dismisses the argument by attacking the person's age rather than the content."
+    },
+    {
+      "question": "If “All managers are leaders” is true, which of the following is correct?",
+      "options": [
+        "A. Some leaders may not be managers",
+        "B. All leaders are managers",
+        "C. No leaders are managers",
+        "D. Only managers are leaders"
+      ],
+      "answer": "A",
+      "explanation": "The statement doesn't imply all leaders are managers; there could be leaders who are not managers."
+    },
+    {
+      "question": "Which of the following is a tautology?",
+      "options": [
+        "A. Either it will rain tomorrow, or it will not rain tomorrow.",
+        "B. If it rains, the ground gets wet. It did not rain, so the ground is not wet.",
+        "C. No student studies, yet exams are passed.",
+        "D. If the library is open, then students will enter. The library is open, so students enter."
+      ],
+      "answer": "A",
+      "explanation": "This is always true by the law of excluded middle."
+    },
+    {
+      "question": "Which fallacy assumes that because something is old or traditional, it must be better?",
+      "options": [
+        "A. Appeal to novelty",
+        "B. Appeal to tradition",
+        "C. Slippery slope",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Appeal to tradition values something because it is old, without further justification."
+    },
+    {
+      "question": "Which of the following describes an invalid conclusion?",
+      "options": [
+        "A. If A then B. Not B, so not A.",
+        "B. If A then B. A, so B.",
+        "C. If A then B. B, so A.",
+        "D. If A then B. Not A, so not B."
+      ],
+      "answer": "C",
+      "explanation": "This is affirming the consequent, which is invalid."
+    },
+    {
+      "question": "Which is an example of abductive reasoning?",
+      "options": [
+        "A. If it rains, the ground gets wet. It rained, so the ground is wet.",
+        "B. Every observed crow is black, so all crows are black.",
+        "C. The ground is wet, so the best explanation is that it rained.",
+        "D. Either it rains or it snows. It is not raining, so it is snowing."
+      ],
+      "answer": "C",
+      "explanation": "Abductive reasoning seeks the most likely explanation for an observation."
+    },
+    {
+      "question": "Which fallacy is: “We shouldn’t listen to her opinion on postgraduate exams because she doesn’t dress professionally.”",
+      "options": [
+        "A. Strawman",
+        "B. Ad hominem",
+        "C. False cause",
+        "D. Appeal to authority"
+      ],
+      "answer": "B",
+      "explanation": "Ad hominem attacks personal characteristics (dress) instead of the argument."
+    },
+    {
+      "question": "If “Some postgraduate students are employed,” which conclusion can be drawn?",
+      "options": [
+        "A. All postgraduate students are employed",
+        "B. No postgraduate student is employed",
+        "C. At least one postgraduate student is employed",
+        "D. Most postgraduate students are unemployed"
+      ],
+      "answer": "C",
+      "explanation": "'Some' means at least one, so at least one is employed."
+    },
+    {
+      "question": "Which reasoning error is shown: “If I study late at night, I always feel tired. Therefore, studying causes all tiredness.”",
+      "options": [
+        "A. Post hoc fallacy",
+        "B. Hasty generalization",
+        "C. Circular reasoning",
+        "D. Red herring"
+      ],
+      "answer": "B",
+      "explanation": "Hasty generalization draws a broad conclusion from limited personal experience."
+    },
+    {
+      "question": "Which fallacy is: “If we don’t increase postgraduate fees, the university will collapse.”",
+      "options": [
+        "A. False dilemma",
+        "B. Slippery slope",
+        "C. Appeal to tradition",
+        "D. Strawman"
+      ],
+      "answer": "A",
+      "explanation": "False dilemma presents only two options when more may exist."
+    },
+    {
+      "question": "If all dogs bark, and Max is a dog, which of the following must be true?",
+      "options": [
+        "A. Max does not bark",
+        "B. Max barks",
+        "C. All barking animals are dogs",
+        "D. Some dogs don’t bark"
+      ],
+      "answer": "B",
+      "explanation": "Deductive: All dogs bark, Max is a dog, so Max barks."
+    },
+    {
+      "question": "Which of the following is an example of affirming the consequent?",
+      "options": [
+        "A. If it rains, the ground gets wet. It rained, so the ground is wet.",
+        "B. If it rains, the ground gets wet. The ground is wet, so it rained.",
+        "C. If it rains, the ground gets wet. It did not rain, so the ground is not wet.",
+        "D. If it rains, the ground gets wet. The ground is not wet, so it did not rain."
+      ],
+      "answer": "B",
+      "explanation": "Affirming the consequent assumes the cause from the effect, ignoring other possible causes."
+    },
+    {
+      "question": "Which of the following is necessarily true?",
+      "options": [
+        "A. All students are postgraduate students",
+        "B. Some postgraduate students are students",
+        "C. All postgraduate students are undergraduates",
+        "D. No postgraduate is a student"
+      ],
+      "answer": "B",
+      "explanation": "Postgraduate students are a subset of students, so some students are postgraduate."
+    },
+    {
+      "question": "Which fallacy is: “Our ancestors never used digital exams, so we shouldn’t either.”",
+      "options": [
+        "A. Appeal to novelty",
+        "B. Appeal to tradition",
+        "C. False dilemma",
+        "D. Hasty generalization"
+      ],
+      "answer": "B",
+      "explanation": "Appeal to tradition argues against change because it's not how things were done in the past."
+    },
+    {
+      "question": "If “All humans are mortal” and “Socrates is mortal,” which conclusion follows?",
+      "options": [
+        "A. Socrates is human",
+        "B. All mortals are Socrates",
+        "C. Socrates may or may not be human",
+        "D. None of the above"
+      ],
+      "answer": "C",
+      "explanation": "Being mortal doesn't necessarily make Socrates human; other things are mortal too."
+    },
+    {
+      "question": "Which reasoning is: “Most postgraduate students I know are diligent, so postgraduate students are generally diligent.”",
+      "options": [
+        "A. Deductive",
+        "B. Inductive",
+        "C. Abductive",
+        "D. Circular"
+      ],
+      "answer": "B",
+      "explanation": "Inductive: Generalizing from specific examples."
+    },
+    {
+      "question": "Which fallacy distracts from the issue by bringing up something irrelevant?",
+      "options": [
+        "A. Strawman",
+        "B. Red herring",
+        "C. Ad hominem",
+        "D. Slippery slope"
+      ],
+      "answer": "B",
+      "explanation": "Red herring introduces an irrelevant topic to divert attention."
+    },
+    {
+      "question": "If no exams are easy, and some postgraduate papers are exams, which conclusion follows?",
+      "options": [
+        "A. Some postgraduate papers are not easy",
+        "B. All postgraduate papers are easy",
+        "C. No postgraduate papers are difficult",
+        "D. Postgraduate papers are not exams"
+      ],
+      "answer": "A",
+      "explanation": "Since no exams are easy (all exams are not easy), and some postgraduate papers are exams, those are not easy."
+    },
+    {
+      "question": "Which type of reasoning is: “The fire alarm went off, so the most likely reason is that there is a fire.”",
+      "options": [
+        "A. Deductive",
+        "B. Inductive",
+        "C. Abductive",
+        "D. False cause"
+      ],
+      "answer": "C",
+      "explanation": "Abductive: Inferring the best explanation for the observation."
+    },
+    {
+      "question": "If either A or B is true, and A is true, then:",
+      "options": [
+        "A. B is false",
+        "B. B must also be true",
+        "C. At least one is true",
+        "D. Neither is true"
+      ],
+      "answer": "C",
+      "explanation": "In inclusive or, if A is true, the statement holds regardless of B."
+    },
+    {
+      "question": "Which of these is an invalid inference?",
+      "options": [
+        "A. If A then B. Not B, so not A.",
+        "B. If A then B. A, so B.",
+        "C. If A then B. B, so A.",
+        "D. If A then B. Not A, so not B."
+      ],
+      "answer": "C",
+      "explanation": "Invalid: Affirming the consequent."
+    },
+    {
+      "question": "Which fallacy assumes that because two things happen together, one causes the other?",
+      "options": [
+        "A. Ad hominem",
+        "B. Strawman",
+        "C. Post hoc fallacy",
+        "D. False dilemma"
+      ],
+      "answer": "C",
+      "explanation": "Post hoc fallacy confuses correlation with causation based on sequence."
+    },
+    {
+      "question": "Which conclusion follows: “All mathematicians are logical. Some teachers are mathematicians.”",
+      "options": [
+        "A. Some teachers are logical",
+        "B. All teachers are logical",
+        "C. No teachers are logical",
+        "D. Teachers cannot be logical"
+      ],
+      "answer": "A",
+      "explanation": "Some teachers (the mathematicians) are logical."
+    },
+    {
+      "question": "A student argues: “We should adopt this method because if we don’t, research quality will collapse.” This demonstrates which fallacy?",
+      "options": [
+        "A. Appeal to authority",
+        "B. False dilemma",
+        "C. Red herring",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "False dilemma: Presents non-adoption as leading to collapse, ignoring other outcomes."
+    },
+    {
+      "question": "Which reasoning pattern is: “If A then B. Not B, therefore not A.”",
+      "options": [
+        "A. Modus ponens",
+        "B. Modus tollens",
+        "C. Affirming the consequent",
+        "D. Denying the antecedent"
+      ],
+      "answer": "B",
+      "explanation": "This is modus tollens."
+    },
+    {
+      "question": "If “All postgraduate students are leaders” and “Some leaders are researchers,” what conclusion can we draw?",
+      "options": [
+        "A. All postgraduate students are researchers",
+        "B. Some postgraduate students may be researchers",
+        "C. All researchers are postgraduate students",
+        "D. None of the above"
+      ],
+      "answer": "B",
+      "explanation": "It's possible that some of the leaders who are postgraduate students are researchers, but not necessary."
+    },
+    {
+      "question": "Which fallacy is present in: “Everyone else cheated on the exam, so it’s okay if I do.”",
+      "options": [
+        "A. Red herring",
+        "B. Bandwagon (appeal to popularity)",
+        "C. Slippery slope",
+        "D. Ad hominem"
+      ],
+      "answer": "B",
+      "explanation": "Bandwagon justifies action because 'everyone' does it."
+    },
+    {
+      "question": "Which of the following describes a contradiction?",
+      "options": [
+        "A. No cats are dogs and some cats are dogs",
+        "B. All students write exams",
+        "C. Some postgraduate students fail exams",
+        "D. All lecturers grade papers"
+      ],
+      "answer": "A",
+      "explanation": "It asserts both a denial and affirmation of the same thing."
+    },
+    {
+      "question": "Which reasoning type moves from general principles to specific conclusions?",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Analogical reasoning"
+      ],
+      "answer": "A",
+      "explanation": "Deductive reasoning applies general rules to particular cases."
+    },
+    {
+      "question": "Which fallacy is illustrated by: “Either you support this new policy, or you are against progress.”",
+      "options": [
+        "A. False dilemma",
+        "B. Strawman",
+        "C. Red herring",
+        "D. Appeal to tradition"
+      ],
+      "answer": "A",
+      "explanation": "False dilemma forces a choice between two options, equating non-support with anti-progress."
+    },
+    {
+      "question": "Which conclusion follows logically? Premises: All laptops require electricity. All postgraduate students own laptops.",
+      "options": [
+        "A. All postgraduate students require electricity",
+        "B. Some laptops do not require electricity",
+        "C. All postgraduate students are electricians",
+        "D. No postgraduate student uses electricity"
+      ],
+      "answer": "A",
+      "explanation": "Since students own laptops and laptops require electricity, students require electricity (for their laptops)."
+    },
+    {
+      "question": "Which of these best defines soundness in an argument?",
+      "options": [
+        "A. An argument with valid reasoning and true premises",
+        "B. Any argument that is persuasive",
+        "C. An argument with premises but no conclusion",
+        "D. An argument based solely on opinions"
+      ],
+      "answer": "A",
+      "explanation": "Soundness requires both validity and true premises."
+    },
+    {
+      "question": "Which is an example of hasty generalization?",
+      "options": [
+        "A. Two classmates failed, so the exam is impossible.",
+        "B. All mammals have lungs; whales are mammals, so whales have lungs.",
+        "C. If it rains, the ground gets wet. It is raining, so the ground is wet.",
+        "D. Either A or B. A is false, so B is true."
+      ],
+      "answer": "A",
+      "explanation": "Hasty generalization bases a broad claim on too few examples."
+    },
+    {
+      "question": "Which fallacy occurs when a person diverts attention to another issue to avoid addressing the original one?",
+      "options": [
+        "A. Red herring",
+        "B. Strawman",
+        "C. Appeal to ignorance",
+        "D. False cause"
+      ],
+      "answer": "A",
+      "explanation": "Red herring introduces irrelevant information to distract."
+    },
+    {
+      "question": "If “No leaders are dishonest” and “Some postgraduate students are leaders,” which conclusion can be drawn?",
+      "options": [
+        "A. Some postgraduate students are dishonest",
+        "B. No postgraduate student is a leader",
+        "C. Some postgraduate students are not dishonest",
+        "D. All postgraduate students are honest"
+      ],
+      "answer": "C",
+      "explanation": "Since some students are leaders and no leaders are dishonest, those students are not dishonest."
+    },
+    {
+      "question": "Which of the following is used: “The sun has risen every day in history, so it will rise tomorrow.”",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Inductive: Past patterns predict future, but not certain."
+    },
+    {
+      "question": "A student claims: “My lecturer is strict, therefore all lecturers are strict.” What reasoning error is shown?",
+      "options": [
+        "A. Valid deduction",
+        "B. Hasty generalization",
+        "C. Strawman",
+        "D. Red herring"
+      ],
+      "answer": "B",
+      "explanation": "Hasty generalization from one example to all."
+    },
+    {
+      "question": "Which fallacy is: “You can’t prove ghosts don’t exist, so they must be real.”",
+      "options": [
+        "A. Strawman",
+        "B. Appeal to ignorance",
+        "C. Slippery slope",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Appeal to ignorance uses lack of disproof as proof."
+    },
+    {
+      "question": "If “All postgraduate students use the research portal” and “Ada uses the research portal,” which conclusion is valid?",
+      "options": [
+        "A. Ada is definitely a postgraduate student",
+        "B. Ada may or may not be a postgraduate student",
+        "C. Ada is not a postgraduate student",
+        "D. Ada cannot be a postgraduate student"
+      ],
+      "answer": "B",
+      "explanation": "Using the portal doesn't necessarily make her a postgraduate; others might use it too."
+    },
+    {
+      "question": "Which fallacy is: “If we allow one student to submit late, soon everyone will stop meeting deadlines.”",
+      "options": [
+        "A. False dilemma",
+        "B. Slippery slope",
+        "C. Circular reasoning",
+        "D. Post hoc"
+      ],
+      "answer": "B",
+      "explanation": "Slippery slope predicts chain of extreme events from one action."
+    },
+    {
+      "question": "Which of these is an example of deductive reasoning?",
+      "options": [
+        "A. All mammals are warm-blooded. A dog is a mammal. Therefore, a dog is warm-blooded.",
+        "B. Most graduate students study late. Sandra is a graduate student, so she probably studies late.",
+        "C. This research design worked before, so it might work again.",
+        "D. My lecturer is strict, so all lecturers must be strict."
+      ],
+      "answer": "A",
+      "explanation": "Deductive: General to specific with certainty if premises true."
+    },
+    {
+      "question": "Which type of bias occurs when we only seek information that confirms our beliefs?",
+      "options": [
+        "A. Hindsight bias",
+        "B. Confirmation bias",
+        "C. Anchoring bias",
+        "D. Selection bias"
+      ],
+      "answer": "B",
+      "explanation": "Confirmation bias favors evidence supporting preconceptions, ignoring contrary data."
+    },
+    {
+      "question": "In research, peer review helps mainly to:",
+      "options": [
+        "A. Eliminate creativity",
+        "B. Validate evidence and reasoning",
+        "C. Ensure only popular topics are published",
+        "D. Speed up publication"
+      ],
+      "answer": "B",
+      "explanation": "Peer review checks the quality, validity, and soundness of research."
+    },
+    {
+      "question": "Which reasoning form is used when predicting research outcomes based on past experiments?",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Inductive: Using past data to predict future outcomes."
+    },
+    {
+      "question": "What is the critical flaw in the statement: “Everyone says this method works, so it must be valid”?",
+      "options": [
+        "A. Appeal to popularity fallacy",
+        "B. Post hoc fallacy",
+        "C. Red herring",
+        "D. Appeal to authority"
+      ],
+      "answer": "A",
+      "explanation": "Appeal to popularity assumes truth based on majority belief, not evidence."
+    },
+    {
+      "question": "Which of these demonstrates critical scepticism?",
+      "options": [
+        "A. Accepting a claim without evidence",
+        "B. Asking, “What evidence supports this claim?”",
+        "C. Believing something because it is traditional",
+        "D. Rejecting everything automatically"
+      ],
+      "answer": "B",
+      "explanation": "Critical skepticism involves questioning and seeking evidence."
+    },
+    {
+      "question": "Which factor should be prioritised in analysing conflicting statistics?",
+      "options": [
+        "A. How long it took to conduct",
+        "B. Sample size and methodology",
+        "C. Whether it agrees with your view",
+        "D. How many pages the report has"
+      ],
+      "answer": "B",
+      "explanation": "Reliability depends on robust sample and sound methods."
+    },
+    {
+      "question": "What is the critical difference between an assumption and an inference?",
+      "options": [
+        "A. Assumption is taken for granted; inference is a conclusion based on evidence.",
+        "B. Inference is taken for granted; assumption is a conclusion based on evidence.",
+        "C. Both are the same.",
+        "D. Neither involves reasoning."
+      ],
+      "answer": "A",
+      "explanation": "Assumptions are unproven starting points; inferences are reasoned conclusions."
+    },
+    {
+      "question": "If A = B, and B = C, then A = C. This represents:",
+      "options": [
+        "A. Modus ponens",
+        "B. Transitive property (logic)",
+        "C. Affirming the consequent",
+        "D. Circular reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Transitive property chains equalities or implications."
+    },
+    {
+      "question": "A manager ignores contradictory evidence to preserve a preferred decision. This illustrates:",
+      "options": [
+        "A. Cognitive bias (specifically confirmation bias)",
+        "B. Deductive reasoning",
+        "C. Strawman",
+        "D. Red herring"
+      ],
+      "answer": "A",
+      "explanation": "Confirmation bias selectively accepts supporting evidence."
+    },
+    {
+      "question": "Which of these best demonstrates logical consistency?",
+      "options": [
+        "A. A set of statements that do not contradict one another",
+        "B. Statements that are emotionally appealing",
+        "C. Arguments that are persuasive regardless of truth",
+        "D. Premises based on tradition"
+      ],
+      "answer": "A",
+      "explanation": "Logical consistency means no contradictions within the set."
+    },
+    {
+      "question": "Which of the following is an example of a red herring fallacy?",
+      "options": [
+        "A. Attacking a person instead of their argument",
+        "B. Introducing irrelevant information to distract from the issue",
+        "C. Assuming what is true of the parts is true of the whole",
+        "D. Arguing that something is true because many people believe it"
+      ],
+      "answer": "B",
+      "explanation": "Red herring diverts the discussion to an unrelated topic."
+    },
+    {
+      "question": "When assessing the validity of an argument, the first step is to:",
+      "options": [
+        "A. Check if the conclusion is appealing",
+        "B. Identify premises and conclusion",
+        "C. Determine who made the argument",
+        "D. Ignore counterarguments"
+      ],
+      "answer": "B",
+      "explanation": "Understanding the structure requires identifying premises and conclusion."
+    },
+    {
+      "question": "Which reasoning is used when forming a hypothesis after observing repeated patterns?",
+      "options": [
+        "A. Deductive reasoning",
+        "B. Inductive reasoning",
+        "C. Abductive reasoning",
+        "D. Analogical reasoning"
+      ],
+      "answer": "B",
+      "explanation": "Inductive reasoning forms generalizations from patterns."
+    }
+  ]
+}

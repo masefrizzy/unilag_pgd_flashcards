@@ -1,0 +1,1325 @@
+{
+"subject": "Communication Skills & Digital Competence",
+"questions": [
+{
+"question": "Which of the following best defines effective communication?",
+"options": [
+"A. Using complex words to impress others",
+"B. Sending a clear message that is understood by the receiver",
+"C. Speaking at a high volume",
+"D. Writing very long messages"
+],
+"answer": "B",
+"explanation": "Effective communication involves transmitting a message in a way that the intended recipient comprehends it accurately, ensuring mutual understanding and minimizing misinterpretation."
+},
+{
+"question": "Which of these is an example of active listening?",
+"options": [
+"A. Looking at your phone while someone talks",
+"B. Nodding, making eye contact, and summarising what was said",
+"C. Interrupting to share your opinion",
+"D. Thinking about your reply instead of listening"
+],
+"answer": "B",
+"explanation": "Active listening requires full engagement, demonstrated through non-verbal cues like nodding and eye contact, and verbal confirmation like summarizing, to show comprehension and respect."
+},
+{
+"question": "Which behaviour improves verbal communication in meetings?",
+"options": [
+"A. Speaking unclearly",
+"B. Using jargon without explanation",
+"C. Speaking at an appropriate pace and volume",
+"D. Ignoring the audience’s body language"
+],
+"answer": "C",
+"explanation": "Speaking at a suitable pace and volume ensures that all participants can hear and process the information comfortably, facilitating better engagement and understanding."
+},
+{
+"question": "Which of these is an example of non-verbal communication?",
+"options": [
+"A. Sending an email",
+"B. Making eye contact",
+"C. Writing a memo",
+"D. Speaking in a meeting"
+],
+"answer": "B",
+"explanation": "Non-verbal communication includes body language elements like eye contact, which convey emotions, interest, or emphasis without words."
+},
+{
+"question": "Which is the most appropriate opening for a professional email?",
+"options": [
+"A. “Hey there!”",
+"B. “Hi mate!”",
+"C. “Dear [Name],”",
+"D. “Yo!”"
+],
+"answer": "C",
+"explanation": "A formal greeting like 'Dear [Name],' sets a professional tone, showing respect and suitability for business or academic correspondence."
+},
+{
+"question": "Which of the following is a barrier to effective communication?",
+"options": [
+"A. Clear language",
+"B. Noise and distractions",
+"C. Active listening",
+"D. Using examples"
+],
+"answer": "B",
+"explanation": "Noise and distractions interfere with the message reception, causing misunderstandings or preventing full attention to the communication."
+},
+{
+"question": "Which of these best demonstrates digital competence?",
+"options": [
+"A. Typing very fast without understanding software",
+"B. Using online collaboration tools effectively and securely",
+"C. Ignoring cybersecurity practices",
+"D. Avoiding all new technologies"
+],
+"answer": "B",
+"explanation": "Digital competence involves proficient, safe, and ethical use of digital tools, such as collaboration platforms, to enhance productivity and security."
+},
+{
+"question": "Which is an example of netiquette (good online behaviour)?",
+"options": [
+"A. Using all capital letters in messages",
+"B. Respecting others and writing politely",
+"C. Sharing sensitive data publicly",
+"D. Interrupting video calls frequently"
+],
+"answer": "B",
+"explanation": "Netiquette promotes courteous and respectful interactions online, including polite language to foster positive digital environments."
+},
+{
+"question": "Which of these is the safest password?",
+"options": [
+"A. 12345",
+"B. password",
+"C. MyName2023",
+"D. Bk!9rZ$7"
+],
+"answer": "D",
+"explanation": "A strong password combines uppercase, lowercase, numbers, and symbols, making it difficult for unauthorized access, unlike simple or predictable ones."
+},
+{
+"question": "Which behaviour improves written communication?",
+"options": [
+"A. Checking grammar and clarity before sending",
+"B. Using slang in formal reports",
+"C. Avoiding proofreading",
+"D. Sending incomplete information"
+],
+"answer": "A",
+"explanation": "Proofreading for grammar and clarity ensures the message is professional, error-free, and easily understood by the recipient."
+},
+{
+"question": "Which of these best describes feedback in communication?",
+"options": [
+"A. A one-way message with no response",
+"B. A reaction or reply from the receiver",
+"C. Only positive comments",
+"D. A detailed report"
+],
+"answer": "B",
+"explanation": "Feedback is the receiver's response that confirms understanding or provides input, making communication a two-way process."
+},
+{
+"question": "Which of the following demonstrates ethical use of digital media?",
+"options": [
+"A. Sharing copyrighted materials without permission",
+"B. Respecting privacy and giving credit for content",
+"C. Downloading illegal software",
+"D. Using someone else’s login credentials"
+],
+"answer": "B",
+"explanation": "Ethical digital use involves protecting privacy and properly attributing content to avoid infringement and respect intellectual property."
+},
+{
+"question": "In a video call, which of these improves communication?",
+"options": [
+"A. Muting your microphone when not speaking",
+"B. Talking over others",
+"C. Turning off your camera abruptly",
+"D. Ignoring the chat function"
+],
+"answer": "A",
+"explanation": "Muting prevents background noise, ensuring clear audio for all participants and maintaining focus on the speaker."
+},
+{
+"question": "Which is an example of effective cross-cultural communication?",
+"options": [
+"A. Using culturally appropriate greetings and showing respect",
+"B. Assuming everyone has the same customs",
+"C. Speaking only in your own language regardless of the audience",
+"D. Ignoring cultural differences"
+],
+"answer": "A",
+"explanation": "Effective cross-cultural communication adapts to cultural norms, such as greetings, to build rapport and avoid misunderstandings."
+},
+{
+"question": "Which practice helps maintain digital security?",
+"options": [
+"A. Sharing your passwords with colleagues",
+"B. Clicking unknown links in emails",
+"C. Regularly updating software and using strong passwords",
+"D. Using unsecured public Wi-Fi for sensitive tasks"
+],
+"answer": "C",
+"explanation": "Regular updates patch vulnerabilities, and strong passwords prevent unauthorized access, essential for digital security."
+},
+{
+"question": "Which of the following improves clarity in a presentation?",
+"options": [
+"A. Reading long paragraphs directly from slides",
+"B. Using clear visuals and summarised points",
+"C. Speaking very fast to save time",
+"D. Avoiding eye contact with the audience"
+],
+"answer": "B",
+"explanation": "Visuals and summaries aid comprehension, making complex information accessible and engaging for the audience."
+},
+{
+"question": "Which practice demonstrates good email etiquette?",
+"options": [
+"A. Using all caps for emphasis",
+"B. Writing a clear subject line and polite greeting",
+"C. Forwarding confidential emails without permission",
+"D. Leaving the message blank with an attachment"
+],
+"answer": "B",
+"explanation": "A clear subject and polite greeting help recipients prioritize and respond appropriately, promoting professional courtesy."
+},
+{
+"question": "Which is an example of effective team communication?",
+"options": [
+"A. Sharing updates only when asked",
+"B. Keeping important information to yourself",
+"C. Using agreed channels to keep everyone informed",
+"D. Talking over quieter members"
+],
+"answer": "C",
+"explanation": "Consistent use of designated channels ensures transparency and inclusion, enhancing team collaboration and efficiency."
+},
+{
+"question": "Which of these best supports digital collaboration?",
+"options": [
+"A. Regularly updating shared documents in real time",
+"B. Saving files locally and never sharing",
+"C. Ignoring comments from colleagues",
+"D. Refusing to use project management tools"
+],
+"answer": "A",
+"explanation": "Real-time updates allow simultaneous contributions, fostering seamless teamwork in digital environments."
+},
+{
+"question": "Which of the following is a non-verbal cue that shows interest?",
+"options": [
+"A. Looking away constantly",
+"B. Maintaining appropriate eye contact",
+"C. Checking your phone",
+"D. Frowning and sighing"
+],
+"answer": "B",
+"explanation": "Appropriate eye contact signals attentiveness and engagement, a key non-verbal indicator of interest."
+},
+{
+"question": "Which is an example of poor digital security practice?",
+"options": [
+"A. Logging out of accounts on public computers",
+"B. Using the same weak password for multiple sites",
+"C. Updating antivirus software regularly",
+"D. Encrypting sensitive data"
+],
+"answer": "B",
+"explanation": "Reusing weak passwords increases vulnerability to breaches across multiple accounts, compromising overall security."
+},
+{
+"question": "Which behaviour shows respect in online meetings?",
+"options": [
+"A. Speaking over others to make your point",
+"B. Listening, waiting your turn and using mute when not speaking",
+"C. Multitasking noisily while others present",
+"D. Turning off the camera without explanation"
+],
+"answer": "B",
+"explanation": "Active listening and muting demonstrate courtesy, allowing others to speak without interruption."
+},
+{
+"question": "Which practice best demonstrates clarity in written communication?",
+"options": [
+"A. Using short, simple sentences",
+"B. Using long technical jargon",
+"C. Leaving out important details",
+"D. Adding irrelevant stories"
+],
+"answer": "A",
+"explanation": "Short, simple sentences reduce ambiguity and enhance readability, ensuring the message is straightforward."
+},
+{
+"question": "Which of these is an example of responsible social-media use?",
+"options": [
+"A. Posting confidential work information",
+"B. Respecting privacy and company policies",
+"C. Sharing unverified rumours",
+"D. Criticising clients publicly"
+],
+"answer": "B",
+"explanation": "Responsible use upholds privacy and policies, preventing legal issues and maintaining professional integrity."
+},
+{
+"question": "Which behaviour supports effective listening during a phone call?",
+"options": [
+"A. Taking notes and summarising what you heard",
+"B. Thinking about your reply instead of listening",
+"C. Interrupting often",
+"D. Checking emails at the same time"
+],
+"answer": "A",
+"explanation": "Note-taking and summarizing confirm understanding and show engagement, improving the quality of interaction."
+},
+{
+"question": "Which of the following shows good cross-cultural digital communication?",
+"options": [
+"A. Using slang that only your culture understands",
+"B. Checking whether your images or emojis are appropriate",
+"C. Assuming everyone interprets emojis the same way",
+"D. Ignoring time-zone differences"
+],
+"answer": "B",
+"explanation": "Verifying cultural appropriateness of visuals prevents offense and ensures inclusive digital interactions."
+},
+{
+"question": "Which practice enhances public speaking skills?",
+"options": [
+"A. Avoiding practice sessions",
+"B. Practicing with a timer and recording yourself",
+"C. Using filler words excessively",
+"D. Reading directly from notes without variation"
+],
+"answer": "B",
+"explanation": "Recording and timing practice allows self-assessment of pace, clarity, and body language for improvement."
+},
+{
+"question": "Which is a key element of empathetic communication?",
+"options": [
+"A. Dismissing others' feelings",
+"B. Acknowledging and validating emotions",
+"C. Changing the subject quickly",
+"D. Giving unsolicited advice"
+],
+"answer": "B",
+"explanation": "Empathy involves recognizing and respecting others' emotions, building trust and deeper connections."
+},
+{
+"question": "Which tool is commonly used for virtual team collaboration?",
+"options": [
+"A. Microsoft Teams or Zoom",
+"B. A personal notebook",
+"C. Email only",
+"D. Telephone calls exclusively"
+],
+"answer": "A",
+"explanation": "Platforms like Microsoft Teams or Zoom enable real-time video, chat, and file sharing for effective remote teamwork."
+},
+{
+"question": "Which practice prevents phishing attacks?",
+"options": [
+"A. Clicking on every email link",
+"B. Verifying sender authenticity before responding",
+"C. Sharing personal details freely",
+"D. Using outdated email clients"
+],
+"answer": "B",
+"explanation": "Verifying senders reduces the risk of falling for deceptive emails designed to steal information."
+},
+{
+"question": "Which is an example of assertive communication?",
+"options": [
+"A. Aggressively demanding compliance",
+"B. Expressing needs respectfully without infringing on others",
+"C. Passively agreeing to everything",
+"D. Avoiding confrontation entirely"
+],
+"answer": "B",
+"explanation": "Assertiveness balances self-expression with respect for others, promoting healthy dialogue."
+},
+{
+"question": "Which feature improves accessibility in digital documents?",
+"options": [
+"A. Using complex fonts",
+"B. Adding alt text to images",
+"C. Ignoring color contrasts",
+"D. Embedding audio without transcripts"
+],
+"answer": "B",
+"explanation": "Alt text describes images for screen readers, making content accessible to visually impaired users."
+},
+{
+"question": "Which behaviour indicates poor online etiquette?",
+"options": [
+"A. Responding promptly to messages",
+"B. Spamming group chats with unrelated content",
+"C. Thanking contributors",
+"D. Using proper grammar"
+],
+"answer": "B",
+"explanation": "Spamming disrupts conversations and annoys participants, violating netiquette principles."
+},
+{
+"question": "Which is essential for effective negotiation communication?",
+"options": [
+"A. Focusing only on your demands",
+"B. Active listening and finding common ground",
+"C. Using manipulative tactics",
+"D. Interrupting frequently"
+],
+"answer": "B",
+"explanation": "Listening and identifying shared interests build rapport and lead to mutually beneficial agreements."
+},
+{
+"question": "Which practice supports data privacy in digital tools?",
+"options": [
+"A. Publicly sharing login details",
+"B. Enabling two-factor authentication",
+"C. Storing files on unsecured clouds",
+"D. Ignoring privacy settings"
+],
+"answer": "B",
+"explanation": "Two-factor authentication adds an extra security layer, protecting accounts from unauthorized access."
+},
+{
+"question": "Which non-verbal cue can indicate defensiveness?",
+"options": [
+"A. Open posture with arms uncrossed",
+"B. Crossed arms and avoiding eye contact",
+"C. Smiling and nodding",
+"D. Leaning forward attentively"
+],
+"answer": "B",
+"explanation": "Crossed arms and averted gaze suggest closed-off or defensive attitudes in interactions."
+},
+{
+"question": "Which is a benefit of using visual aids in presentations?",
+"options": [
+"A. Overloading slides with text",
+"B. Enhancing audience retention and understanding",
+"C. Replacing verbal explanations entirely",
+"D. Distracting from the speaker"
+],
+"answer": "B",
+"explanation": "Visual aids reinforce key points, making information more memorable and easier to grasp."
+},
+{
+"question": "Which practice improves conflict resolution in teams?",
+"options": [
+"A. Blaming individuals publicly",
+"B. Encouraging open dialogue and empathy",
+"C. Ignoring the issue",
+"D. Escalating to higher authorities immediately"
+],
+"answer": "B",
+"explanation": "Open, empathetic discussions allow parties to express views and find collaborative solutions."
+},
+{
+"question": "Which is an example of inclusive language in communication?",
+"options": [
+"A. Using gender-specific terms exclusively",
+"B. Avoiding assumptions about backgrounds",
+"C. Stereotyping groups",
+"D. Excluding diverse perspectives"
+],
+"answer": "B",
+"explanation": "Inclusive language respects diversity by not assuming or marginalizing based on identity."
+},
+{
+"question": "Which digital skill involves verifying online information?",
+"options": [
+"A. Digital literacy",
+"B. Typing speed",
+"C. File management",
+"D. Basic navigation"
+],
+"answer": "A",
+"explanation": "Digital literacy includes critical evaluation of sources to combat misinformation."
+},
+{
+"question": "Which behaviour fosters trust in professional emails?",
+"options": [
+"A. Vague and ambiguous wording",
+"B. Being transparent and factual",
+"C. Delaying responses indefinitely",
+"D. Using excessive emojis"
+],
+"answer": "B",
+"explanation": "Transparency builds credibility and reliability in written professional exchanges."
+},
+{
+"question": "Which is a common cybersecurity threat?",
+"options": [
+"A. Secure password practices",
+"B. Malware from suspicious downloads",
+"C. Regular software updates",
+"D. Encrypted communications"
+],
+"answer": "B",
+"explanation": "Malware from untrusted sources can compromise devices and data security."
+},
+{
+"question": "Which practice enhances remote work communication?",
+"options": [
+"A. Over-reliance on informal chats",
+"B. Scheduling regular check-ins",
+"C. Avoiding video for meetings",
+"D. Limiting updates to end-of-day"
+],
+"answer": "B",
+"explanation": "Regular check-ins maintain alignment and address issues promptly in remote settings."
+},
+{
+"question": "Which is an ethical consideration in digital content creation?",
+"options": [
+"A. Plagiarizing ideas",
+"B. Obtaining permissions for media use",
+"C. Ignoring copyright laws",
+"D. Sharing without attribution"
+],
+"answer": "B",
+"explanation": "Seeking permissions respects creators' rights and avoids legal and ethical violations."
+},
+{
+"question": "Which non-verbal aspect affects virtual presentations?",
+"options": [
+"A. Background noise",
+"B. Professional attire and setting",
+"C. Text size in chat",
+"D. Email follow-ups"
+],
+"answer": "B",
+"explanation": "A professional virtual setup conveys seriousness and enhances credibility."
+},
+{
+"question": "Which skill is crucial for handling difficult conversations?",
+"options": [
+"A. Emotional regulation",
+"B. Raising voice for emphasis",
+"C. Avoiding eye contact",
+"D. Interrupting to clarify"
+],
+"answer": "A",
+"explanation": "Regulating emotions keeps discussions productive and prevents escalation."
+},
+{
+"question": "Which practice supports sustainable digital habits?",
+"options": [
+"A. Constant device usage without breaks",
+"B. Balancing screen time with offline activities",
+"C. Ignoring ergonomics",
+"D. Multitasking across apps"
+],
+"answer": "B",
+"explanation": "Balancing digital and offline time promotes well-being and productivity."
+},
+{
+"question": "Which is a feature of effective feedback?",
+"options": [
+"A. Vague and infrequent",
+"B. Specific, timely, and constructive",
+"C. Only negative",
+"D. Delayed and generalized"
+],
+"answer": "B",
+"explanation": "Specific, timely feedback guides improvement effectively without demotivating."
+},
+{
+"question": "Which tool aids in organizing digital files?",
+"options": [
+"A. Cloud storage with folders",
+"B. Desktop clutter",
+"C. Random naming",
+"D. No backups"
+],
+"answer": "A",
+"explanation": "Organized cloud storage ensures easy access and collaboration."
+},
+{
+"question": "Which communication style avoids misunderstandings?",
+"options": [
+"A. Passive",
+"B. Direct and polite",
+"C. Aggressive",
+"D. Indirect hints"
+],
+"answer": "B",
+"explanation": "Direct, polite expression clarifies intentions while maintaining respect."
+},
+{
+"question": "Which practice mitigates digital fatigue?",
+"options": [
+"A. Continuous video calls",
+"B. Incorporating breaks and asynchronous updates",
+"C. Overloading inboxes",
+"D. 24/7 availability"
+],
+"answer": "B",
+"explanation": "Breaks and async communication reduce burnout in digital workflows."
+},
+{
+"question": "Which is important for cross-cultural emails?",
+"options": [
+"A. Assuming shared idioms",
+"B. Using simple, universal language",
+"C. Overusing humor",
+"D. Ignoring formalities"
+],
+"answer": "B",
+"explanation": "Simple language bridges cultural gaps, ensuring clear cross-border communication."
+},
+{
+"question": "Which ethical issue arises from deepfakes?",
+"options": [
+"A. Enhanced video quality",
+"B. Misinformation and trust erosion",
+"C. Faster editing",
+"D. Creative expression"
+],
+"answer": "B",
+"explanation": "Deepfakes can spread false information, undermining credibility in digital media."
+},
+{
+"question": "Which practice improves group discussion dynamics?",
+"options": [
+"A. Dominating the conversation",
+"B. Encouraging equal participation",
+"C. Criticizing ideas harshly",
+"D. Sticking to one viewpoint"
+],
+"answer": "B",
+"explanation": "Equal participation fosters diverse input and innovative outcomes."
+},
+{
+"question": "Which digital competence involves ethical AI use?",
+"options": [
+"A. Ignoring biases in algorithms",
+"B. Understanding and mitigating AI limitations",
+"C. Over-relying without verification",
+"D. Sharing AI outputs without context"
+],
+"answer": "B",
+"explanation": "Ethical AI use requires awareness of biases to ensure fair applications."
+},
+{
+"question": "Which is a sign of effective digital leadership communication?",
+"options": [
+"A. Micromanaging via constant pings",
+"B. Clear vision sharing and feedback loops",
+"C. Isolated decision-making",
+"D. Infrequent updates"
+],
+"answer": "B",
+"explanation": "Clear vision and feedback align teams and motivate digitally."
+},
+{
+"question": "Which practice ensures compliance in digital reporting?",
+"options": [
+"A. Falsifying data",
+"B. Accurate documentation and audits",
+"C. Deleting records",
+"D. Informal notes only"
+],
+"answer": "B",
+"explanation": "Accurate records maintain transparency and legal compliance."
+},
+{
+"question": "Which non-verbal cue builds rapport in negotiations?",
+"options": [
+"A. Fidgeting",
+"B. Mirroring positive body language",
+"C. Slouching",
+"D. Closed gestures"
+],
+"answer": "B",
+"explanation": "Mirroring subtly creates subconscious connection and trust."
+},
+{
+"question": "Which tool supports multilingual digital communication?",
+"options": [
+"A. Translation software like Google Translate",
+"B. Single-language documents",
+"C. Ignoring language barriers",
+"D. Manual rewriting"
+],
+"answer": "A",
+"explanation": "Translation tools facilitate understanding across languages in global teams."
+},
+{
+"question": "Which is a consequence of poor digital communication?",
+"options": [
+"A. Enhanced productivity",
+"B. Misunderstandings and delays",
+"C. Stronger relationships",
+"D. Faster decisions"
+],
+"answer": "B",
+"explanation": "Ambiguous messages lead to errors, conflicts, and inefficiencies."
+},
+{
+"question": "Which practice promotes work-life balance in digital comm?",
+"options": [
+"A. After-hours responses",
+"B. Setting boundaries and auto-replies",
+"C. Constant availability",
+"D. Blurring personal-professional lines"
+],
+"answer": "B",
+"explanation": "Boundaries prevent burnout and respect personal time."
+},
+{
+"question": "Which is essential for crisis communication online?",
+"options": [
+"A. Delayed responses",
+"B. Timely, transparent updates",
+"C. Speculative information",
+"D. Minimizing the issue"
+],
+"answer": "B",
+"explanation": "Timely transparency maintains trust during crises."
+},
+{
+"question": "Which digital skill aids in content curation?",
+"options": [
+"A. Random sharing",
+"B. Evaluating relevance and credibility",
+"C. Volume over quality",
+"D. Ignoring sources"
+],
+"answer": "B",
+"explanation": "Curation involves selecting valuable, reliable content for audiences."
+},
+{
+"question": "Which behaviour exemplifies professional networking?",
+"options": [
+"A. Self-promotion only",
+"B. Mutual value exchange and follow-ups",
+"C. One-time contacts",
+"D. Spamming connections"
+],
+"answer": "B",
+"explanation": "Reciprocal interactions build lasting professional relationships."
+},
+{
+"question": "Which practice enhances email thread management?",
+"options": [
+"A. Long, unstructured chains",
+"B. Summarizing key points in replies",
+"C. Replying to all unnecessarily",
+"D. Deleting context"
+],
+"answer": "B",
+"explanation": "Summaries keep threads focused and actionable."
+},
+{
+"question": "Which is a principle of universal design in digital interfaces?",
+"options": [
+"A. Catering to one user type",
+"B. Flexible use for diverse abilities",
+"C. Complex navigation",
+"D. Uniform color schemes only"
+],
+"answer": "B",
+"explanation": "Universal design ensures accessibility for all users regardless of ability."
+},
+{
+"question": "Which communication strategy resolves email overload?",
+"options": [
+"A. Ignoring inbox",
+"B. Prioritizing and using folders/labels",
+"C. Replying to everything immediately",
+"D. Forwarding all"
+],
+"answer": "B",
+"explanation": "Organization tools streamline management and reduce stress."
+},
+{
+"question": "Which is a risk of overusing emojis in professional comm?",
+"options": [
+"A. Increased clarity",
+"B. Misinterpretation of tone",
+"C. Enhanced formality",
+"D. Faster typing"
+],
+"answer": "B",
+"explanation": "Emojis can convey unintended meanings across cultures or contexts."
+},
+{
+"question": "Which practice supports agile digital teamwork?",
+"options": [
+"A. Rigid hierarchies",
+"B. Iterative feedback and adaptation",
+"C. Infrequent meetings",
+"D. Document hoarding"
+],
+"answer": "B",
+"explanation": "Iterative processes enable quick adjustments and continuous improvement."
+},
+{
+"question": "Which ethical guideline applies to social media influencers?",
+"options": [
+"A. Disclosing sponsorships",
+"B. Promoting false claims",
+"C. Ignoring audience feedback",
+"D. Exaggerating benefits"
+],
+"answer": "A",
+"explanation": "Transparency in sponsorships builds trust and complies with advertising ethics."
+},
+{
+"question": "Which is a benefit of podcasting for communication?",
+"options": [
+"A. Visual appeal",
+"B. Accessibility for auditory learners",
+"C. High production costs",
+"D. Limited reach"
+],
+"answer": "B",
+"explanation": "Podcasts engage listeners through audio, ideal for on-the-go consumption."
+},
+{
+"question": "Which practice improves virtual reality in training comm?",
+"options": [
+"A. Ignoring immersion",
+"B. Simulating real scenarios interactively",
+"C. Static presentations",
+"D. Overloading with data"
+],
+"answer": "B",
+"explanation": "Interactive simulations enhance learning retention in VR environments."
+},
+{
+"question": "Which is key to storytelling in presentations?",
+"options": [
+"A. Factual lists only",
+"B. Engaging narrative with relatable elements",
+"C. Monotone delivery",
+"D. Excessive details"
+],
+"answer": "B",
+"explanation": "Narratives connect emotionally, making messages memorable."
+},
+{
+"question": "Which digital trend affects communication privacy?",
+"options": [
+"A. End-to-end encryption",
+"B. Data breaches",
+"C. Secure apps",
+"D. Privacy laws"
+],
+"answer": "B",
+"explanation": "Breaches expose personal data, eroding privacy in digital interactions."
+},
+{
+"question": "Which behaviour indicates digital empathy?",
+"options": [
+"A. Ignoring response times",
+"B. Considering recipient's context and workload",
+"C. Demanding instant replies",
+"D. Overloading with info"
+],
+"answer": "B",
+"explanation": "Empathy accounts for others' situations, fostering supportive digital exchanges."
+},
+{
+"question": "Which is a strategy for inclusive virtual meetings?",
+"options": [
+"A. Dominant speakers only",
+"B. Round-robin participation",
+"C. No agendas",
+"D. Unstructured chats"
+],
+"answer": "B",
+"explanation": "Round-robin ensures everyone contributes, promoting inclusivity."
+},
+{
+"question": "Which practice aligns with GDPR in digital comm?",
+"options": [
+"A. Collecting data without consent",
+"B. Obtaining explicit consent for data use",
+"C. Sharing data freely",
+"D. Ignoring data rights"
+],
+"answer": "B",
+"explanation": "GDPR requires clear consent to protect user privacy in EU contexts."
+},
+{
+"question": "Which is an advantage of hybrid communication models?",
+"options": [
+"A. Uniform in-person only",
+"B. Flexibility for diverse work styles",
+"C. Rigid schedules",
+"D. Limited tools"
+],
+"answer": "B",
+"explanation": "Hybrid models accommodate remote and in-office needs effectively."
+},
+{
+"question": "Which skill is vital for digital crisis management?",
+"options": [
+"A. Panic responses",
+"B. Calm, coordinated messaging",
+"C. Speculation",
+"D. Silence"
+],
+"answer": "B",
+"explanation": "Coordinated, calm communication minimizes damage during crises."
+},
+{
+"question": "Which practice enhances knowledge sharing digitally?",
+"options": [
+"A. Hoarding information",
+"B. Using wikis or shared repositories",
+"C. Verbal only",
+"D. Isolated files"
+],
+"answer": "B",
+"explanation": "Shared platforms enable collaborative access and updates."
+},
+{
+"question": "Which is a challenge of global digital teams?",
+"options": [
+"A. Time zone synchronization",
+"B. Local collaboration",
+"C. Single language",
+"D. Uniform culture"
+],
+"answer": "A",
+"explanation": "Time differences complicate scheduling for international teams."
+},
+{
+"question": "Which behaviour promotes psychological safety in comm?",
+"options": [
+"A. Punishing mistakes",
+"B. Encouraging open expression without fear",
+"C. Hierarchical silencing",
+"D. Judgmental feedback"
+],
+"answer": "B",
+"explanation": "Psychological safety allows free idea-sharing, boosting innovation."
+},
+{
+"question": "Which digital tool aids in sentiment analysis?",
+"options": [
+"A. Basic word processors",
+"B. AI-powered analytics software",
+"C. Manual spreadsheets",
+"D. Simple calculators"
+],
+"answer": "B",
+"explanation": "AI tools gauge emotions in communications for better response strategies."
+},
+{
+"question": "Which is essential for authentic digital branding?",
+"options": [
+"A. Inconsistent messaging",
+"B. Consistent, value-aligned content",
+"C. Anonymous posting",
+"D. Trend-chasing without strategy"
+],
+"answer": "B",
+"explanation": "Consistency builds trust and recognition in digital presence."
+},
+{
+"question": "Which practice reduces miscommunication in texts?",
+"options": [
+"A. Abbreviations only",
+"B. Clarifying ambiguities promptly",
+"C. Assuming understanding",
+"D. Long, run-on sentences"
+],
+"answer": "B",
+"explanation": "Prompt clarification prevents escalation of misunderstandings."
+},
+{
+"question": "Which is a metric for communication effectiveness?",
+"options": [
+"A. Response rate",
+"B. Message length",
+"C. Font size",
+"D. Color choice"
+],
+"answer": "A",
+"explanation": "High response rates indicate engagement and clarity in communications."
+},
+{
+"question": "Which ethical dilemma involves AI in communication?",
+"options": [
+"A. Transparent use disclosure",
+"B. Automated deceptive replies",
+"C. Human-like interactions",
+"D. Efficiency gains"
+],
+"answer": "B",
+"explanation": "Deceptive AI can erode trust if not disclosed properly."
+},
+{
+"question": "Which practice supports neurodiverse communication?",
+"options": [
+"A. Assuming uniform preferences",
+"B. Offering multiple formats (text, audio, visual)",
+"C. Strict verbal-only",
+"D. Overloading stimuli"
+],
+"answer": "B",
+"explanation": "Varied formats accommodate different processing styles inclusively."
+},
+{
+"question": "Which is a future trend in digital communication?",
+"options": [
+"A. Decline in video calls",
+"B. Augmented reality meetings",
+"C. Text-only dominance",
+"D. Reduced connectivity"
+],
+"answer": "B",
+"explanation": "AR enhances immersive, interactive virtual experiences."
+},
+{
+"question": "Which behaviour exemplifies servant leadership in digital teams?",
+"options": [
+"A. Commanding from afar",
+"B. Supporting and empowering members",
+"C. Micromanaging tasks",
+"D. Withholding resources"
+],
+"answer": "B",
+"explanation": "Empowerment fosters autonomy and motivation in remote leadership."
+},
+{
+"question": "Which practice ensures equitable digital access?",
+"options": [
+"A. High-bandwidth requirements only",
+"B. Providing low-data alternatives",
+"C. Excluding low-tech users",
+"D. Uniform hardware demands"
+],
+"answer": "B",
+"explanation": "Low-data options bridge the digital divide for broader inclusion."
+},
+{
+"question": "Which is a key to persuasive digital content?",
+"options": [
+"A. Emotional appeals and evidence",
+"B. Repetition without substance",
+"C. Visual overload",
+"D. Lengthy explanations"
+],
+"answer": "A",
+"explanation": "Combining emotion and facts convinces audiences effectively online."
+},
+{
+"question": "Which communication barrier is common in remote work?",
+"options": [
+"A. Face-to-face clarity",
+"B. Lack of non-verbal cues",
+"C. Physical proximity",
+"D. Immediate feedback"
+],
+"answer": "B",
+"explanation": "Absence of visuals hinders tone and intent interpretation."
+},
+{
+"question": "Which practice aligns with sustainable digital communication?",
+"options": [
+"A. Excessive emailing",
+"B. Mindful messaging to reduce volume",
+"C. Unlimited attachments",
+"D. High-energy servers"
+],
+"answer": "B",
+"explanation": "Concise messaging lowers carbon footprint from data processing."
+},
+{
+"question": "Which is vital for mentoring via digital platforms?",
+"options": [
+"A. One-way instructions",
+"B. Personalized, interactive guidance",
+"C. Generic videos",
+"D. Infrequent check-ins"
+],
+"answer": "B",
+"explanation": "Interactive guidance tailors support for effective learning."
+},
+{
+"question": "Which ethical practice in data-driven comm?",
+"options": [
+"A. Misusing analytics",
+"B. Anonymizing personal data",
+"C. Targeting vulnerabilities",
+"D. Selling user insights"
+],
+"answer": "B",
+"explanation": "Anonymization protects privacy in analytics use."
+},
+{
+"question": "Which enhances cross-generational digital comm?",
+"options": [
+"A. Assuming tech-savviness",
+"B. Adapting to preferred platforms",
+"C. Forcing new tools",
+"D. Ignoring preferences"
+],
+"answer": "B",
+"explanation": "Platform adaptation respects varying digital comfort levels."
+},
+{
+"question": "Which is a sign of digital burnout in comm?",
+"options": [
+"A. Enthusiastic responses",
+"B. Delayed or curt replies",
+"C. Increased participation",
+"D. Proactive outreach"
+],
+"answer": "B",
+"explanation": "Short, delayed messages indicate fatigue from constant connectivity."
+},
+{
+"question": "Which practice improves SEO in digital content?",
+"options": [
+"A. Keyword stuffing",
+"B. Relevant, user-focused keywords",
+"C. Ignoring meta tags",
+"D. Duplicate content"
+],
+"answer": "B",
+"explanation": "User-centric keywords enhance visibility and relevance."
+},
+{
+"question": "Which is essential for debriefing after digital projects?",
+"options": [
+"A. Skipping reviews",
+"B. Reflective discussions on successes and lessons",
+"C. Blaming failures",
+"D. Archiving without analysis"
+],
+"answer": "B",
+"explanation": "Reflections capture insights for future improvements."
+},
+{
+"question": "Which communication model emphasizes context?",
+"options": [
+"A. Linear model",
+"B. Transactional model",
+"C. Shannon-Weaver",
+"D. Basic sender-receiver"
+],
+"answer": "B",
+"explanation": "Transactional views communication as dynamic, influenced by context and feedback."
+},
+{
+"question": "Which practice supports gamification in digital learning comm?",
+"options": [
+"A. Passive reading",
+"B. Interactive challenges with rewards",
+"C. Lecture-only",
+"D. No engagement metrics"
+],
+"answer": "B",
+"explanation": "Gamification boosts motivation through engaging, rewarding interactions."
+},
+{
+"question": "Which is a privacy-enhancing technology?",
+"options": [
+"A. Blockchain for data",
+"B. Open databases",
+"C. Unencrypted emails",
+"D. Public sharing defaults"
+],
+"answer": "A",
+"explanation": "Blockchain ensures secure, tamper-proof data handling."
+},
+{
+"question": "Which behaviour fosters innovation in digital brainstorming?",
+"options": [
+"A. Criticism during ideation",
+"B. Encouraging wild ideas without judgment",
+"C. Limiting to experts",
+"D. Structured agendas only"
+],
+"answer": "B",
+"explanation": "Judgment-free zones spark creative thinking."
+},
+{
+"question": "Which is key to multicultural digital marketing comm?",
+"options": [
+"A. Generic campaigns",
+"B. Culturally tailored messaging",
+"C. Ignoring localization",
+"D. Uniform visuals"
+],
+"answer": "B",
+"explanation": "Tailored content resonates with diverse audiences effectively."
+},
+{
+"question": "Which practice ensures resilience in digital supply chain comm?",
+"options": [
+"A. Single-vendor reliance",
+"B. Diversified channels and backups",
+"C. No contingency plans",
+"D. Manual tracking only"
+],
+"answer": "B",
+"explanation": "Diversification mitigates disruptions in communication flows."
+},
+{
+"question": "Which is a metric for digital engagement?",
+"options": [
+"A. Page views",
+"B. Likes and shares",
+"C. File sizes",
+"D. Server load"
+],
+"answer": "B",
+"explanation": "Interactions like likes indicate audience involvement."
+},
+{
+"question": "Which ethical concern in VR communication?",
+"options": [
+"A. Immersive experiences",
+"B. Potential for harassment in virtual spaces",
+"C. High costs",
+"D. Limited adoption"
+],
+"answer": "B",
+"explanation": "VR requires safeguards against virtual misconduct."
+},
+{
+"question": "Which practice improves asynchronous video feedback?",
+"options": [
+"A. Long, unedited clips",
+"B. Concise, timestamped comments",
+"C. Text summaries only",
+"D. No context provided"
+],
+"answer": "B",
+"explanation": "Timestamped videos pinpoint issues for efficient review."
+},
+{
+"question": "Which is a principle of minimalist digital design?",
+"options": [
+"A. Cluttered interfaces",
+"B. Focus on essential elements",
+"C. Excessive animations",
+"D. Tiny fonts"
+],
+"answer": "B",
+"explanation": "Minimalism enhances usability by reducing cognitive load."
+},
+{
+"question": "Which behaviour supports allyship in digital advocacy?",
+"options": [
+"A. Silent observation",
+"B. Amplifying marginalized voices",
+"C. Taking credit",
+"D. Debating publicly"
+],
+"answer": "B",
+"explanation": "Amplification empowers underrepresented groups online."
+},
+{
+"question": "Which is crucial for hybrid event communication?",
+"options": [
+"A. In-person focus only",
+"B. Seamless integration of virtual and physical",
+"C. Separate streams without sync",
+"D. Ignoring attendees"
+],
+"answer": "B",
+"explanation": "Integration ensures equitable experience for all participants."
+},
+{
+"question": "Which practice aligns with net-zero digital comm?",
+"options": [
+"A. High-data videos unnecessarily",
+"B. Optimizing for low emissions",
+"C. Unlimited streaming",
+"D. Large file sends"
+],
+"answer": "B",
+"explanation": "Optimization reduces energy consumption in digital activities."
+},
+{
+"question": "Which is a strategy for digital detox in comm?",
+"options": [
+"A. Increased screen time",
+"B. Scheduled offline periods",
+"C. Notification overload",
+"D. Multitasking"
+],
+"answer": "B",
+"explanation": "Offline breaks restore focus and prevent overload."
+},
+{
+"question": "Which ethical framework guides AI chatbots in comm?",
+"options": [
+"A. Unbiased training data",
+"B. Transparency in operations",
+"C. Human override capabilities",
+"D. All of the above"
+],
+"answer": "D",
+"explanation": "Comprehensive ethics ensure fair, accountable AI interactions."
+},
+{
+"question": "Which practice enhances user experience in apps?",
+"options": [
+"A. Intrusive ads",
+"B. Intuitive navigation and feedback",
+"C. Complex logins",
+"D. Slow loading"
+],
+"answer": "B",
+"explanation": "Intuitive design promotes satisfaction and retention."
+},
+{
+"question": "Which is a challenge in metaverse communication?",
+"options": [
+"A. Avatar anonymity abuse",
+"B. Physical presence",
+"C. Low immersion",
+"D. Traditional etiquette"
+],
+"answer": "A",
+"explanation": "Anonymity can lead to inappropriate virtual behaviors."
+},
+{
+"question": "Which behaviour exemplifies digital citizenship?",
+"options": [
+"A. Cyberbullying",
+"B. Responsible, respectful online participation",
+"C. Privacy invasion",
+"D. Fake news spread"
+],
+"answer": "B",
+"explanation": "Digital citizenship promotes positive, ethical online conduct."
+},
+{
+"question": "Which is key to successful influencer collaborations?",
+"options": [
+"A. Misaligned values",
+"B. Shared audience and authentic partnerships",
+"C. One-sided promotions",
+"D. Contract breaches"
+],
+"answer": "B",
+"explanation": "Authentic alignments ensure genuine endorsements."
+},
+{
+"question": "Which practice supports lifelong digital learning?",
+"options": [
+"A. Static knowledge",
+"B. Continuous upskilling via online courses",
+"C. Avoiding new tech",
+"D. Isolated study"
+],
+"answer": "B",
+"explanation": "Ongoing education keeps skills relevant in evolving digital landscapes."
+}
+]
+}

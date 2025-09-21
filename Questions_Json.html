@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNILAG Postgraduate Exam Flashcards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .subject-selector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .subject-btn {
+            padding: 12px 25px;
+            background: white;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .subject-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subject-btn.active {
+            background: #ffcc00;
+            color: #1a2a6c;
+        }
+        
+        .progress-container {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .progress-bar {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #1a2a6c, #fdbb2d);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        
+        .flashcard-container {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+        
+        .flashcard {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+            cursor: pointer;
+        }
+        
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+        
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .flashcard-front {
+            background: white;
+            color: #333;
+        }
+        
+        .flashcard-back {
+            background: #1a2a6c;
+            color: white;
+            transform: rotateY(180deg);
+            overflow-y: auto;
+        }
+        
+        .question-number {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        .question-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .options {
+            display: grid;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        
+        .option {
+            padding: 12px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            border-left: 4px solid #1a2a6c;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .option:hover {
+            background: #e9e9e9;
+            transform: translateX(5px);
+        }
+        
+        .option.correct {
+            background: #4CAF50;
+            color: white;
+            border-left: 4px solid #2E7D32;
+        }
+        
+        .option.incorrect {
+            background: #F44336;
+            color: white;
+            border-left: 4px solid #C62828;
+        }
+        
+        .answer-text {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+        
+        .explanation {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .nav-btn {
+            padding: 12px 25px;
+            background: #1a2a6c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover {
+            background: #fdbb2d;
+            color: #333;
+        }
+        
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .flip-btn {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .flip-btn button {
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid #1a2a6c;
+            color: #1a2a6c;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .flip-btn button:hover {
+            background: #1a2a6c;
+            color: white;
+        }
+        
+        .selection-feedback {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            min-height: 24px;
+        }
+        
+        .correct-feedback {
+            color: #4CAF50;
+        }
+        
+        .incorrect-feedback {
+            color: #F44336;
+        }
+        
+        .shuffle-btn {
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .shuffle-btn button {
+            padding: 10px 20px;
+            background: #9C27B0;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .shuffle-btn button:hover {
+            background: #7B1FA2;
+        }
+        
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .flashcard {
+                height: 500px;
+            }
+            
+            .question-text {
+                font-size: 1.2rem;
+            }
+            
+            .answer-text {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UNILAG Postgraduate Exam Flashcards</h1>
+            <p class="subtitle">Practice questions with detailed explanations for the 2025/2026 Entrance Examination</p>
+        </header>
+        
+        <div class="subject-selector">
+            <button class="subject-btn active" data-subject="emotional-intelligence.json">Emotional Intelligence</button>
+            <button class="subject-btn" data-subject="verbal-reasoning.json">Verbal Reasoning</button>
+            <button class="subject-btn" data-subject="logical-reasoning.json">Logical Reasoning</button>
+            <button class="subject-btn" data-subject="research-aptitude.json">Research Aptitude</button>
+            <button class="subject-btn" data-subject="problem-solving.json">Problem Solving & Creativity</button>
+            <button class="subject-btn" data-subject="communication-skills.json">Communication Skills</button>
+            <button class="subject-btn" data-subject="critical-thinking.json">Critical Thinking</button>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-info">
+                <span id="progress-text">Select a subject to begin</span>
+                <span id="subject-name"></span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+        
+        <div id="loading" class="loading">Please select a subject to load questions</div>
+        
+        <div class="flashcard-container" id="flashcard-container" style="display: none;">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-front">
+                    <span class="question-number" id="question-number">Q1</span>
+                    <div class="question-text" id="question-text"></div>
+                    <div class="options" id="options"></div>
+                    <div class="selection-feedback" id="selection-feedback"></div>
+                </div>
+                <div class="flashcard-back">
+                    <div class="answer-text" id="answer-text">Answer: </div>
+                    <div class="explanation" id="explanation"></div>
+                </div>
+            </div>
+            
+            <div class="flip-btn">
+                <button id="flip-button">Click to Flip Card</button>
+            </div>
+            
+            <div class="shuffle-btn">
+                <button id="shuffle-button">Shuffle Questions</button>
+            </div>
+        </div>
+        
+        <div class="navigation" id="navigation" style="display: none;">
+            <button class="nav-btn" id="prev-btn" disabled>Previous</button>
+            <button class="nav-btn" id="next-btn">Next</button>
+        </div>
+        
+        <footer>
+            <p>University of Lagos - School of Postgraduate Studies</p>
+            <p>2025/2026 Entrance Examination Preparation Tool</p>
+        </footer>
+    </div>
+
+    <script>
+        // Global variables
+        let currentSubject = null;
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let userSelection = null;
+        
+        // DOM elements
+        const flashcardContainer = document.getElementById('flashcard-container');
+        const navigation = document.getElementById('navigation');
+        const loadingElement = document.getElementById('loading');
+        const flashcard = document.getElementById('flashcard');
+        const flipButton = document.getElementById('flip-button');
+        const prevButton = document.getElementById('prev-btn');
+        const nextButton = document.getElementById('next-btn');
+        const questionNumber = document.getElementById('question-number');
+        const questionText = document.getElementById('question-text');
+        const optionsContainer = document.getElementById('options');
+        const answerTextElement = document.getElementById('answer-text');
+        const explanationElement = document.getElementById('explanation');
+        const progressText = document.getElementById('progress-text');
+        const progressFill = document.getElementById('progress-fill');
+        const subjectNameElement = document.getElementById('subject-name');
+        const subjectButtons = document.querySelectorAll('.subject-btn');
+        const selectionFeedback = document.getElementById('selection-feedback');
+        const shuffleButton = document.getElementById('shuffle-button');
+        
+        // Add event listeners for subject buttons
+        subjectButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                subjectButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                // Get the JSON file name from data attribute
+                const jsonFile = button.getAttribute('data-subject');
+                
+                // Load questions from JSON file
+                loadQuestions(jsonFile);
+            });
+        });
+        
+        // Function to load questions from JSON file
+        function loadQuestions(jsonFile) {
+            loadingElement.textContent = "Loading questions...";
+            flashcardContainer.style.display = "none";
+            navigation.style.display = "none";
+            
+            fetch(jsonFile)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    currentSubject = data.subject;
+                    currentQuestions = data.questions;
+                    currentQuestionIndex = 0;
+                    userSelection = null;
+                    
+                    // Update UI
+                    subjectNameElement.textContent = currentSubject;
+                    loadingElement.style.display = "none";
+                    flashcardContainer.style.display = "block";
+                    navigation.style.display = "flex";
+                    
+                    // Shuffle questions
+                    shuffleQuestions();
+                    
+                    // Load first question
+                    updateQuestion();
+                })
+                .catch(error => {
+                    console.error('Error loading questions:', error);
+                    loadingElement.textContent = "Error loading questions. Please try again.";
+                });
+        }
+        
+        // Add event listeners
+        flipButton.addEventListener('click', () => {
+            if (userSelection !== null) {
+                flashcard.classList.toggle('flipped');
+            } else {
+                selectionFeedback.textContent = "Please select an answer first!";
+                selectionFeedback.className = "selection-feedback incorrect-feedback";
+            }
+        });
+        
+        prevButton.addEventListener('click', () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                userSelection = null;
+                updateQuestion();
+                flashcard.classList.remove('flipped');
+            }
+        });
+        
+        nextButton.addEventListener('click', () => {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                userSelection = null;
+                updateQuestion();
+                flashcard.classList.remove('flipped');
+            }
+        });
+        
+        // Add event listener for shuffle button
+        shuffleButton.addEventListener('click', () => {
+            shuffleQuestions();
+            currentQuestionIndex = 0;
+            userSelection = null;
+            updateQuestion();
+            flashcard.classList.remove('flipped');
+            selectionFeedback.textContent = "Questions shuffled!";
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            
+            // Clear feedback after 2 seconds
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+            }, 2000);
+        });
+        
+        function shuffleQuestions() {
+            // Fisher-Yates shuffle algorithm
+            for (let i = currentQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [currentQuestions[i], currentQuestions[j]] = 
+                [currentQuestions[j], currentQuestions[i]];
+            }
+        }
+        
+        function updateQuestion() {
+            const questionData = currentQuestions[currentQuestionIndex];
+            
+            // Update question number and text
+            questionNumber.textContent = `Q${currentQuestionIndex + 1}`;
+            questionText.textContent = questionData.question;
+            
+            // Update options
+            optionsContainer.innerHTML = '';
+            questionData.options.forEach(option => {
+                const optionElement = document.createElement('div');
+                optionElement.classList.add('option');
+                optionElement.textContent = option;
+                optionElement.setAttribute('data-value', option.charAt(0));
+                
+                // Add click event to options
+                optionElement.addEventListener('click', () => {
+                    if (userSelection === null) {
+                        // Clear previous selections
+                        document.querySelectorAll('.option').forEach(opt => {
+                            opt.classList.remove('correct', 'incorrect', 'selected');
+                        });
+                        
+                        // Mark this option as selected
+                        optionElement.classList.add('selected');
+                        userSelection = option.charAt(0);
+                        
+                        // Check if answer is correct
+                        if (userSelection === questionData.answer) {
+                            optionElement.classList.add('correct');
+                            selectionFeedback.textContent = "Correct! Well done!";
+                            selectionFeedback.className = "selection-feedback correct-feedback";
+                        } else {
+                            optionElement.classList.add('incorrect');
+                            selectionFeedback.textContent = "Incorrect. Try again or flip to see explanation.";
+                            selectionFeedback.className = "selection-feedback incorrect-feedback";
+                            
+                            // Also highlight the correct answer
+                            document.querySelectorAll('.option').forEach(opt => {
+                                if (opt.getAttribute('data-value') === questionData.answer) {
+                                    opt.classList.add('correct');
+                                }
+                            });
+                        }
+                    }
+                });
+                
+                optionsContainer.appendChild(optionElement);
+            });
+            
+            // Update answer and explanation
+            answerTextElement.textContent = `Answer: ${questionData.answer}`;
+            explanationElement.textContent = questionData.explanation;
+            
+            // Update progress
+            progressText.textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
+            progressFill.style.width = `${((currentQuestionIndex + 1) / currentQuestions.length) * 100}%`;
+            
+            // Update navigation buttons
+            prevButton.disabled = currentQuestionIndex === 0;
+            nextButton.disabled = currentQuestionIndex === currentQuestions.length - 1;
+            
+            // Reset feedback
+            selectionFeedback.textContent = "";
+            selectionFeedback.className = "selection-feedback";
+        }
+    </script>
+</body>
+</html>

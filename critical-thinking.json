@@ -1,0 +1,1105 @@
+{
+"subject": "Critical Thinking Skills",
+"questions": [
+{
+"question": "If all roses are flowers and some flowers fade quickly, what can we conclude about roses?",
+"options": [
+"A. All roses fade quickly",
+"B. Some roses fade quickly",
+"C. Roses are flowers, but nothing specific about fading",
+"D. Roses are not flowers"
+],
+"answer": "C",
+"explanation": "The premise states that all roses are flowers and some flowers fade quickly, but it does not specify that roses are among those that fade quickly, so no specific conclusion about roses fading can be drawn."
+},
+{
+"question": "Which type of reasoning moves from general principles to specific conclusions?",
+"options": [
+"A. Inductive reasoning",
+"B. Deductive reasoning",
+"C. Abductive reasoning",
+"D. Analogical reasoning"
+],
+"answer": "B",
+"explanation": "Deductive reasoning applies general rules or principles to reach specific, logical conclusions, assuming the premises are true."
+},
+{
+"question": "A student argues, “We shouldn’t listen to her because she’s not from this country.” This is an example of:",
+"options": [
+"A. Strawman fallacy",
+"B. Ad hominem fallacy",
+"C. False dilemma",
+"D. Appeal to popularity"
+],
+"answer": "B",
+"explanation": "An ad hominem fallacy attacks the person making the argument rather than addressing the argument itself, here dismissing based on origin."
+},
+{
+"question": "If it is cloudy, then it will rain. It is cloudy. What conclusion follows?",
+"options": [
+"A. It will rain",
+"B. It may not rain",
+"C. Clouds prove nothing",
+"D. The statement is invalid"
+],
+"answer": "A",
+"explanation": "This is a valid deductive syllogism (modus ponens): if the premise 'if cloudy then rain' is true, and it is cloudy, then rain follows logically."
+},
+{
+"question": "Which of the following best demonstrates critical skepticism?",
+"options": [
+"A. Accepting a claim without evidence",
+"B. Asking, “What evidence supports this claim?”",
+"C. Believing authority figures blindly",
+"D. Dismissing all research outright"
+],
+"answer": "B",
+"explanation": "Critical skepticism involves questioning claims and seeking supporting evidence rather than accepting or rejecting without basis."
+},
+{
+"question": "Which of these is an example of correlation but not causation?",
+"options": [
+"A. Exercise improves health",
+"B. Ice cream sales and drowning both increase in summer",
+"C. Smoking increases risk of cancer",
+"D. Studying improves exam performance"
+],
+"answer": "B",
+"explanation": "Ice cream sales and drownings correlate due to summer heat, but one does not cause the other; a third factor (weather) explains both."
+},
+{
+"question": "A claim is made without supporting evidence. What fallacy is likely present?",
+"options": [
+"A. Bare assertion fallacy",
+"B. Appeal to ignorance",
+"C. Circular reasoning",
+"D. Red herring"
+],
+"answer": "A",
+"explanation": "Bare assertion presents a claim as true without providing any evidence or justification, expecting acceptance on face value."
+},
+{
+"question": "Which of these skills is MOST essential in evaluating research reliability?",
+"options": [
+"A. Speed of reading",
+"B. Assessing the credibility of sources",
+"C. Memorizing author names",
+"D. Accepting majority opinion"
+],
+"answer": "B",
+"explanation": "Evaluating source credibility, including author expertise, publication quality, and methodology, is key to determining research reliability."
+},
+{
+"question": "A researcher rejects a theory without reading it because it contradicts their beliefs. This demonstrates:",
+"options": [
+"A. Cognitive dissonance",
+"B. Confirmation bias",
+"C. Strawman fallacy",
+"D. Bandwagon effect"
+],
+"answer": "B",
+"explanation": "Confirmation bias involves favoring information that aligns with preexisting beliefs and dismissing contradictory evidence."
+},
+{
+"question": "Which approach best demonstrates critical thinking in group discussions?",
+"options": [
+"A. Interrupting to prove your point",
+"B. Listening, asking clarifying questions, and weighing evidence",
+"C. Agreeing with the loudest member",
+"D. Ignoring opposing views"
+],
+"answer": "B",
+"explanation": "Critical thinking in discussions requires active listening, clarification, and balanced evaluation of evidence for informed contributions."
+},
+{
+"question": "Which reasoning form is used when predicting research outcomes based on past experiments?",
+"options": [
+"A. Deductive reasoning",
+"B. Inductive reasoning",
+"C. Analogical reasoning",
+"D. Circular reasoning"
+],
+"answer": "B",
+"explanation": "Inductive reasoning generalizes from specific past observations to predict future outcomes, common in empirical research."
+},
+{
+"question": "Which fallacy is present in the statement: “Everyone says this method works, so it must be valid”?",
+"options": [
+"A. Appeal to authority",
+"B. Appeal to popularity (bandwagon)",
+"C. False dilemma",
+"D. Slippery slope"
+],
+"answer": "B",
+"explanation": "Appeal to popularity assumes truth based on widespread belief, ignoring evidence or logic."
+},
+{
+"question": "Which of the following best explains the difference between assumption and inference?",
+"options": [
+"A. Assumption is always true, inference is false",
+"B. Assumption is taken for granted, inference is drawn from evidence",
+"C. Assumption is tested, inference is guessed",
+"D. Assumption and inference mean the same thing"
+],
+"answer": "B",
+"explanation": "An assumption is an unexamined belief taken as true, while an inference is a reasoned conclusion based on available evidence."
+},
+{
+"question": "Which factor should be prioritized in analyzing conflicting statistics?",
+"options": [
+"A. Sample size and methodology",
+"B. How interesting the results sound",
+"C. Whether the researcher is famous",
+"D. Number of pages in the report"
+],
+"answer": "A",
+"explanation": "Sample size and methodology determine the statistical power and validity, crucial for resolving conflicts in data."
+},
+{
+"question": "A manager ignores contradictory evidence to preserve a preferred decision. This illustrates:",
+"options": [
+"A. False cause",
+"B. Confirmation bias",
+"C. Red herring",
+"D. Ad hominem"
+],
+"answer": "B",
+"explanation": "Confirmation bias selectively acknowledges evidence that supports preconceived notions while disregarding opposing data."
+},
+{
+"question": "A postgraduate candidate says: “Either we adopt this research method, or the study will fail.” This is an example of:",
+"options": [
+"A. False dilemma fallacy",
+"B. Red herring",
+"C. Slippery slope",
+"D. Appeal to ignorance"
+],
+"answer": "A",
+"explanation": "False dilemma presents only two options when more exist, forcing a choice without considering alternatives."
+},
+{
+"question": "Which of the following is the final step in structured problem solving?",
+"options": [
+"A. Identifying the problem",
+"B. Evaluating solutions after implementation",
+"C. Generating alternatives",
+"D. Testing assumptions"
+],
+"answer": "B",
+"explanation": "Structured problem solving ends with assessing outcomes post-implementation to learn and refine future approaches."
+},
+{
+"question": "If A = B and B = C, then A = C. This represents:",
+"options": [
+"A. Inductive reasoning",
+"B. Transitive property of logic",
+"C. Circular reasoning",
+"D. Analogical reasoning"
+],
+"answer": "B",
+"explanation": "The transitive property allows equating A and C through their shared relation to B in logical chains."
+},
+{
+"question": "A student says: “We must ban social media because students who use it perform poorly.” What is the flaw?",
+"options": [
+"A. Confusing correlation with causation",
+"B. False analogy",
+"C. Appeal to popularity",
+"D. Strawman argument"
+],
+"answer": "A",
+"explanation": "Assuming use causes poor performance ignores other factors; correlation does not imply causation."
+},
+{
+"question": "Which fallacy is present in the claim: “You can’t prove that ghosts don’t exist, so they must exist”?",
+"options": [
+"A. Appeal to authority",
+"B. Appeal to ignorance",
+"C. Red herring",
+"D. Ad hominem"
+],
+"answer": "B",
+"explanation": "Appeal to ignorance argues a claim is true because it hasn't been proven false."
+},
+{
+"question": "Which of these actions BEST reflects critical thinking in evaluating a news article?",
+"options": [
+"A. Checking the credibility and reliability of the source",
+"B. Sharing the article immediately if it is interesting",
+"C. Assuming it is true if shared widely",
+"D. Believing the headline without reading"
+],
+"answer": "A",
+"explanation": "Critical evaluation involves verifying source reliability to ensure accuracy and avoid misinformation."
+},
+{
+"question": "Which statement best defines logical consistency?",
+"options": [
+"A. A set of statements that do not contradict one another",
+"B. A conclusion based on assumptions",
+"C. A belief held by the majority",
+"D. A set of random opinions"
+],
+"answer": "A",
+"explanation": "Logical consistency means no contradictions within the set of statements or beliefs."
+},
+{
+"question": "Which reasoning method starts with specific observations and builds general principles?",
+"options": [
+"A. Deductive reasoning",
+"B. Inductive reasoning",
+"C. Analogical reasoning",
+"D. Circular reasoning"
+],
+"answer": "B",
+"explanation": "Inductive reasoning derives general rules from particular instances or data."
+},
+{
+"question": "A researcher argues, “Since one bird can fly, all animals can fly.” This is an example of:",
+"options": [
+"A. Overgeneralization",
+"B. False dilemma",
+"C. Ad hominem",
+"D. Bandwagon fallacy"
+],
+"answer": "A",
+"explanation": "Overgeneralization extends a limited observation to an overly broad conclusion."
+},
+{
+"question": "A claim is supported by repeating it many times without evidence. This is known as:",
+"options": [
+"A. Circular reasoning",
+"B. Appeal to popularity",
+"C. Red herring",
+"D. False analogy"
+],
+"answer": "A",
+"explanation": "Circular reasoning restates the claim as support, lacking external evidence."
+},
+{
+"question": "Which of the following is the best way to test the validity of a claim?",
+"options": [
+"A. By seeking evidence through observation and data",
+"B. By relying on opinions only",
+"C. By assuming it is true if it sounds convincing",
+"D. By avoiding evidence entirely"
+],
+"answer": "A",
+"explanation": "Validity testing requires empirical evidence and logical scrutiny."
+},
+{
+"question": "A politician says, “If we allow students to protest, soon they will overthrow the government.” This is an example of:",
+"options": [
+"A. Strawman argument",
+"B. Slippery slope fallacy",
+"C. Ad hominem attack",
+"D. False cause"
+],
+"answer": "B",
+"explanation": "Slippery slope exaggerates a chain of events from a minor action to extreme outcomes without evidence."
+},
+{
+"question": "Which fallacy is present: “We should not trust his argument on finance because he failed math in high school”?",
+"options": [
+"A. Strawman fallacy",
+"B. Ad hominem fallacy",
+"C. False analogy",
+"D. Appeal to authority"
+],
+"answer": "B",
+"explanation": "Ad hominem dismisses the argument by attacking unrelated personal traits."
+},
+{
+"question": "Which action demonstrates critical reflection?",
+"options": [
+"A. Considering your own biases before making a judgment",
+"B. Believing information only if your peers agree",
+"C. Avoiding evidence that contradicts your beliefs",
+"D. Relying solely on intuition"
+],
+"answer": "A",
+"explanation": "Critical reflection involves self-awareness of biases to ensure objective judgment."
+},
+{
+"question": "A student insists that because two events happened together, one must have caused the other. This is an example of:",
+"options": [
+"A. Post hoc fallacy (false cause)",
+"B. Strawman argument",
+"C. Red herring",
+"D. Appeal to popularity"
+],
+"answer": "A",
+"explanation": "Post hoc fallacy assumes sequential events imply causation without proof."
+},
+{
+"question": "A research team only uses studies that support their hypothesis and ignores contradictory evidence. This is:",
+"options": [
+"A. Confirmation bias",
+"B. Circular reasoning",
+"C. Appeal to ignorance",
+"D. False cause"
+],
+"answer": "A",
+"explanation": "Confirmation bias selectively favors supportive data while neglecting opposing information."
+},
+{
+"question": "Which of the following questions best reflects critical inquiry?",
+"options": [
+"A. “What evidence exists to support this conclusion?”",
+"B. “How many people agree with this idea?”",
+"C. “Who is the most famous author on this?”",
+"D. “What do my friends think?”"
+],
+"answer": "A",
+"explanation": "Critical inquiry focuses on evidence backing claims for rigorous analysis."
+},
+{
+"question": "If a conclusion is based on inadequate sample size, the reasoning suffers from:",
+"options": [
+"A. Hasty generalization",
+"B. Strawman fallacy",
+"C. False analogy",
+"D. Red herring"
+],
+"answer": "A",
+"explanation": "Hasty generalization draws broad conclusions from insufficient or unrepresentative samples."
+},
+{
+"question": "Which statement demonstrates circular reasoning?",
+"options": [
+"A. “This medicine works because it cures people.”",
+"B. “We know it is safe because studies show low risk.”",
+"C. “The sun rises because the earth rotates.”",
+"D. “He is trustworthy because he is honest.”"
+],
+"answer": "D",
+"explanation": "Circular reasoning uses the conclusion to support itself, as 'trustworthy' and 'honest' are synonymous."
+},
+{
+"question": "In evaluating conflicting research, which factor matters most?",
+"options": [
+"A. Study design and methodology",
+"B. Which paper is most recent",
+"C. Author’s nationality",
+"D. Length of the article"
+],
+"answer": "A",
+"explanation": "Robust design and methodology ensure reliable, comparable results in conflicting studies."
+},
+{
+"question": "Which reasoning method is used when lawyers cite similar past cases to argue a current one?",
+"options": [
+"A. Deductive reasoning",
+"B. Analogical reasoning",
+"C. Inductive reasoning",
+"D. Circular reasoning"
+],
+"answer": "B",
+"explanation": "Analogical reasoning compares similar situations to infer consistent outcomes."
+},
+{
+"question": "A manager says: “We should buy this software because everyone else in the industry is using it.” This is:",
+"options": [
+"A. Bandwagon fallacy",
+"B. False dilemma",
+"C. Slippery slope",
+"D. Appeal to authority"
+],
+"answer": "A",
+"explanation": "Bandwagon fallacy assumes correctness based on popularity or common use."
+},
+{
+"question": "A study claims a treatment works based on only 3 patients. What is the main weakness?",
+"options": [
+"A. Too small sample size to generalize",
+"B. Use of statistics",
+"C. Inclusion of patients at all",
+"D. Use of primary data"
+],
+"answer": "A",
+"explanation": "Small samples limit generalizability due to potential unrepresentativeness or variability."
+},
+{
+"question": "Which critical thinking step comes before drawing conclusions?",
+"options": [
+"A. Gathering and evaluating evidence",
+"B. Ignoring contrary data",
+"C. Writing recommendations",
+"D. Deciding by intuition only"
+],
+"answer": "A",
+"explanation": "Evidence collection and assessment precede conclusions to ensure they are well-founded."
+},
+{
+"question": "Which fallacy is illustrated: “We have always done it this way, so it must be right”?",
+"options": [
+"A. Appeal to tradition",
+"B. Appeal to popularity",
+"C. False analogy",
+"D. Strawman argument"
+],
+"answer": "A",
+"explanation": "Appeal to tradition justifies actions based on historical practice without current evidence."
+},
+{
+"question": "Which of these is an example of an analogy?",
+"options": [
+"A. “Life is like a journey.”",
+"B. “The sun rises daily.”",
+"C. “All birds have feathers.”",
+"D. “Water boils at 100°C.”"
+],
+"answer": "A",
+"explanation": "An analogy compares two things for explanatory purposes, highlighting similarities."
+},
+{
+"question": "A student argues: “If I don’t pass this exam, my whole life is ruined.” What fallacy is this?",
+"options": [
+"A. Slippery slope",
+"B. Appeal to ignorance",
+"C. False dilemma",
+"D. Strawman"
+],
+"answer": "A",
+"explanation": "Slippery slope exaggerates consequences from a single event to catastrophic outcomes."
+},
+{
+"question": "Which of these questions is MOST useful when evaluating a source?",
+"options": [
+"A. Who wrote it and what is their expertise?",
+"B. How long is the text?",
+"C. Does it agree with my opinion?",
+"D. Was it published recently only?"
+],
+"answer": "A",
+"explanation": "Author expertise ensures the source's authority and reliability on the topic."
+},
+{
+"question": "Which reasoning style best suits solving mathematical proofs?",
+"options": [
+"A. Deductive reasoning",
+"B. Inductive reasoning",
+"C. Circular reasoning",
+"D. Analogical reasoning"
+],
+"answer": "A",
+"explanation": "Mathematical proofs use deductive logic to derive conclusions from axioms and theorems."
+},
+{
+"question": "A teacher claims: “This student is always late, so he will fail the course.” This is:",
+"options": [
+"A. Hasty generalization",
+"B. Appeal to authority",
+"C. Strawman fallacy",
+"D. Red herring"
+],
+"answer": "A",
+"explanation": "Hasty generalization bases failure prediction on limited behavior without full evidence."
+},
+{
+"question": "Which is the strongest type of evidence in research?",
+"options": [
+"A. Peer-reviewed journal articles",
+"B. Personal opinion",
+"C. Rumors",
+"D. Anecdotal stories"
+],
+"answer": "A",
+"explanation": "Peer-reviewed articles undergo rigorous scrutiny, ensuring high-quality evidence."
+},
+{
+"question": "Which of these demonstrates open-mindedness?",
+"options": [
+"A. Willingness to revise your view when evidence demands it",
+"B. Sticking to your beliefs regardless of data",
+"C. Avoiding information from opposing views",
+"D. Trusting intuition only"
+],
+"answer": "A",
+"explanation": "Open-mindedness involves adapting views based on new, compelling evidence."
+},
+{
+"question": "What is the difference between bias and fallacy?",
+"options": [
+"A. Bias is a personal tendency; fallacy is a flaw in reasoning",
+"B. Bias is always intentional; fallacy is always accidental",
+"C. Bias and fallacy are the same thing",
+"D. Bias is logical, fallacy is emotional"
+],
+"answer": "A",
+"explanation": "Bias skews perception subjectively, while fallacies are objective errors in logic."
+},
+{
+"question": "Which reasoning process is used in scientific experiments when forming a hypothesis from patterns?",
+"options": [
+"A. Inductive reasoning",
+"B. Deductive reasoning",
+"C. Circular reasoning",
+"D. False analogy"
+],
+"answer": "A",
+"explanation": "Inductive reasoning identifies patterns in data to form testable hypotheses."
+},
+{
+"question": "Which fallacy is this: “We should trust him; he is a professor”?",
+"options": [
+"A. Appeal to authority",
+"B. Strawman fallacy",
+"C. Ad hominem",
+"D. Appeal to tradition"
+],
+"answer": "A",
+"explanation": "Appeal to authority accepts claims based on status rather than evidence."
+},
+{
+"question": "A researcher says: “Either this drug cures the illness, or nothing can.” This is:",
+"options": [
+"A. False dilemma",
+"B. Circular reasoning",
+"C. Red herring",
+"D. Slippery slope"
+],
+"answer": "A",
+"explanation": "False dilemma limits options artificially when other possibilities exist."
+},
+{
+"question": "Which of the following best shows metacognition in critical thinking?",
+"options": [
+"A. Thinking about your own thinking process",
+"B. Accepting claims without reflection",
+"C. Memorizing facts quickly",
+"D. Ignoring how you arrived at answers"
+],
+"answer": "A",
+"explanation": "Metacognition involves self-monitoring and regulating one's cognitive processes."
+},
+{
+"question": "A student refuses to read a paper because it challenges his beliefs. This is an example of:",
+"options": [
+"A. Confirmation bias",
+"B. Strawman fallacy",
+"C. False dilemma",
+"D. Ad hominem"
+],
+"answer": "A",
+"explanation": "Confirmation bias avoids disconfirming information to protect existing beliefs."
+},
+{
+"question": "Which is the FIRST step in solving a critical thinking problem?",
+"options": [
+"A. Define the problem clearly",
+"B. Implement the solution",
+"C. Evaluate the outcome",
+"D. Generate alternatives"
+],
+"answer": "A",
+"explanation": "Clear problem definition sets the foundation for effective analysis and solutions."
+},
+{
+"question": "Which fallacy occurs when someone argues: “If we let one student submit late, soon everyone will want exceptions”?",
+"options": [
+"A. Slippery slope",
+"B. False cause",
+"C. Bandwagon",
+"D. Ad hominem"
+],
+"answer": "A",
+"explanation": "Slippery slope predicts unfounded escalation from a minor concession."
+},
+{
+"question": "Which of the following demonstrates objective analysis?",
+"options": [
+"A. Considering evidence without personal bias",
+"B. Only accepting data that supports your view",
+"C. Trusting intuition alone",
+"D. Avoiding critical review"
+],
+"answer": "A",
+"explanation": "Objective analysis evaluates evidence impartially, free from subjective influence."
+},
+{
+"question": "If a research method always produces consistent results, it is said to have:",
+"options": [
+"A. Reliability",
+"B. Validity",
+"C. Bias",
+"D. Fallacy"
+],
+"answer": "A",
+"explanation": "Reliability indicates repeatability of results under similar conditions."
+},
+{
+"question": "A statement is valid if:",
+"options": [
+"A. The conclusion logically follows from the premises",
+"B. It sounds convincing",
+"C. Most people believe it",
+"D. It matches personal opinions"
+],
+"answer": "A",
+"explanation": "Validity concerns logical structure, where premises entail the conclusion."
+},
+{
+"question": "A leader claims: “We cannot trust her argument because she is young.” This is:",
+"options": [
+"A. Ad hominem fallacy",
+"B. False cause",
+"C. Strawman",
+"D. Appeal to tradition"
+],
+"answer": "A",
+"explanation": "Ad hominem invalidates arguments based on irrelevant personal characteristics."
+},
+{
+"question": "Which reasoning is MOST likely used in medical diagnosis?",
+"options": [
+"A. Abductive reasoning",
+"B. Deductive reasoning",
+"C. Circular reasoning",
+"D. Analogical reasoning"
+],
+"answer": "A",
+"explanation": "Abductive reasoning infers the most likely explanation from symptoms and data."
+},
+{
+"question": "Which action BEST reduces bias in decision-making?",
+"options": [
+"A. Seeking diverse perspectives",
+"B. Relying only on intuition",
+"C. Avoiding contradictory evidence",
+"D. Following majority opinion"
+],
+"answer": "A",
+"explanation": "Diverse input counters individual biases, leading to balanced decisions."
+},
+{
+"question": "A conclusion drawn from weak evidence is known as:",
+"options": [
+"A. Hasty generalization",
+"B. Strong inference",
+"C. Deduction",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "Hasty generalization rushes to conclusions on insufficient evidence."
+},
+{
+"question": "Which of the following is an example of a strawman fallacy?",
+"options": [
+"A. Misrepresenting someone’s argument to attack it",
+"B. Attacking the character of the speaker",
+"C. Claiming something is true because it’s popular",
+"D. Oversimplifying a problem to two choices"
+],
+"answer": "A",
+"explanation": "Strawman distorts the original argument to make it easier to refute."
+},
+{
+"question": "Which type of reasoning is most used in mathematics proofs?",
+"options": [
+"A. Deductive reasoning",
+"B. Inductive reasoning",
+"C. Abductive reasoning",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "Deductive reasoning builds proofs from established truths logically."
+},
+{
+"question": "What is the main danger of groupthink?",
+"options": [
+"A. Suppression of dissenting opinions",
+"B. More creativity",
+"C. Improved decision quality",
+"D. Stronger evidence evaluation"
+],
+"answer": "A",
+"explanation": "Groupthink prioritizes consensus over critical analysis, stifling diverse views."
+},
+{
+"question": "Which of these is an example of a red herring?",
+"options": [
+"A. Distracting from the issue by raising an irrelevant point",
+"B. Attacking the character of the speaker",
+"C. Assuming popularity proves correctness",
+"D. Oversimplifying a problem to two choices"
+],
+"answer": "A",
+"explanation": "Red herring diverts attention from the main issue with unrelated information."
+},
+{
+"question": "Which element is essential for valid reasoning?",
+"options": [
+"A. Logical consistency",
+"B. Emotional appeal",
+"C. Popularity of claim",
+"D. Authority of speaker"
+],
+"answer": "A",
+"explanation": "Valid reasoning requires non-contradictory, logically sound structure."
+},
+{
+"question": "What is the role of counterexamples in critical thinking?",
+"options": [
+"A. To challenge the universality of a claim",
+"B. To prove a claim true",
+"C. To distract from arguments",
+"D. To confirm bias"
+],
+"answer": "A",
+"explanation": "Counterexamples disprove absolute claims by showing exceptions."
+},
+{
+"question": "Which fallacy is committed when arguing, “He must be correct because he speaks confidently”?",
+"options": [
+"A. Appeal to authority",
+"B. Appeal to emotion",
+"C. Appeal to style",
+"D. Ad hominem"
+],
+"answer": "B",
+"explanation": "Appeal to emotion uses confidence to persuade rather than evidence."
+},
+{
+"question": "Which of these is MOST associated with scientific reasoning?",
+"options": [
+"A. Testing hypotheses with evidence",
+"B. Accepting tradition",
+"C. Trusting intuition",
+"D. Relying on authority"
+],
+"answer": "A",
+"explanation": "Scientific reasoning empirically tests hypotheses to validate or refute them."
+},
+{
+"question": "A manager says: “We must hire him; he graduated from a top school.” This is an example of:",
+"options": [
+"A. Appeal to authority",
+"B. Bandwagon fallacy",
+"C. Circular reasoning",
+"D. False dilemma"
+],
+"answer": "A",
+"explanation": "Appeal to authority values the school's prestige over relevant qualifications."
+},
+{
+"question": "Which reasoning process draws general laws from repeated observations?",
+"options": [
+"A. Induction",
+"B. Deduction",
+"C. Abduction",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "Induction generalizes patterns from multiple specific instances."
+},
+{
+"question": "Which of these best defines a hypothesis?",
+"options": [
+"A. A testable statement based on observation",
+"B. A random guess",
+"C. A proven fact",
+"D. A fallacy"
+],
+"answer": "A",
+"explanation": "A hypothesis is a provisional, testable explanation derived from observations."
+},
+{
+"question": "Which fallacy is present: “If we don’t increase the budget, the whole project will collapse”?",
+"options": [
+"A. False dilemma",
+"B. Red herring",
+"C. Strawman",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "False dilemma presents extreme alternatives without middle ground."
+},
+{
+"question": "Which is the best way to avoid cognitive bias in research?",
+"options": [
+"A. Use blind or double-blind methods",
+"B. Rely on anecdotal evidence",
+"C. Follow tradition strictly",
+"D. Accept personal intuition"
+],
+"answer": "A",
+"explanation": "Blind methods minimize researcher and participant biases in experiments."
+},
+{
+"question": "Which of the following is an example of a false cause fallacy?",
+"options": [
+"A. Believing carrying an umbrella causes rain because they occur together",
+"B. Assuming all birds fly because one bird does",
+"C. Ignoring evidence that disproves your claim",
+"D. Quoting a famous person to support an argument"
+],
+"answer": "A",
+"explanation": "False cause attributes causation to mere coincidence or correlation."
+},
+{
+"question": "Which skill is MOST important when faced with conflicting evidence?",
+"options": [
+"A. Evaluating reliability and credibility of sources",
+"B. Choosing whichever matches your opinion",
+"C. Believing the most recent study only",
+"D. Ignoring all evidence"
+],
+"answer": "A",
+"explanation": "Assessing source quality helps reconcile or prioritize conflicting data."
+},
+{
+"question": "A student claims: “The exam was unfair because I failed.” This is:",
+"options": [
+"A. Circular reasoning",
+"B. Strawman",
+"C. Ad hominem",
+"D. Red herring"
+],
+"answer": "A",
+"explanation": "Circular reasoning uses failure to prove unfairness, restating without evidence."
+},
+{
+"question": "Which of these best describes critical thinking?",
+"options": [
+"A. Careful evaluation of evidence before forming judgment",
+"B. Accepting opinions without question",
+"C. Memorizing facts without analysis",
+"D. Following tradition blindly"
+],
+"answer": "A",
+"explanation": "Critical thinking systematically analyzes evidence for reasoned judgments."
+},
+{
+"question": "Which fallacy is in: “If you don’t support this policy, you don’t care about the country”?",
+"options": [
+"A. False dilemma",
+"B. Bandwagon",
+"C. Appeal to ignorance",
+"D. Ad hominem"
+],
+"answer": "A",
+"explanation": "False dilemma frames opposition as lack of care, ignoring nuanced positions."
+},
+{
+"question": "Which reasoning is used when inferring the best explanation from incomplete evidence?",
+"options": [
+"A. Abductive reasoning",
+"B. Deductive reasoning",
+"C. Inductive reasoning",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "Abductive reasoning selects the most plausible explanation from available data."
+},
+{
+"question": "Which of these demonstrates reflective judgment?",
+"options": [
+"A. Considering alternative explanations before deciding",
+"B. Jumping to conclusions immediately",
+"C. Avoiding information that challenges your view",
+"D. Following group opinion blindly"
+],
+"answer": "A",
+"explanation": "Reflective judgment weighs multiple perspectives for informed decisions."
+},
+{
+"question": "A researcher assumes a drug works because a small sample improved. This is:",
+"options": [
+"A. Hasty generalization",
+"B. Red herring",
+"C. False analogy",
+"D. Strawman"
+],
+"answer": "A",
+"explanation": "Hasty generalization extrapolates from limited data to broad claims."
+},
+{
+"question": "Which fallacy is present: “If we let students use calculators, soon they won’t learn math at all”?",
+"options": [
+"A. Slippery slope",
+"B. False cause",
+"C. Bandwagon",
+"D. Ad hominem"
+],
+"answer": "A",
+"explanation": "Slippery slope assumes minor changes lead to extreme negative results."
+},
+{
+"question": "Which is the best definition of validity in logic?",
+"options": [
+"A. The conclusion follows logically from the premises",
+"B. The conclusion is true no matter what",
+"C. The argument is persuasive to many people",
+"D. The reasoning is traditional"
+],
+"answer": "A",
+"explanation": "Logical validity means the argument's structure guarantees the conclusion if premises are true."
+},
+{
+"question": "Which action shows intellectual humility?",
+"options": [
+"A. Admitting when you might be wrong",
+"B. Refusing to change opinions",
+"C. Ignoring feedback",
+"D. Believing you are always right"
+],
+"answer": "A",
+"explanation": "Intellectual humility acknowledges limits in knowledge and openness to correction."
+},
+{
+"question": "Which of these is a strong critical thinking question?",
+"options": [
+"A. “What assumptions underlie this claim?”",
+"B. “Do I agree with this claim?”",
+"C. “How many people like this idea?”",
+"D. “Who is most popular in this field?”"
+],
+"answer": "A",
+"explanation": "Questioning assumptions uncovers hidden premises in arguments."
+},
+{
+"question": "Which fallacy is present: “You can’t prove climate change is real, so it must be false”?",
+"options": [
+"A. Appeal to ignorance",
+"B. Strawman",
+"C. False cause",
+"D. Appeal to tradition"
+],
+"answer": "A",
+"explanation": "Appeal to ignorance uses lack of disproof as evidence of falsity."
+},
+{
+"question": "Which of these is the best strategy to reduce confirmation bias?",
+"options": [
+"A. Seek out opposing evidence",
+"B. Only consider sources you agree with",
+"C. Avoid all new information",
+"D. Believe the majority opinion"
+],
+"answer": "A",
+"explanation": "Actively seeking disconfirming evidence counters selective perception."
+},
+{
+"question": "Which reasoning method is MOST linked to forming scientific theories?",
+"options": [
+"A. Inductive reasoning",
+"B. Deductive reasoning",
+"C. Circular reasoning",
+"D. False analogy"
+],
+"answer": "A",
+"explanation": "Scientific theories often emerge from inductive generalization of empirical data."
+},
+{
+"question": "Which fallacy is present: “Our ancestors did this, so it must be the right way”?",
+"options": [
+"A. Appeal to tradition",
+"B. Appeal to popularity",
+"C. Strawman",
+"D. False dilemma"
+],
+"answer": "A",
+"explanation": "Appeal to tradition resists change by valuing past practices inherently."
+},
+{
+"question": "A student argues: “My professor said it, so it must be true.” This is:",
+"options": [
+"A. Appeal to authority",
+"B. Circular reasoning",
+"C. Ad hominem",
+"D. Strawman"
+],
+"answer": "A",
+"explanation": "Appeal to authority uncritically accepts claims based on the speaker's position."
+},
+{
+"question": "Which step in problem solving comes AFTER identifying the problem?",
+"options": [
+"A. Generating possible solutions",
+"B. Evaluating the outcome",
+"C. Implementing decisions",
+"D. Writing a conclusion"
+],
+"answer": "A",
+"explanation": "After defining the problem, brainstorming solutions follows logically."
+},
+{
+"question": "Which of the following is the best example of a testable claim?",
+"options": [
+"A. “Eating more vegetables reduces cholesterol.”",
+"B. “Ghosts influence human behavior.”",
+"C. “Luck determines exam success.”",
+"D. “Dreams predict the future.”"
+],
+"answer": "A",
+"explanation": "Testable claims can be empirically verified or falsified through observation or experiment."
+},
+{
+"question": "Which fallacy is shown: “If we don’t pass this bill, the economy will collapse”?",
+"options": [
+"A. False dilemma",
+"B. Slippery slope",
+"C. Red herring",
+"D. Strawman"
+],
+"answer": "A",
+"explanation": "False dilemma exaggerates outcomes to force acceptance without alternatives."
+},
+{
+"question": "What is the best indicator of strong reasoning?",
+"options": [
+"A. Use of evidence and logic",
+"B. Use of emotional persuasion",
+"C. Agreement with tradition",
+"D. Popular acceptance"
+],
+"answer": "A",
+"explanation": "Strong reasoning relies on sound logic supported by robust evidence."
+},
+{
+"question": "Which of these is an example of an analogy used in reasoning?",
+"options": [
+"A. “A cell is like a factory.”",
+"B. “Water boils at 100°C.”",
+"C. “All triangles have three sides.”",
+"D. “The Earth rotates daily.”"
+],
+"answer": "A",
+"explanation": "Analogies draw parallels between concepts to illustrate or explain ideas."
+},
+{
+"question": "Which fallacy is: “He cannot be a good leader because he dresses poorly”?",
+"options": [
+"A. Ad hominem",
+"B. Strawman",
+"C. Appeal to ignorance",
+"D. False dilemma"
+],
+"answer": "A",
+"explanation": "Ad hominem critiques irrelevant personal attributes instead of leadership qualities."
+},
+{
+"question": "Which of these is MOST important for critical evaluation of an argument?",
+"options": [
+"A. The strength of evidence",
+"B. The popularity of the idea",
+"C. The authority of the speaker",
+"D. The emotional appeal"
+],
+"answer": "A",
+"explanation": "Evidence strength determines the argument's substantiation and reliability."
+},
+{
+"question": "Which reasoning method applies general principles to predict specific outcomes?",
+"options": [
+"A. Deductive reasoning",
+"B. Inductive reasoning",
+"C. Abductive reasoning",
+"D. Circular reasoning"
+],
+"answer": "A",
+"explanation": "Deductive reasoning uses general premises to derive specific predictions."
+}
+]
+}

@@ -1,0 +1,1457 @@
+{
+"subject": "Emotional Intelligence",
+"questions": [
+{
+"question": "Which of the following best describes emotional intelligence?",
+"options": [
+"A. The ability to solve mathematical problems quickly",
+"B. The ability to recognise and manage one’s own emotions and those of others",
+"C. The ability to memorise large amounts of information",
+"D. The ability to work long hours without rest"
+],
+"answer": "B",
+"explanation": "Emotional intelligence involves perceiving, understanding, and managing emotions in oneself and others, which is essential for interpersonal relationships and self-regulation."
+},
+{
+"question": "Which skill is most closely linked to emotional intelligence?",
+"options": [
+"A. Empathy",
+"B. Speed reading",
+"C. Technical writing",
+"D. Data entry"
+],
+"answer": "A",
+"explanation": "Empathy, the ability to understand and share the feelings of others, is a core component of emotional intelligence, enabling better social interactions and relationships."
+},
+{
+"question": "When you notice a colleague is upset and you ask how you can help, you are demonstrating:",
+"options": [
+"A. Assertiveness",
+"B. Empathy",
+"C. Defensiveness",
+"D. Criticism"
+],
+"answer": "B",
+"explanation": "Asking how to help an upset colleague shows empathy by recognizing their emotional state and offering support."
+},
+{
+"question": "Which of the following is an example of self-regulation?",
+"options": [
+"A. Interrupting a meeting to express anger",
+"B. Pausing to breathe deeply before responding to criticism",
+"C. Avoiding feedback completely",
+"D. Speaking without thinking"
+],
+"answer": "B",
+"explanation": "Self-regulation involves controlling impulses; pausing to breathe helps manage emotional responses effectively."
+},
+{
+"question": "Which is an example of social awareness?",
+"options": [
+"A. Knowing how your team is feeling during a stressful project",
+"B. Focusing only on your own tasks",
+"C. Ignoring body language",
+"D. Sending mass emails to everyone"
+],
+"answer": "A",
+"explanation": "Social awareness means recognizing others' emotions, such as sensing team stress during projects."
+},
+{
+"question": "Which of these best reflects self-motivation?",
+"options": [
+"A. Waiting for others to encourage you before acting",
+"B. Continuing to work toward a goal despite setbacks",
+"C. Giving up when faced with obstacles",
+"D. Depending entirely on external rewards"
+],
+"answer": "B",
+"explanation": "Self-motivation is driven by internal determination, persisting through challenges without external prompts."
+},
+{
+"question": "Which behaviour demonstrates emotional self-awareness?",
+"options": [
+"A. Recognising you are stressed before a presentation",
+"B. Assuming others are always wrong",
+"C. Ignoring your own feelings",
+"D. Acting without reflection"
+],
+"answer": "A",
+"explanation": "Self-awareness involves identifying one's own emotions, like recognizing stress before presenting."
+},
+{
+"question": "Which of the following is most likely to improve team relationships?",
+"options": [
+"A. Active listening",
+"B. Criticising publicly",
+"C. Avoiding communication",
+"D. Withholding praise"
+],
+"answer": "A",
+"explanation": "Active listening fosters understanding and trust, enhancing team dynamics and relationships."
+},
+{
+"question": "In a conflict situation, a high-EQ person is more likely to:",
+"options": [
+"A. Escalate the argument",
+"B. Listen and try to understand the other person’s view",
+"C. Ignore everyone involved",
+"D. Leave immediately without explanation"
+],
+"answer": "B",
+"explanation": "High EQ involves empathy and communication, listening to understand perspectives in conflicts."
+},
+{
+"question": "Which of these best defines empathy?",
+"options": [
+"A. Feeling sorry for someone",
+"B. Understanding and sharing another’s feelings",
+"C. Avoiding emotional situations",
+"D. Ignoring other people’s concerns"
+],
+"answer": "B",
+"explanation": "Empathy is about comprehending and relating to others' emotions, beyond mere pity."
+},
+{
+"question": "Which response best shows relationship management skills?",
+"options": [
+"A. Telling a colleague they are wrong in front of others",
+"B. Providing constructive feedback privately",
+"C. Avoiding feedback entirely",
+"D. Talking over others in meetings"
+],
+"answer": "B",
+"explanation": "Relationship management includes giving feedback in a way that preserves dignity and encourages growth."
+},
+{
+"question": "Which of these is a sign of low emotional intelligence?",
+"options": [
+"A. Remaining calm under pressure",
+"B. Blaming others for your mistakes",
+"C. Accepting feedback gracefully",
+"D. Considering how others might feel"
+],
+"answer": "B",
+"explanation": "Blaming others indicates a lack of self-awareness and accountability, key to low EQ."
+},
+{
+"question": "Which practice most helps you become more self-aware?",
+"options": [
+"A. Reflecting on your reactions after challenging situations",
+"B. Ignoring your emotions",
+"C. Reacting immediately to criticism",
+"D. Avoiding feedback from others"
+],
+"answer": "A",
+"explanation": "Reflection on reactions promotes insight into one's emotional patterns and triggers."
+},
+{
+"question": "Which is the best example of emotional resilience?",
+"options": [
+"A. Taking constructive criticism personally",
+"B. Giving up after one failure",
+"C. Bouncing back from setbacks and continuing to improve",
+"D. Avoiding all challenging situations"
+],
+"answer": "C",
+"explanation": "Resilience is the ability to recover from adversity and persist toward goals."
+},
+{
+"question": "When you adapt your communication style to suit your audience, you are demonstrating:",
+"options": [
+"A. Rigidity",
+"B. Emotional adaptability",
+"C. Indifference",
+"D. Carelessness"
+],
+"answer": "B",
+"explanation": "Adapting communication shows flexibility in emotional expression to meet others' needs."
+},
+{
+"question": "Which of the following demonstrates active listening?",
+"options": [
+"A. Thinking about your reply while the person is still speaking",
+"B. Maintaining eye contact and summarising what the person said",
+"C. Interrupting to share your own story",
+"D. Checking your phone during the conversation"
+],
+"answer": "B",
+"explanation": "Active listening involves full attention, eye contact, and paraphrasing to confirm understanding."
+},
+{
+"question": "When giving feedback, a person with high emotional intelligence will:",
+"options": [
+"A. Criticise harshly to ensure improvement",
+"B. Deliver feedback constructively and respectfully",
+"C. Avoid mentioning issues to prevent conflict",
+"D. Use sarcasm to make a point"
+],
+"answer": "B",
+"explanation": "High EQ feedback is positive, specific, and aimed at growth without damaging relationships."
+},
+{
+"question": "Which of these is an example of managing stress effectively?",
+"options": [
+"A. Ignoring signs of burnout",
+"B. Practising relaxation techniques regularly",
+"C. Working without breaks",
+"D. Denying you are under pressure"
+],
+"answer": "B",
+"explanation": "Relaxation techniques like breathing or meditation help reduce stress levels proactively."
+},
+{
+"question": "A colleague receives an award you hoped to get. A high-EQ response would be to:",
+"options": [
+"A. Congratulate them sincerely",
+"B. Make a sarcastic comment",
+"C. Withdraw from the team",
+"D. Complain to your supervisor"
+],
+"answer": "A",
+"explanation": "Sincere congratulations show self-regulation and positive relationship management."
+},
+{
+"question": "Which of these best demonstrates adaptability?",
+"options": [
+"A. Refusing to change your approach",
+"B. Adjusting your strategy when circumstances change",
+"C. Sticking rigidly to the same plan",
+"D. Rejecting new ideas automatically"
+],
+"answer": "B",
+"explanation": "Adaptability involves flexibility in response to changing conditions for better outcomes."
+},
+{
+"question": "When two teammates are arguing, an emotionally intelligent manager would first:",
+"options": [
+"A. Listen to each side impartially",
+"B. Choose a favourite and support them",
+"C. Avoid involvement completely",
+"D. Issue a punishment immediately"
+],
+"answer": "A",
+"explanation": "Impartial listening promotes fair resolution and demonstrates empathy and management skills."
+},
+{
+"question": "Which practice helps develop emotional self-control?",
+"options": [
+"A. Counting to ten before responding to provocation",
+"B. Speaking impulsively",
+"C. Avoiding all stressful situations",
+"D. Ignoring your emotions"
+],
+"answer": "A",
+"explanation": "Counting to ten allows time to manage impulses and respond thoughtfully."
+},
+{
+"question": "In a negotiation, a high-EQ individual is more likely to:",
+"options": [
+"A. Focus only on winning",
+"B. Consider the other party’s interests and seek a win–win",
+"C. Refuse to compromise under any circumstances",
+"D. Use aggressive tactics"
+],
+"answer": "B",
+"explanation": "Considering others' interests fosters collaborative, mutually beneficial outcomes."
+},
+{
+"question": "Which of these best reflects recognising others’ emotions?",
+"options": [
+"A. Noticing a colleague’s body language and adjusting your approach",
+"B. Ignoring facial expressions",
+"C. Assuming everyone feels the same way",
+"D. Talking without observing"
+],
+"answer": "A",
+"explanation": "Observing body language and adjusting shows social awareness and empathy."
+},
+{
+"question": "Which behaviour shows low empathy?",
+"options": [
+"A. Trying to understand a friend’s frustration",
+"B. Laughing at someone’s misfortune",
+"C. Offering to help someone under stress",
+"D. Listening attentively to a colleague’s concerns"
+],
+"answer": "B",
+"explanation": "Laughing at misfortune dismisses others' feelings, indicating a lack of empathy."
+},
+{
+"question": "An emotionally intelligent leader gives praise:",
+"options": [
+"A. Only in private",
+"B. In an appropriate way that suits the individual and situation",
+"C. Only when forced",
+"D. Never, to avoid favouritism"
+],
+"answer": "B",
+"explanation": "Tailored praise enhances motivation and relationships, suited to context."
+},
+{
+"question": "Which of these is a sign of high self-motivation?",
+"options": [
+"A. Waiting to be told what to do",
+"B. Continuing to pursue a goal despite setbacks",
+"C. Giving up after the first obstacle",
+"D. Relying on others to push you"
+],
+"answer": "B",
+"explanation": "High self-motivation involves persistence in the face of challenges, driven internally."
+},
+{
+"question": "Which of these best demonstrates social skill?",
+"options": [
+"A. Building networks and maintaining positive relationships",
+"B. Talking only when asked",
+"C. Avoiding group activities",
+"D. Withholding support from colleagues"
+],
+"answer": "A",
+"explanation": "Social skills include networking and fostering positive interactions with others."
+},
+{
+"question": "In a heated meeting, a high-EQ person would most likely:",
+"options": [
+"A. Raise their voice to be heard",
+"B. Take a deep breath and respond calmly",
+"C. Leave abruptly without explanation",
+"D. Insult others to gain control"
+],
+"answer": "B",
+"explanation": "Calm responses in heated situations demonstrate self-regulation and composure."
+},
+{
+"question": "Which is an example of constructive conflict resolution?",
+"options": [
+"A. Encouraging open discussion to find a mutually acceptable solution",
+"B. Ignoring the issue until it disappears",
+"C. Taking sides publicly",
+"D. Using threats to end the disagreement"
+],
+"answer": "A",
+"explanation": "Constructive resolution encourages dialogue for fair, agreed-upon solutions."
+},
+{
+"question": "Which of these most clearly shows self-awareness at work?",
+"options": [
+"A. Recognising you become impatient in long meetings and planning breaks",
+"B. Blaming others for your mistakes",
+"C. Speaking without thinking",
+"D. Ignoring your feelings"
+],
+"answer": "A",
+"explanation": "Identifying personal patterns like impatience and planning accordingly shows self-awareness."
+},
+{
+"question": "Which behaviour reflects low emotional intelligence?",
+"options": [
+"A. Considering the impact of your words before speaking",
+"B. Being defensive whenever feedback is given",
+"C. Remaining calm in a crisis",
+"D. Showing empathy to colleagues"
+],
+"answer": "B",
+"explanation": "Defensiveness to feedback indicates poor self-regulation and awareness."
+},
+{
+"question": "A high-EQ employee who receives constructive criticism would most likely:",
+"options": [
+"A. React angrily",
+"B. Ignore the feedback completely",
+"C. Thank the person and consider how to improve",
+"D. Complain to others about it"
+],
+"answer": "C",
+"explanation": "Grateful acceptance and reflection on feedback show resilience and growth mindset."
+},
+{
+"question": "Which of the following best demonstrates emotional adaptability?",
+"options": [
+"A. Changing your communication style for different audiences",
+"B. Refusing to alter your style under any circumstances",
+"C. Using the same tone with everyone",
+"D. Avoiding communication to prevent conflict"
+],
+"answer": "A",
+"explanation": "Adapting style to audiences demonstrates flexibility in emotional expression."
+},
+{
+"question": "When you encourage a shy team member to share ideas in a supportive way, you are showing:",
+"options": [
+"A. Lack of confidence",
+"B. Relationship management",
+"C. Impatience",
+"D. Indifference"
+],
+"answer": "B",
+"explanation": "Encouraging participation builds inclusive relationships and team cohesion."
+},
+{
+"question": "Which practice best helps build empathy?",
+"options": [
+"A. Making assumptions about others",
+"B. Actively listening to understand another person’s perspective",
+"C. Interrupting to share your story",
+"D. Ignoring emotions in the workplace"
+],
+"answer": "B",
+"explanation": "Active listening fosters understanding of others' viewpoints and emotions."
+},
+{
+"question": "Which behaviour shows emotional self-control in a stressful situation?",
+"options": [
+"A. Raising your voice to dominate",
+"B. Taking a moment to breathe before responding",
+"C. Blaming someone else for the problem",
+"D. Slamming the door and walking out"
+],
+"answer": "B",
+"explanation": "Breathing to compose oneself prevents impulsive reactions in stress."
+},
+{
+"question": "Which of these is an example of social awareness?",
+"options": [
+"A. Noticing your team’s mood during a busy period",
+"B. Focusing only on your personal deadlines",
+"C. Avoiding all interaction",
+"D. Sending messages without reading replies"
+],
+"answer": "A",
+"explanation": "Noticing team mood reflects sensitivity to group emotions."
+},
+{
+"question": "A high-EQ manager dealing with a mistake by a team member would most likely:",
+"options": [
+"A. Publicly embarrass them",
+"B. Provide private, constructive feedback",
+"C. Ignore the issue",
+"D. Shout at them immediately"
+],
+"answer": "B",
+"explanation": "Private feedback maintains respect and encourages learning without humiliation."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving conflicts constructively",
+"B. Avoiding contact with others",
+"C. Talking over people in meetings",
+"D. Criticising colleagues without reason"
+],
+"answer": "A",
+"explanation": "Building trust and resolving conflicts strengthens interpersonal bonds."
+},
+{
+"question": "Which response shows self-motivation?",
+"options": [
+"A. Waiting for others to set goals for you",
+"B. Taking initiative to complete tasks without being asked",
+"C. Giving up when no one notices your work",
+"D. Relying on rewards alone to work"
+],
+"answer": "B",
+"explanation": "Taking initiative demonstrates internal drive to achieve without external cues."
+},
+{
+"question": "When someone expresses frustration, a high-EQ person is most likely to:",
+"options": [
+"A. Listen and acknowledge their feelings",
+"B. Dismiss their concerns",
+"C. Tell them to “calm down” without listening",
+"D. Change the subject immediately"
+],
+"answer": "A",
+"explanation": "Acknowledging feelings validates emotions and builds rapport."
+},
+{
+"question": "Which of these is a sign of emotional resilience?",
+"options": [
+"A. Becoming discouraged after one setback",
+"B. Bouncing back quickly from difficulties",
+"C. Avoiding challenging tasks",
+"D. Taking criticism personally and quitting"
+],
+"answer": "B",
+"explanation": "Quick recovery from difficulties is a hallmark of resilience."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Assertiveness involves clear, respectful expression of needs without aggression."
+},
+{
+"question": "In a high-stress project, a leader with emotional intelligence would most likely:",
+"options": [
+"A. Provide support and encouragement to maintain team morale",
+"B. Ignore team concerns and focus only on deadlines",
+"C. Criticise mistakes publicly",
+"D. Withdraw from the team to avoid stress"
+],
+"answer": "A",
+"explanation": "Supporting the team maintains morale and productivity under stress."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "Taking a walk allows time to regulate emotions and respond appropriately."
+},
+{
+"question": "A high-EQ team member notices a colleague struggling quietly with a task. What is the most appropriate action?",
+"options": [
+"A. Offer discreet support or ask if help is needed",
+"B. Wait for them to ask",
+"C. Tell others about their difficulty",
+"D. Ignore the situation"
+],
+"answer": "A",
+"explanation": "Offering discreet help shows empathy and social awareness without embarrassing the colleague."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Interrupting without notice ignores social cues, indicating low awareness."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "Constructive feedback is specific, helpful, and focused on improvement."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjusting to new requirements shows flexibility in emotional and behavioral responses."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Listening and validating shows understanding and sharing of emotions."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Active listening ensures fair understanding before resolution."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsive reactions indicate poor control over emotions."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflecting on triggers enhances understanding of personal emotions."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private inquiry shows sensitivity and empathy."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Constructive resolution and trust-building maintain healthy relationships."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning from setbacks demonstrates the ability to recover and grow."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Clear, respectful expression balances self-advocacy with respect for others."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "A short walk helps regulate emotions before acting."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Interrupting without notice ignores social dynamics."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "This feedback is specific and offers a path to improvement."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjusting to changes shows emotional flexibility."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Validation acknowledges and respects others' feelings."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Active listening is key to fair conflict resolution."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsive reactions indicate poor emotional control."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflection identifies emotional patterns."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private support respects privacy and shows empathy."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Constructive resolution maintains strong relationships."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning from setbacks builds strength."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Clear expression balances rights and respect."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "Calming activities aid emotional regulation."
+},
+{
+"question": "A high-EQ team member notices a colleague struggling quietly with a task. What is the most appropriate action?",
+"options": [
+"A. Offer discreet support or ask if help is needed",
+"B. Wait for them to ask",
+"C. Tell others about their difficulty",
+"D. Ignore the situation"
+],
+"answer": "A",
+"explanation": "Discreet offer shows empathy without intrusion."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Unnoticed interruptions ignore social norms."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "It provides guidance for improvement."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjustment to changes reflects adaptability."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Validation builds emotional connection."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Listening promotes understanding and resolution."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsivity shows lack of control."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflection enhances emotional insight."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private support is empathetic and respectful."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Trust and resolution strengthen bonds."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning from setbacks fosters growth."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Clear expression is assertive."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "Calming techniques aid regulation."
+},
+{
+"question": "A high-EQ team member notices a colleague struggling quietly with a task. What is the most appropriate action?",
+"options": [
+"A. Offer discreet support or ask if help is needed",
+"B. Wait for them to ask",
+"C. Tell others about their difficulty",
+"D. Ignore the situation"
+],
+"answer": "A",
+"explanation": "Discreet help is empathetic."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Interrupting shows lack of awareness."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "It offers improvement suggestions."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjustment to requirements is adaptable."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Validation is empathetic."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Listening aids resolution."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsivity is poor regulation."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflection builds awareness."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private support is sensitive."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Trust and resolution manage relationships."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning from setbacks is resilient."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Clear, respectful expression is assertive."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "Walking calms emotions."
+},
+{
+"question": "A high-EQ team member notices a colleague struggling quietly with a task. What is the most appropriate action?",
+"options": [
+"A. Offer discreet support or ask if help is needed",
+"B. Wait for them to ask",
+"C. Tell others about their difficulty",
+"D. Ignore the situation"
+],
+"answer": "A",
+"explanation": "Discreet support is appropriate."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Interrupting is low awareness."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "It guides improvement."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjustment is adaptable."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Validation shows empathy."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Listening is key."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsivity is poor regulation."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflection develops awareness."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private offer is empathetic."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Trust builds management."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning is resilient."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Clear expression is assertive."
+},
+{
+"question": "Which of these is the best example of managing your own emotions?",
+"options": [
+"A. Venting frustration on social media",
+"B. Taking a short walk to calm down before responding",
+"C. Shouting at a colleague immediately",
+"D. Ignoring your feelings completely"
+],
+"answer": "B",
+"explanation": "Walk manages emotions."
+},
+{
+"question": "A high-EQ team member notices a colleague struggling quietly with a task. What is the most appropriate action?",
+"options": [
+"A. Offer discreet support or ask if help is needed",
+"B. Wait for them to ask",
+"C. Tell others about their difficulty",
+"D. Ignore the situation"
+],
+"answer": "A",
+"explanation": "Discreet support is appropriate."
+},
+{
+"question": "Which behaviour shows low social awareness?",
+"options": [
+"A. Interrupting others without noticing",
+"B. Observing how your words affect others",
+"C. Adapting your tone to suit the situation",
+"D. Showing respect for cultural differences"
+],
+"answer": "A",
+"explanation": "Interrupting is low awareness."
+},
+{
+"question": "Which is an example of constructive feedback?",
+"options": [
+"A. “You’re always careless!”",
+"B. “You made an error here; let’s review how to improve it.”",
+"C. “You’re hopeless at this task.”",
+"D. “I’ll fix it myself; you’re no good.”"
+],
+"answer": "B",
+"explanation": "It is constructive."
+},
+{
+"question": "Which of the following demonstrates emotional adaptability?",
+"options": [
+"A. Adjusting your approach when a project’s requirements change",
+"B. Refusing to alter your plan",
+"C. Using the same method no matter what",
+"D. Avoiding all change"
+],
+"answer": "A",
+"explanation": "Adjustment demonstrates adaptability."
+},
+{
+"question": "Which behaviour shows high empathy?",
+"options": [
+"A. Rolling your eyes when someone complains",
+"B. Listening and validating the person’s experience",
+"C. Interrupting with your own story",
+"D. Ignoring subtle cues in conversation"
+],
+"answer": "B",
+"explanation": "Listening shows empathy."
+},
+{
+"question": "In a conflict, a high-EQ person would first:",
+"options": [
+"A. Listen actively to understand both sides",
+"B. Take sides immediately",
+"C. Avoid all involvement",
+"D. Accuse someone without facts"
+],
+"answer": "A",
+"explanation": "Listening is high EQ."
+},
+{
+"question": "Which of these is a sign of poor self-regulation?",
+"options": [
+"A. Pausing before responding",
+"B. Reacting impulsively to minor issues",
+"C. Breathing deeply to stay calm",
+"D. Considering the consequences of your actions"
+],
+"answer": "B",
+"explanation": "Impulsive is poor regulation."
+},
+{
+"question": "Which practice best helps develop emotional self-awareness?",
+"options": [
+"A. Reflecting on your emotional triggers after situations",
+"B. Suppressing emotions completely",
+"C. Reacting instantly to criticism",
+"D. Avoiding self-reflection"
+],
+"answer": "A",
+"explanation": "Reflection helps development."
+},
+{
+"question": "A manager with emotional intelligence who sees a team member upset will:",
+"options": [
+"A. Ask privately if they’re okay and offer support",
+"B. Ignore the behaviour",
+"C. Announce it publicly to the group",
+"D. Make a joke about it"
+],
+"answer": "A",
+"explanation": "Private ask is intelligent."
+},
+{
+"question": "Which of these behaviours shows relationship management?",
+"options": [
+"A. Building trust and resolving disagreements constructively",
+"B. Avoiding all collaboration",
+"C. Dominating conversations",
+"D. Withholding information"
+],
+"answer": "A",
+"explanation": "Building trust manages relationships."
+},
+{
+"question": "Which behaviour reflects emotional resilience?",
+"options": [
+"A. Giving up after one failure",
+"B. Learning from setbacks and continuing to improve",
+"C. Blaming others for mistakes",
+"D. Avoiding any challenge"
+],
+"answer": "B",
+"explanation": "Learning reflects resilience."
+},
+{
+"question": "Which behaviour demonstrates assertive communication?",
+"options": [
+"A. Expressing your needs clearly and respectfully",
+"B. Remaining silent about your needs",
+"C. Yelling to get your way",
+"D. Being passive-aggressive"
+],
+"answer": "A",
+"explanation": "Expressing is assertive."
+},
+{
+"question": "Which of these is a sign of low empathy?",
+"options": [
+"A. Listening attentively to a colleague’s worries",
+"B. Making fun of someone’s difficulties",
+"C. Offering support to a stressed friend",
+"D. Trying to understand another’s viewpoint"
+],
+"answer": "B",
+"explanation": "Making fun is low empathy."
+},
+{
+"question": "Which practice builds emotional resilience?",
+"options": [
+"A. Reflecting on challenges and identifying lessons learned",
+"B. Avoiding challenging situations",
+"C. Pretending failures never happened",
+"D. Refusing feedback from others"
+],
+"answer": "A",
+"explanation": "Reflection builds resilience."
+},
+{
+"question": "In a conflict situation, a high-EQ manager is most likely to:",
+"options": [
+"A. Encourage both sides to express their views calmly",
+"B. Take one side immediately",
+"C. Use threats to stop the disagreement",
+"D. Avoid addressing the conflict"
+],
+"answer": "A",
+"explanation": "Encouraging expression is high EQ."
+},
+{
+"question": "Which of these is a sign of low empathy?",
+"options": [
+"A. Listening to a colleague’s concern",
+"B. Making jokes about someone’s difficulties",
+"C. Offering to help a friend in stress",
+"D. Trying to understand another’s worries"
+],
+"answer": "B",
+"explanation": "Jokes about difficulties show low empathy."
+},
+{
+"question": "Which practice builds emotional resilience?",
+"options": [
+"A. Reframing setbacks as learning opportunities",
+"B. Avoiding challenging work",
+"C. Pretending mistakes didn’t happen",
+"D. Rejecting all feedback"
+],
+"answer": "A",
+"explanation": "Reframing builds resilience."
+},
+{
+"question": "When someone is visibly upset, a high-EQ person should first:",
+"options": [
+"A. Ask privately if they’re okay and listen",
+"B. Criticise them for being emotional",
+"C. Pretend not to notice",
+"D. Announce it to the group"
+],
+"answer": "A",
+"explanation": "Private listening is high EQ."
+},
+{
+"question": "Which of these best reflects relationship management?",
+"options": [
+"A. Resolving disagreements constructively and maintaining trust",
+"B. Withdrawing from all team activities",
+"C. Criticising others without reason",
+"D. Avoiding contact with colleagues"
+],
+"answer": "A",
+"explanation": "Constructive resolution manages relationships."
+},
+{
+"question": "Which behaviour demonstrates emotional self-control?",
+"options": [
+"A. Pausing before responding to provocation",
+"B. Reacting instantly with anger",
+"C. Ignoring the impact of your words",
+"D. Shouting to gain attention"
+],
+"answer": "A",
+"explanation": "Pausing demonstrates control."
+},
+{
+"question": "Which is an example of emotional adaptability?",
+"options": [
+"A. Changing your presentation style for a different audience",
+"B. Refusing to adjust to new circumstances",
+"C. Using the same approach no matter what",
+"D. Avoiding any new challenges"
+],
+"answer": "A",
+"explanation": "Changing style is adaptable."
+},
+{
+"question": "When facing a difficult conversation, an emotionally intelligent person would:",
+"options": [
+"A. Plan the discussion, stay calm, and listen actively",
+"B. Speak impulsively without preparation",
+"C. Avoid the conversation altogether",
+"D. Dominate the conversation and not listen"
+],
+"answer": "A",
+"explanation": "Planning and listening are intelligent approaches to difficult conversations."
+}
+]
+}

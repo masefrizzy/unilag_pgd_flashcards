@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNILAG Postgraduate Exam Flashcards</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            --text-color: #333;
+            --card-bg: white;
+            --option-bg: #f5f5f5;
+            --header-bg: rgba(0, 0, 0, 0.3);
+            --footer-text: white;
+        }
+        body.dark-mode {
+            --bg-gradient: linear-gradient(135deg, #0a1033, #5e0f0f, #7c5b0e);
+            --text-color: #e0e0e0;
+            --card-bg: #1e1e1e;
+            --option-bg: #2a2a2a;
+            --header-bg: rgba(255, 255, 255, 0.1);
+            --footer-text: #ccc;
+        }
+        body {
+            background: var(--bg-gradient);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding: 20px;
+            transition: background 0.3s ease;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--footer-text);
+            padding: 20px;
+            background: var(--header-bg);
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .control-btn, .control-select {
+            padding: 10px 20px;
+            background: #1a2a6c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .control-btn:hover, .control-btn:focus,
+        .control-select:hover, .control-select:focus {
+            background: #fdbb2d;
+            color: #333;
+        }
+        .subject-selector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .subject-btn {
+            padding: 12px 25px;
+            background: var(--card-bg);
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .subject-btn:hover, .subject-btn:focus {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .subject-btn.active {
+            background: #ffcc00;
+            color: #1a2a6c;
+        }
+        .progress-container {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .progress-bar {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #1a2a6c, #fdbb2d);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+        .timer, .quiz-timer {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+        .flashcard-container {
+            perspective: 1000px;
+            margin-bottom: 30px;
+        }
+        .flashcard {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+            cursor: pointer;
+        }
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .flashcard-front {
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+        .flashcard-back {
+            background: #1a2a6c;
+            color: white;
+            transform: rotateY(180deg);
+            overflow-y: auto;
+        }
+        .question-number {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        .question-text {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .options {
+            display: grid;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .option {
+            padding: 12px;
+            background: var(--option-bg);
+            border-radius: 8px;
+            border-left: 4px solid #1a2a6c;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .option:hover, .option:focus {
+            background: #e9e9e9;
+            transform: translateX(5px);
+        }
+        .option.correct {
+            background: #4CAF50;
+            color: white;
+            border-left: 4px solid #2E7D32;
+        }
+        .option.incorrect {
+            background: #F44336;
+            color: white;
+            border-left: 4px solid #C62828;
+        }
+        .option.selected {
+            border-left: 4px solid #ffcc00;
+        }
+        .answer-text {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+        .explanation {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            padding: 12px 25px;
+            background: #1a2a6c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .nav-btn:hover, .nav-btn:focus {
+            background: #fdbb2d;
+            color: #333;
+        }
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .flip-btn {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .flip-btn button {
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid #1a2a6c;
+            color: #1a2a6c;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .flip-btn button:hover, .flip-btn button:focus {
+            background: #1a2a6c;
+            color: white;
+        }
+        .selection-feedback {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            min-height: 24px;
+        }
+        .correct-feedback {
+            color: #4CAF50;
+        }
+        .incorrect-feedback {
+            color: #F44336;
+        }
+        .shuffle-btn, .reset-btn {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .shuffle-btn button, .reset-btn button {
+            padding: 10px 20px;
+            background: #9C27B0;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .shuffle-btn button:hover, .shuffle-btn button:focus,
+        .reset-btn button:hover, .reset-btn button:focus {
+            background: #7B1FA2;
+        }
+        .loading {
+            text-align: center;
+            color: var(--footer-text);
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: var(--footer-text);
+            opacity: 0.8;
+        }
+        #login-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+        #login-modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20% auto;
+            width: 300px;
+            position: relative;
+        }
+        @media (max-width: 768px) {
+            .flashcard {
+                height: 500px;
+            }
+            .question-text {
+                font-size: 1.2rem;
+            }
+            .answer-text {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="login-modal">
+            <div id="login-modal-content">
+                <h2>Login</h2>
+                <input type="email" id="email" placeholder="Email" style="width: 100%; padding: 10px; margin: 10px 0;">
+                <input type="password" id="password" placeholder="Password" style="width: 100%; padding: 10px; margin: 10px 0;">
+                <button onclick="signIn()" style="width: 100%; padding: 10px; background: #1a2a6c; color: white; border: none; border-radius: 5px;">Sign In</button>
+                <button onclick="signUp()" style="width: 100%; padding: 10px; background: #1a2a6c; color: white; border: none; border-radius: 5px; margin-top: 10px;">Sign Up</button>
+            </div>
+        </div>
+        <header>
+            <h1>UNILAG Postgraduate Exam Flashcards</h1>
+            <p class="subtitle">Practice questions with detailed explanations for the 2025/2026 Entrance Examination</p>
+        </header>
+
+        <div class="controls">
+            <button class="control-btn" id="theme-toggle" aria-label="Toggle dark/light mode">Toggle Dark Mode</button>
+            <button class="control-btn" id="timer-toggle" aria-label="Toggle timer">Enable Timer</button>
+            <button class="control-btn" id="reset-progress" aria-label="Reset progress">Reset Progress</button>
+            <button class="control-btn" id="export-progress" aria-label="Export progress">Export Progress</button>
+            <input type="file" id="import-progress" accept=".json" style="display: none;" aria-label="Import progress">
+            <button class="control-btn" id="import-button" aria-label="Import progress">Import Progress</button>
+            <select class="control-select" id="filter-select" aria-label="Filter questions">
+                <option value="all">All Questions</option>
+                <option value="unanswered">Unanswered Questions</option>
+                <option value="incorrect">Incorrectly Answered</option>
+            </select>
+        </div>
+
+        <div class="subject-selector" id="subject-selector"></div>
+
+        <div class="progress-container">
+            <div class="progress-info">
+                <span id="progress-text">Select a subject to begin</span>
+                <span id="subject-name"></span>
+                <span id="score-text"></span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="timer" id="timer" style="display: none;">Time Left: 30s</div>
+        <div class="quiz-timer" id="quiz-timer" style="display: none;">Quiz Time Left: 30:00</div>
+
+        <div id="loading" class="loading">Please select a subject to load questions</div>
+
+        <div class="flashcard-container" id="flashcard-container" style="display: none;">
+            <div class="flashcard" id="flashcard">
+                <div class="flashcard-front">
+                    <span class="question-number" id="question-number">Q1</span>
+                    <div class="question-text" id="question-text"></div>
+                    <div class="options" id="options"></div>
+                    <div class="selection-feedback" id="selection-feedback"></div>
+                </div>
+                <div class="flashcard-back">
+                    <div class="answer-text" id="answer-text">Answer: </div>
+                    <div class="explanation" id="explanation"></div>
+                </div>
+            </div>
+
+            <div class="flip-btn">
+                <button id="flip-button" aria-label="Flip flashcard to see answer and explanation">Click to Flip Card</button>
+            </div>
+
+            <div class="shuffle-btn">
+                <button id="shuffle-button" aria-label="Shuffle questions">Shuffle Questions</button>
+            </div>
+
+            <div class="reset-btn">
+                <button id="reset-answers" aria-label="Reset answers for current subject">Reset Answers</button>
+            </div>
+        </div>
+
+        <div class="navigation" id="navigation" style="display: none;">
+            <button class="nav-btn" id="prev-btn" disabled aria-label="Previous question">Previous</button>
+            <button class="nav-btn" id="next-btn" aria-label="Next question">Next</button>
+        </div>
+
+        <footer>
+            <p>University of Lagos - School of Postgraduate Studies</p>
+            <p>2025/2026 Entrance Examination Preparation Tool</p>
+        </footer>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js"></script>
+    <script>
+        // Firebase Configuration (Replace with your own from Firebase Console)
+        const firebaseConfig = {
+            // Example structure - replace with your values
+            apiKey: "your-api-key",
+            authDomain: "your-auth-domain",
+            projectId: "your-project-id",
+            storageBucket: "your-storage-bucket",
+            messagingSenderId: "your-messaging-sender-id",
+            appId: "your-app-id"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+
+        let currentSubject = null;
+        let currentQuestions = [];
+        let filteredQuestions = [];
+        let currentQuestionIndex = 0;
+        let userSelection = null;
+        let userAnswers = {};
+        let score = { correct: 0, total: 0 };
+        const questionCache = {};
+        let timerEnabled = false;
+        let timerInterval = null;
+        let timeLeft = 30;
+        let quizTimerInterval = null;
+        let quizTimeLeft = 0;
+        let isMixedQuiz = false;
+        let currentFilter = 'all';
+
+        const subjects = [
+            { name: 'Emotional Intelligence', file: 'emotional-intelligence.json' },
+            { name: 'Verbal Reasoning', file: 'verbal-reasoning.json' },
+            { name: 'Logical Reasoning', file: 'logical-reasoning.json' },
+            { name: 'Research Aptitude', file: 'research-aptitude.json' },
+            { name: 'Problem Solving & Creativity', file: 'problem-solving.json' },
+            { name: 'Communication Skills', file: 'communication-skills.json' },
+            { name: 'Critical Thinking', file: 'critical-thinking.json' },
+            { name: 'Mixed Quiz (60 questions, 30 min)', file: 'mixed' }
+        ];
+
+        const flashcardContainer = document.getElementById('flashcard-container');
+        const navigation = document.getElementById('navigation');
+        const loadingElement = document.getElementById('loading');
+        const flashcard = document.getElementById('flashcard');
+        const flipButton = document.getElementById('flip-button');
+        const prevButton = document.getElementById('prev-btn');
+        const nextButton = document.getElementById('next-btn');
+        const questionNumber = document.getElementById('question-number');
+        const questionText = document.getElementById('question-text');
+        const optionsContainer = document.getElementById('options');
+        const answerTextElement = document.getElementById('answer-text');
+        const explanationElement = document.getElementById('explanation');
+        const progressText = document.getElementById('progress-text');
+        const progressFill = document.getElementById('progress-fill');
+        const subjectNameElement = document.getElementById('subject-name');
+        const scoreText = document.getElementById('score-text');
+        const subjectSelector = document.getElementById('subject-selector');
+        const selectionFeedback = document.getElementById('selection-feedback');
+        const shuffleButton = document.getElementById('shuffle-button');
+        const themeToggle = document.getElementById('theme-toggle');
+        const timerToggle = document.getElementById('timer-toggle');
+        const resetProgress = document.getElementById('reset-progress');
+        const resetAnswers = document.getElementById('reset-answers');
+        const exportProgress = document.getElementById('export-progress');
+        const importProgress = document.getElementById('import-progress');
+        const importButton = document.getElementById('import-button');
+        const filterSelect = document.getElementById('filter-select');
+        const timerElement = document.getElementById('timer');
+        const quizTimerElement = document.getElementById('quiz-timer');
+        const loginModal = document.getElementById('login-modal');
+
+        function validateQuestions(data) {
+            if (!data.subject || !Array.isArray(data.questions)) throw new Error('Invalid JSON format');
+            data.questions.forEach((q, i) => {
+                if (!q.question || !Array.isArray(q.options) || !q.answer || !q.explanation)
+                    throw new Error(`Invalid question at index ${i}`);
+            });
+            return true;
+        }
+
+        function createSubjectButtons() {
+            subjectSelector.innerHTML = '';
+            subjects.forEach((subject, index) => {
+                const button = document.createElement('button');
+                button.classList.add('subject-btn');
+                if (index === 0) button.classList.add('active');
+                button.setAttribute('data-subject', subject.file);
+                button.textContent = subject.name;
+                button.addEventListener('click', async () => {
+                    subjectSelector.querySelectorAll('.subject-btn').forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    if (subject.file === 'mixed' && auth.currentUser) {
+                        const userDoc = await db.collection('users').doc(auth.currentUser.uid).get();
+                        if (!userDoc.data()?.isSubscribed) {
+                            selectionFeedback.textContent = 'Mixed Quiz is a premium feature. Upgrade to access.';
+                            selectionFeedback.className = 'selection-feedback incorrect-feedback';
+                            return;
+                        }
+                    }
+                    loadQuestions(subject.file);
+                });
+                subjectSelector.appendChild(button);
+            });
+        }
+
+        async function loadQuestions(jsonFile) {
+            console.log('Attempting to load:', jsonFile);
+            loadingElement.textContent = "Loading questions...";
+            flashcardContainer.style.display = "none";
+            navigation.style.display = "none";
+            stopTimer();
+            stopQuizTimer();
+            isMixedQuiz = jsonFile === 'mixed';
+
+            if (isMixedQuiz) {
+                console.log('Loading mixed quiz');
+                loadMixedQuiz();
+                return;
+            }
+
+            if (questionCache[jsonFile]) {
+                console.log('Using cached data for:', jsonFile);
+                currentSubject = questionCache[jsonFile].subject;
+                currentQuestions = questionCache[jsonFile].questions;
+                currentQuestionIndex = 0;
+                userSelection = null;
+                score = { correct: 0, total: 0 };
+                userAnswers = {};
+                currentFilter = 'all';
+                filterSelect.value = 'all';
+                updateUI();
+                return;
+            }
+
+            try {
+                const response = await fetch(jsonFile);
+                console.log('Fetch response:', response.status, response);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                console.log('Parsed JSON data:', data);
+                validateQuestions(data);
+                questionCache[jsonFile] = data;
+                currentSubject = data.subject;
+                currentQuestions = data.questions;
+                currentQuestionIndex = 0;
+                userSelection = null;
+                score = { correct: 0, total: 0 };
+                userAnswers = {};
+                currentFilter = 'all';
+                filterSelect.value = 'all';
+                if (currentQuestions.length === 0) {
+                    loadingElement.textContent = "No questions available.";
+                    return;
+                }
+                updateUI();
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                loadingElement.textContent = `Error loading questions: ${error.message}`;
+            }
+        }
+
+        async function loadMixedQuiz() {
+            loadingElement.textContent = "Loading mixed quiz...";
+            try {
+                const realSubjects = subjects.slice(0, -1);
+                const responses = await Promise.all(realSubjects.map(s => fetch(s.file)));
+                const datas = await Promise.all(responses.map(r => r.json()));
+                datas.forEach(validateQuestions);
+                const allQuestions = datas.flatMap(d => d.questions);
+                shuffleArray(allQuestions);
+                currentQuestions = allQuestions.slice(0, 60);
+                currentSubject = 'Mixed Quiz';
+                currentQuestionIndex = 0;
+                userSelection = null;
+                score = { correct: 0, total: 0 };
+                userAnswers = {};
+                currentFilter = 'all';
+                filterSelect.value = 'all';
+                if (currentQuestions.length < 60) {
+                    loadingElement.textContent = "Not enough questions for mixed quiz.";
+                    return;
+                }
+                updateUI();
+                startQuizTimer();
+            } catch (error) {
+                console.error('Error loading mixed quiz:', error);
+                loadingElement.textContent = "Error loading mixed quiz.";
+            }
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function updateUI() {
+            subjectNameElement.textContent = currentSubject;
+            scoreText.textContent = `Score: ${score.correct}/${score.total}`;
+            loadingElement.style.display = "none";
+            flashcardContainer.style.display = "block";
+            navigation.style.display = "flex";
+            applyFilter();
+            if (filteredQuestions.length === 0) {
+                loadingElement.textContent = `No questions match the "${filterSelect.value}" filter.`;
+                loadingElement.style.display = "block";
+                flashcardContainer.style.display = "none";
+                navigation.style.display = "none";
+                return;
+            }
+            updateQuestion();
+            saveProgress();
+            if (timerEnabled && !isMixedQuiz) startTimer();
+            prevButton.style.display = isMixedQuiz ? 'none' : 'block';
+        }
+
+        function saveProgress() {
+            if (auth.currentUser) {
+                db.collection('users').doc(auth.currentUser.uid).set({
+                    subject: currentSubject,
+                    questionIndex: currentQuestionIndex,
+                    answers: userAnswers,
+                    score: score,
+                    filter: currentFilter
+                }, { merge: true });
+            }
+        }
+
+        function loadProgress() {
+            if (auth.currentUser) {
+                db.collection('users').doc(auth.currentUser.uid).get().then((doc) => {
+                    if (doc.exists) {
+                        const data = doc.data();
+                        if (data.subject && subjects.some(s => s.file === data.subject)) {
+                            subjectSelector.querySelectorAll('.subject-btn').forEach(btn => btn.classList.remove('active'));
+                            const btn = subjectSelector.querySelector(`[data-subject="${data.subject}"]`);
+                            if (btn) btn.classList.add('active');
+                            loadQuestions(data.subject);
+                            currentQuestionIndex = data.questionIndex || 0;
+                            userAnswers = data.answers || {};
+                            score = data.score || { correct: 0, total: 0 };
+                            currentFilter = data.filter || 'all';
+                            filterSelect.value = currentFilter;
+                        } else {
+                            loadQuestions(subjects[0].file);
+                        }
+                    }
+                });
+            } else {
+                loadQuestions(subjects[0].file);
+            }
+        }
+
+        function exportProgressData() {
+            const progress = {
+                subject: currentSubject,
+                questionIndex: currentQuestionIndex,
+                answers: userAnswers,
+                score: score
+            };
+            const blob = new Blob([JSON.stringify(progress, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `flashcard-progress-${currentSubject}-${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            selectionFeedback.textContent = "Progress exported successfully!";
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }, 3000);
+        }
+
+        function importProgressData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const progress = JSON.parse(e.target.result);
+                    if (progress.subject && subjects.some(s => s.file === progress.subject)) {
+                        subjectSelector.querySelectorAll('.subject-btn').forEach(btn => btn.classList.remove('active'));
+                        const btn = subjectSelector.querySelector(`[data-subject="${progress.subject}"]`);
+                        if (btn) btn.classList.add('active');
+                        loadQuestions(progress.subject);
+                        currentQuestionIndex = progress.questionIndex || 0;
+                        userAnswers = progress.answers || {};
+                        score = progress.score || { correct: 0, total: 0 };
+                        currentFilter = progress.filter || 'all';
+                        filterSelect.value = currentFilter;
+                        selectionFeedback.textContent = "Progress imported successfully!";
+                        selectionFeedback.className = "selection-feedback correct-feedback";
+                    } else {
+                        throw new Error('Invalid progress file format');
+                    }
+                } catch (error) {
+                    console.error('Error importing progress:', error);
+                    selectionFeedback.textContent = "Error importing progress. Please try a valid file.";
+                    selectionFeedback.className = "selection-feedback incorrect-feedback";
+                }
+                setTimeout(() => {
+                    selectionFeedback.textContent = "";
+                    selectionFeedback.className = "selection-feedback";
+                }, 3000);
+                importProgress.value = '';
+            };
+            reader.readAsText(file);
+        }
+
+        function applyFilter() {
+            if (currentFilter === 'all') {
+                filteredQuestions = [...currentQuestions];
+            } else if (currentFilter === 'unanswered') {
+                filteredQuestions = currentQuestions.filter((_, index) => !userAnswers[index]);
+            } else if (currentFilter === 'incorrect') {
+                filteredQuestions = currentQuestions.filter((q, index) => userAnswers[index] && userAnswers[index] !== q.answer);
+            }
+            currentQuestionIndex = Math.min(currentQuestionIndex, filteredQuestions.length - 1);
+            if (currentQuestionIndex < 0) currentQuestionIndex = 0;
+        }
+
+        function startTimer() {
+            stopTimer();
+            timeLeft = 30;
+            timerElement.textContent = `Time Left: ${timeLeft}s`;
+            timerElement.style.display = "block";
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                timerElement.textContent = `Time Left: ${timeLeft}s`;
+                if (timeLeft <= 0) {
+                    stopTimer();
+                    selectionFeedback.textContent = "Time's up! Please select an answer or move to the next question.";
+                    selectionFeedback.className = "selection-feedback incorrect-feedback";
+                    userSelection = null;
+                }
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+            timerElement.style.display = "none";
+        }
+
+        function startQuizTimer() {
+            stopQuizTimer();
+            quizTimeLeft = 30 * 60;
+            updateQuizTimerDisplay();
+            quizTimerElement.style.display = "block";
+            quizTimerInterval = setInterval(() => {
+                quizTimeLeft--;
+                updateQuizTimerDisplay();
+                if (quizTimeLeft <= 0) {
+                    stopQuizTimer();
+                    endQuiz();
+                }
+            }, 1000);
+        }
+
+        function updateQuizTimerDisplay() {
+            const minutes = Math.floor(quizTimeLeft / 60);
+            const seconds = quizTimeLeft % 60;
+            quizTimerElement.textContent = `Quiz Time Left: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        }
+
+        function stopQuizTimer() {
+            if (quizTimerInterval) {
+                clearInterval(quizTimerInterval);
+                quizTimerInterval = null;
+            }
+            quizTimerElement.style.display = "none";
+        }
+
+        function endQuiz() {
+            flashcardContainer.style.pointerEvents = 'none';
+            navigation.style.display = 'none';
+            selectionFeedback.textContent = `Time's up! Final Score: ${score.correct}/${score.total} (${Math.round((score.correct / score.total) * 100 || 0)}%)`;
+            selectionFeedback.className = "selection-feedback incorrect-feedback";
+        }
+
+        function showLoginModal() {
+            loginModal.style.display = 'block';
+        }
+
+        function signIn() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            auth.signInWithEmailAndPassword(email, password).catch((error) => {
+                selectionFeedback.textContent = error.message;
+                selectionFeedback.className = 'selection-feedback incorrect-feedback';
+            });
+        }
+
+        function signUp() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            auth.createUserWithEmailAndPassword(email, password).then(() => {
+                db.collection('users').doc(auth.currentUser.uid).set({ isSubscribed: false });
+            }).catch((error) => {
+                selectionFeedback.textContent = error.message;
+                selectionFeedback.className = 'selection-feedback incorrect-feedback';
+            });
+        }
+
+        auth.onAuthStateChanged((user) => {
+            console.log('Auth state changed, user:', user);
+            if (!user) showLoginModal();
+            else loginModal.style.display = 'none';
+        });
+
+        flipButton.addEventListener('click', () => {
+            if (userSelection !== null) {
+                flashcard.classList.toggle('flipped');
+                if (!isMixedQuiz) stopTimer();
+            } else {
+                selectionFeedback.textContent = "Please select an answer first!";
+                selectionFeedback.className = "selection-feedback incorrect-feedback";
+            }
+        });
+
+        prevButton.addEventListener('click', () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                userSelection = null;
+                updateQuestion();
+                flashcard.classList.remove('flipped');
+                saveProgress();
+            }
+        });
+
+        nextButton.addEventListener('click', () => {
+            if (currentQuestionIndex < filteredQuestions.length - 1) {
+                currentQuestionIndex++;
+                userSelection = null;
+                updateQuestion();
+                flashcard.classList.remove('flipped');
+                saveProgress();
+            } else {
+                selectionFeedback.textContent = `Session complete! Score: ${score.correct}/${score.total} (${Math.round((score.correct / score.total) * 100)}%)`;
+                selectionFeedback.className = "selection-feedback correct-feedback";
+                if (!isMixedQuiz) stopTimer();
+            }
+        });
+
+        shuffleButton.addEventListener('click', () => {
+            shuffleQuestions();
+            currentQuestionIndex = 0;
+            userSelection = null;
+            userAnswers = {};
+            score = { correct: 0, total: 0 };
+            updateQuestion();
+            flashcard.classList.remove('flipped');
+            selectionFeedback.textContent = "Questions shuffled!";
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }, 3000);
+            saveProgress();
+        });
+
+        resetAnswers.addEventListener('click', () => {
+            userAnswers = {};
+            score = { correct: 0, total: 0 };
+            userSelection = null;
+            updateQuestion();
+            flashcard.classList.remove('flipped');
+            selectionFeedback.textContent = "Answers reset for this subject!";
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }, 3000);
+            saveProgress();
+        });
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            themeToggle.textContent = document.body.classList.contains('dark-mode') ? 'Toggle Light Mode' : 'Toggle Dark Mode';
+            themeToggle.setAttribute('aria-label', document.body.classList.contains('dark-mode') ? 'Switch to light mode' : 'Switch to dark mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        });
+
+        timerToggle.addEventListener('click', () => {
+            timerEnabled = !timerEnabled;
+            timerToggle.textContent = timerEnabled ? 'Disable Timer' : 'Enable Timer';
+            timerToggle.setAttribute('aria-label', timerEnabled ? 'Disable timer' : 'Enable timer');
+            if (timerEnabled && filteredQuestions.length > 0 && !isMixedQuiz) {
+                startTimer();
+            } else {
+                stopTimer();
+            }
+            localStorage.setItem('timerEnabled', timerEnabled);
+        });
+
+        resetProgress.addEventListener('click', () => {
+            if (auth.currentUser) {
+                db.collection('users').doc(auth.currentUser.uid).delete();
+            }
+            userAnswers = {};
+            score = { correct: 0, total: 0 };
+            currentQuestionIndex = 0;
+            userSelection = null;
+            loadQuestions(subjects[0].file);
+            selectionFeedback.textContent = "Progress reset!";
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }, 3000);
+        });
+
+        exportProgress.addEventListener('click', exportProgressData);
+
+        importButton.addEventListener('click', () => {
+            importProgress.click();
+        });
+
+        importProgress.addEventListener('change', importProgressData);
+
+        filterSelect.addEventListener('change', () => {
+            currentFilter = filterSelect.value;
+            currentQuestionIndex = 0;
+            userSelection = null;
+            updateUI();
+            flashcard.classList.remove('flipped');
+            selectionFeedback.textContent = `Filter applied: ${filterSelect.options[filterSelect.selectedIndex].text}`;
+            selectionFeedback.className = "selection-feedback correct-feedback";
+            setTimeout(() => {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }, 3000);
+            saveProgress();
+        });
+
+        function shuffleQuestions() {
+            shuffleArray(currentQuestions);
+            applyFilter();
+        }
+
+        function updateQuestion() {
+            if (filteredQuestions.length === 0) return;
+            const questionData = filteredQuestions[currentQuestionIndex];
+
+            questionNumber.textContent = `Q${currentQuestionIndex + 1}`;
+            questionText.textContent = questionData.question;
+
+            optionsContainer.innerHTML = '';
+            questionData.options.forEach((option) => {
+                const optionElement = document.createElement('div');
+                optionElement.classList.add('option');
+                optionElement.setAttribute('data-value', option.charAt(0));
+                optionElement.textContent = option;
+
+                optionElement.addEventListener('click', () => {
+                    if (userSelection === null) {
+                        optionsContainer.querySelectorAll('.option').forEach(opt => {
+                            opt.classList.remove('correct', 'incorrect', 'selected');
+                        });
+
+                        optionElement.classList.add('selected');
+                        userSelection = option.charAt(0);
+                        userAnswers[currentQuestionIndex] = userSelection;
+                        score.total++;
+
+                        if (userSelection === questionData.answer) {
+                            optionElement.classList.add('correct');
+                            score.correct++;
+                            selectionFeedback.textContent = "Correct! Well done!";
+                            selectionFeedback.className = "selection-feedback correct-feedback";
+                        } else {
+                            optionElement.classList.add('incorrect');
+                            selectionFeedback.textContent = "Incorrect. Try again or flip to see explanation.";
+                            selectionFeedback.className = "selection-feedback incorrect-feedback";
+                            optionsContainer.querySelectorAll('.option').forEach(opt => {
+                                if (opt.getAttribute('data-value') === questionData.answer) {
+                                    opt.classList.add('correct');
+                                }
+                            });
+                        }
+                        scoreText.textContent = `Score: ${score.correct}/${score.total}`;
+                        saveProgress();
+                    }
+                });
+
+                optionsContainer.appendChild(optionElement);
+            });
+
+            if (userAnswers[currentQuestionIndex]) {
+                userSelection = userAnswers[currentQuestionIndex];
+                optionsContainer.querySelectorAll('.option').forEach(opt => {
+                    if (opt.getAttribute('data-value') === userSelection) {
+                        opt.classList.add('selected');
+                        if (userSelection === questionData.answer) {
+                            opt.classList.add('correct');
+                            selectionFeedback.textContent = "Correct! Well done!";
+                            selectionFeedback.className = "selection-feedback correct-feedback";
+                        } else {
+                            opt.classList.add('incorrect');
+                            selectionFeedback.textContent = "Incorrect. Try again or flip to see explanation.";
+                            selectionFeedback.className = "selection-feedback incorrect-feedback";
+                            optionsContainer.querySelectorAll('.option').forEach(opt2 => {
+                                if (opt2.getAttribute('data-value') === questionData.answer) {
+                                    opt2.classList.add('correct');
+                                }
+                            });
+                        }
+                    }
+                });
+            } else {
+                selectionFeedback.textContent = "";
+                selectionFeedback.className = "selection-feedback";
+            }
+
+            answerTextElement.textContent = `Answer: ${questionData.answer}`;
+            explanationElement.textContent = questionData.explanation;
+
+            progressText.textContent = `Question ${currentQuestionIndex + 1} of ${filteredQuestions.length}`;
+            progressFill.style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
+
+            prevButton.disabled = currentQuestionIndex === 0;
+            nextButton.disabled = currentQuestionIndex === filteredQuestions.length - 1;
+
+            if (timerEnabled && !isMixedQuiz) startTimer();
+        }
+
+        createSubjectButtons();
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.textContent = 'Toggle Light Mode';
+            themeToggle.setAttribute('aria-label', 'Switch to light mode');
+        }
+        timerEnabled = localStorage.getItem('timerEnabled') === 'true';
+        timerToggle.textContent = timerEnabled ? 'Disable Timer' : 'Enable Timer';
+        timerToggle.setAttribute('aria-label', timerEnabled ? 'Disable timer' : 'Enable timer');
+        loadProgress();
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>

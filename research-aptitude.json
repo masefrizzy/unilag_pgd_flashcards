@@ -1,0 +1,1160 @@
+{
+  "subject": "Research Aptitude",
+  "questions": [
+    {
+      "question": "Which of the following best defines research aptitude?",
+      "options": [
+        "A. The ability to memorise facts",
+        "B. The ability to locate, evaluate and use information effectively",
+        "C. The ability to write quickly",
+        "D. The ability to repeat data without understanding"
+      ],
+      "answer": "B",
+      "explanation": "Research aptitude refers to the skill set required to effectively find, assess the quality of, and apply information in a research context, which goes beyond simple memorization or repetition of data."
+    },
+    {
+      "question": "Which is the first step in the research process?",
+      "options": [
+        "A. Collecting data immediately",
+        "B. Defining and clarifying the research problem",
+        "C. Writing the final report",
+        "D. Publishing results"
+      ],
+      "answer": "B",
+      "explanation": "The research process begins with identifying and clearly defining the problem or question to be investigated, as this sets the foundation for all subsequent steps like hypothesis formulation and data collection."
+    },
+    {
+      "question": "A hypothesis in research is:",
+      "options": [
+        "A. A proven fact",
+        "B. An untested statement or prediction to be examined",
+        "C. A bibliography",
+        "D. A conclusion"
+      ],
+      "answer": "B",
+      "explanation": "A hypothesis is a tentative, testable statement or prediction about the relationship between variables, which is formulated before data collection and tested through research."
+    },
+    {
+      "question": "Which practice demonstrates good literature review skills?",
+      "options": [
+        "A. Summarising existing studies relevant to your topic",
+        "B. Ignoring previous research",
+        "C. Using only one source",
+        "D. Copying and pasting without attribution"
+      ],
+      "answer": "A",
+      "explanation": "A good literature review involves synthesizing and summarizing relevant prior studies to identify gaps, trends, and foundations for the current research, ensuring a comprehensive understanding of the topic."
+    },
+    {
+      "question": "In quantitative research, data are primarily:",
+      "options": [
+        "A. Descriptive words",
+        "B. Numerical and measurable",
+        "C. Based on personal feelings",
+        "D. Stories and opinions"
+      ],
+      "answer": "B",
+      "explanation": "Quantitative research focuses on collecting and analyzing numerical data that can be measured, statistically tested, and used to identify patterns or relationships objectively."
+    },
+    {
+      "question": "Which of these is an example of primary data?",
+      "options": [
+        "A. A published journal article",
+        "B. Original surveys or experiments you conduct",
+        "C. A newspaper editorial",
+        "D. A textbook chapter"
+      ],
+      "answer": "B",
+      "explanation": "Primary data are original data collected firsthand by the researcher for the specific purpose of their study, such as through surveys, experiments, or observations."
+    },
+    {
+      "question": "Which of these is an example of secondary data?",
+      "options": [
+        "A. Responses from your own questionnaire",
+        "B. Data collected by another researcher and published in a journal",
+        "C. Your laboratory experiment results",
+        "D. Interviews you personally conducted"
+      ],
+      "answer": "B",
+      "explanation": "Secondary data are pre-existing data collected by someone else for a different purpose, which the researcher analyzes or uses in their own study, such as published journal data."
+    },
+    {
+      "question": "Which research design compares two groups at one point in time?",
+      "options": [
+        "A. Longitudinal study",
+        "B. Cross-sectional study",
+        "C. Experimental design",
+        "D. Case study"
+      ],
+      "answer": "B",
+      "explanation": "A cross-sectional study collects data from different groups or individuals at a single point in time to compare variables, providing a snapshot rather than tracking changes over time."
+    },
+    {
+      "question": "In research ethics, which of the following is most important?",
+      "options": [
+        "A. Plagiarism",
+        "B. Informed consent and confidentiality",
+        "C. Withholding data to suit a hypothesis",
+        "D. Misrepresenting findings"
+      ],
+      "answer": "B",
+      "explanation": "Research ethics prioritize protecting participants through informed consent (where they understand and agree to the study) and confidentiality (safeguarding their personal information)."
+    },
+    {
+      "question": "Which practice shows critical evaluation of sources?",
+      "options": [
+        "A. Checking the author’s credentials and publication date",
+        "B. Using any source you find first",
+        "C. Relying only on social media posts",
+        "D. Copying information without checking accuracy"
+      ],
+      "answer": "A",
+      "explanation": "Critical evaluation involves assessing the reliability of sources by examining factors like the author's expertise, the timeliness of the information, and the credibility of the publication."
+    },
+    {
+      "question": "A sample in research refers to:",
+      "options": [
+        "A. The entire population of interest",
+        "B. A subset of the population selected for study",
+        "C. Only the researcher’s friends",
+        "D. All data ever collected"
+      ],
+      "answer": "B",
+      "explanation": "A sample is a smaller, manageable subset of the larger population chosen to represent it, allowing researchers to draw inferences without studying everyone."
+    },
+    {
+      "question": "Which is an example of a qualitative research method?",
+      "options": [
+        "A. Structured questionnaire",
+        "B. In-depth interviews",
+        "C. Large-scale survey",
+        "D. Statistical modelling"
+      ],
+      "answer": "B",
+      "explanation": "Qualitative methods like in-depth interviews focus on exploring experiences, opinions, and meanings in detail, rather than quantifying data."
+    },
+    {
+      "question": "Which of these best describes plagiarism?",
+      "options": [
+        "A. Using someone else’s work without proper attribution",
+        "B. Quoting with proper citation",
+        "C. Summarising in your own words",
+        "D. Paraphrasing with references"
+      ],
+      "answer": "A",
+      "explanation": "Plagiarism occurs when ideas, words, or work from another source are presented as one's own without giving credit, violating academic integrity."
+    },
+    {
+      "question": "Which practice improves data reliability?",
+      "options": [
+        "A. Using consistent methods and clear procedures",
+        "B. Changing methods halfway through",
+        "C. Collecting data haphazardly",
+        "D. Recording only positive results"
+      ],
+      "answer": "A",
+      "explanation": "Reliability is enhanced by applying the same methods and procedures consistently across the study, ensuring that results can be replicated under similar conditions."
+    },
+    {
+      "question": "Which is an example of research ethics violation?",
+      "options": [
+        "A. Obtaining informed consent",
+        "B. Fabricating or falsifying data",
+        "C. Protecting participants’ anonymity",
+        "D. Reporting limitations honestly"
+      ],
+      "answer": "B",
+      "explanation": "Fabricating or falsifying data is a serious ethical breach as it undermines the trustworthiness of research findings and can mislead the scientific community."
+    },
+    {
+      "question": "Which term refers to the degree to which an instrument measures what it is supposed to measure?",
+      "options": [
+        "A. Reliability",
+        "B. Validity",
+        "C. Sampling",
+        "D. Coding"
+      ],
+      "answer": "B",
+      "explanation": "Validity assesses whether a tool or method accurately captures the concept it intends to measure, ensuring the research addresses the right questions."
+    },
+    {
+      "question": "Which term refers to the consistency of a measurement when repeated under the same conditions?",
+      "options": [
+        "A. Reliability",
+        "B. Validity",
+        "C. Bias",
+        "D. Sampling"
+      ],
+      "answer": "A",
+      "explanation": "Reliability indicates the stability and consistency of results when the same measurement is repeated, reflecting the absence of random errors."
+    },
+    {
+      "question": "Which sampling technique gives every individual in the population an equal chance of selection?",
+      "options": [
+        "A. Convenience sampling",
+        "B. Snowball sampling",
+        "C. Simple random sampling",
+        "D. Purposive sampling"
+      ],
+      "answer": "C",
+      "explanation": "Simple random sampling uses random selection to ensure each population member has an equal probability of being chosen, reducing bias and improving representativeness."
+    },
+    {
+      "question": "Which is an example of bias in research?",
+      "options": [
+        "A. Selecting participants randomly",
+        "B. Reporting results objectively",
+        "C. Including only participants who agree with the researcher",
+        "D. Using standardised procedures"
+      ],
+      "answer": "C",
+      "explanation": "Bias occurs when the selection or treatment of participants systematically favors certain outcomes, such as choosing only those who support the researcher's views, leading to skewed results."
+    },
+    {
+      "question": "Which is a research variable?",
+      "options": [
+        "A. A factor that can change and be measured in a study",
+        "B. A permanent unchangeable fact",
+        "C. Only the sample size",
+        "D. The researcher’s name"
+      ],
+      "answer": "A",
+      "explanation": "A variable is any characteristic or factor that can vary and be observed or measured in research, forming the basis for hypotheses and analysis."
+    },
+    {
+      "question": "Which practice improves data accuracy?",
+      "options": [
+        "A. Double-checking entries and cleaning datasets",
+        "B. Recording results from memory later",
+        "C. Ignoring outliers without reason",
+        "D. Mixing different scales without adjustment"
+      ],
+      "answer": "A",
+      "explanation": "Accuracy is improved by verifying data entries for errors and cleaning datasets to remove inconsistencies, ensuring the data truly reflect the phenomena studied."
+    },
+    {
+      "question": "In experimental research, the factor manipulated by the researcher is called the:",
+      "options": [
+        "A. Dependent variable",
+        "B. Independent variable",
+        "C. Control variable",
+        "D. Confounding factor"
+      ],
+      "answer": "B",
+      "explanation": "The independent variable is deliberately changed or manipulated by the researcher to observe its effect on the dependent variable."
+    },
+    {
+      "question": "Which of these best describes a control group?",
+      "options": [
+        "A. A group that receives the same treatment as the experimental group",
+        "B. A group that does not receive the experimental treatment, used for comparison",
+        "C. A group of researchers",
+        "D. A group where results are not measured"
+      ],
+      "answer": "B",
+      "explanation": "A control group serves as a baseline for comparison, receiving no treatment or a placebo, to isolate the effect of the independent variable."
+    },
+    {
+      "question": "Which practice ensures ethical treatment of participants?",
+      "options": [
+        "A. Informing participants of risks and obtaining consent",
+        "B. Withholding information intentionally",
+        "C. Fabricating data to protect participants",
+        "D. Using participants without their knowledge"
+      ],
+      "answer": "A",
+      "explanation": "Ethical treatment requires full disclosure of potential risks and voluntary consent, respecting participants' autonomy and right to make informed decisions."
+    },
+    {
+      "question": "Which is an example of a research objective?",
+      "options": [
+        "A. “To determine the effect of study habits on exam performance.”",
+        "B. “Because I’m curious about it.”",
+        "C. “To collect some data.”",
+        "D. “To prove my opinion.”"
+      ],
+      "answer": "A",
+      "explanation": "A research objective is a clear, specific statement outlining what the study aims to achieve, focusing on measurable outcomes rather than personal motivations."
+    },
+    {
+      "question": "Which research approach uses both qualitative and quantitative methods?",
+      "options": [
+        "A. Case study",
+        "B. Mixed methods",
+        "C. Survey only",
+        "D. Historical analysis"
+      ],
+      "answer": "B",
+      "explanation": "Mixed methods research combines qualitative insights (e.g., interviews) with quantitative data (e.g., surveys) to provide a more comprehensive understanding of the research problem."
+    },
+    {
+      "question": "Which practice improves data confidentiality?",
+      "options": [
+        "A. Removing personal identifiers before analysis",
+        "B. Sharing raw data publicly without permission",
+        "C. Storing data on unsecured devices",
+        "D. Emailing participant names to others"
+      ],
+      "answer": "A",
+      "explanation": "Confidentiality is maintained by anonymizing data, such as removing names or identifiers, to prevent identification of participants during analysis or reporting."
+    },
+    {
+      "question": "Which is an example of a secondary source?",
+      "options": [
+        "A. A published literature review of previous studies",
+        "B. Raw data from your own experiment",
+        "C. Interviews you conduct yourself",
+        "D. Responses to your survey"
+      ],
+      "answer": "A",
+      "explanation": "Secondary sources interpret or analyze primary data, such as literature reviews that summarize existing studies, rather than presenting original data."
+    },
+    {
+      "question": "Which of the following best describes data analysis?",
+      "options": [
+        "A. Collecting participants’ contact details",
+        "B. Applying systematic methods to examine and interpret data",
+        "C. Writing your conclusions before examining data",
+        "D. Guessing results"
+      ],
+      "answer": "B",
+      "explanation": "Data analysis involves organized techniques to inspect, clean, transform, and model data to discover useful information, draw conclusions, and support decision-making."
+    },
+    {
+      "question": "Which practice increases the validity of a study?",
+      "options": [
+        "A. Using well-defined concepts and appropriate measurement tools",
+        "B. Changing definitions mid-study",
+        "C. Ignoring extraneous variables",
+        "D. Drawing conclusions before analysing data"
+      ],
+      "answer": "A",
+      "explanation": "Validity is enhanced by clearly defining variables and using suitable, validated tools to measure them, ensuring the study accurately tests what it intends to."
+    },
+    {
+      "question": "Which of the following best defines a literature gap?",
+      "options": [
+        "A. A published study on your exact topic",
+        "B. An area where existing research is limited or missing",
+        "C. A list of references",
+        "D. A summary of previous work"
+      ],
+      "answer": "B",
+      "explanation": "A literature gap identifies unanswered questions or underexplored areas in existing research, providing justification for new studies to fill those voids."
+    },
+    {
+      "question": "Which is an example of a research question?",
+      "options": [
+        "A. “Does regular exercise improve academic performance among students?”",
+        "B. “I like sports.”",
+        "C. “Data were collected.”",
+        "D. “The research will be fun.”"
+      ],
+      "answer": "A",
+      "explanation": "A research question is a focused, investigable query that guides the study, often exploring relationships or effects in a specific context."
+    },
+    {
+      "question": "Which practice improves ethical authorship?",
+      "options": [
+        "A. Listing all contributors who meet authorship criteria",
+        "B. Adding names of people who didn’t contribute",
+        "C. Omitting contributors",
+        "D. Using a false author name"
+      ],
+      "answer": "A",
+      "explanation": "Ethical authorship requires crediting only those who have made substantial intellectual contributions, following guidelines like those from ICMJE to avoid ghost or guest authorship."
+    },
+    {
+      "question": "Which of these is an example of a pilot study?",
+      "options": [
+        "A. A small-scale test of your research methods before the main study",
+        "B. The final stage of analysis",
+        "C. A literature review",
+        "D. A cross-sectional survey"
+      ],
+      "answer": "A",
+      "explanation": "A pilot study is a preliminary, small-scale version of the research to test feasibility, refine methods, and identify issues before the full study."
+    },
+    {
+      "question": "Which term describes the entire group of individuals about whom a researcher wants to draw conclusions?",
+      "options": [
+        "A. Population",
+        "B. Sample",
+        "C. Control group",
+        "D. Variable"
+      ],
+      "answer": "A",
+      "explanation": "The population is the complete set of individuals or elements that the research aims to generalize findings to, from which a sample may be drawn."
+    },
+    {
+      "question": "Which practice helps ensure objectivity in research?",
+      "options": [
+        "A. Using standardised procedures and unbiased language",
+        "B. Selecting only data that support your opinion",
+        "C. Making assumptions without evidence",
+        "D. Ignoring contradictory findings"
+      ],
+      "answer": "A",
+      "explanation": "Objectivity is maintained through consistent, standardized methods and neutral reporting, minimizing personal bias in data collection and interpretation."
+    },
+    {
+      "question": "Which is an example of qualitative data collection?",
+      "options": [
+        "A. Conducting focus groups",
+        "B. Administering a standardised test scored numerically",
+        "C. Using a machine to measure weight",
+        "D. Counting inventory items"
+      ],
+      "answer": "A",
+      "explanation": "Focus groups collect rich, descriptive data through group discussions, capturing nuanced opinions and experiences typical of qualitative approaches."
+    },
+    {
+      "question": "Which of these is a key characteristic of action research?",
+      "options": [
+        "A. Conducted only in laboratories",
+        "B. Focused on practical problem-solving and improvement",
+        "C. Based solely on secondary data",
+        "D. Limited to historical analysis"
+      ],
+      "answer": "B",
+      "explanation": "Action research emphasizes collaborative, iterative processes to solve real-world problems and implement improvements in practice, often in educational or organizational settings."
+    },
+    {
+      "question": "Which practice helps ensure data integrity?",
+      "options": [
+        "A. Storing data securely and documenting changes",
+        "B. Altering data to fit expectations",
+        "C. Ignoring discrepancies",
+        "D. Deleting raw data after analysis"
+      ],
+      "answer": "A",
+      "explanation": "Data integrity is preserved by secure storage and thorough documentation of any modifications, ensuring traceability and preventing unauthorized alterations."
+    },
+    {
+      "question": "Which of the following best defines a conceptual framework?",
+      "options": [
+        "A. A random drawing of ideas",
+        "B. A structured model that links concepts and guides research",
+        "C. A list of survey questions",
+        "D. A bibliography"
+      ],
+      "answer": "B",
+      "explanation": "A conceptual framework organizes and connects key concepts, theories, and variables to provide a roadmap for the research design and analysis."
+    },
+    {
+      "question": "Which is an example of a descriptive research design?",
+      "options": [
+        "A. A survey describing how often people exercise",
+        "B. An experiment testing a new drug",
+        "C. A longitudinal study measuring change over time",
+        "D. A randomised controlled trial"
+      ],
+      "answer": "A",
+      "explanation": "Descriptive research aims to accurately portray characteristics or behaviors, such as frequency of exercise, without manipulating variables or testing causality."
+    },
+    {
+      "question": "Which practice demonstrates ethical reporting of research findings?",
+      "options": [
+        "A. Acknowledging limitations and conflicts of interest",
+        "B. Presenting only positive results",
+        "C. Hiding data that contradicts your hypothesis",
+        "D. Using false statistics to look better"
+      ],
+      "answer": "A",
+      "explanation": "Ethical reporting involves transparent disclosure of study limitations and any conflicts of interest to allow accurate interpretation and maintain scientific integrity."
+    },
+    {
+      "question": "Which of the following is an example of data triangulation?",
+      "options": [
+        "A. Combining multiple sources or methods to verify findings",
+        "B. Relying on a single data point",
+        "C. Ignoring secondary data",
+        "D. Using only one instrument"
+      ],
+      "answer": "A",
+      "explanation": "Data triangulation uses diverse data sources, methods, or theories to cross-validate results, enhancing the credibility and robustness of findings."
+    },
+    {
+      "question": "Which practice improves reliability of a research instrument?",
+      "options": [
+        "A. Testing it with a pilot group and refining based on results",
+        "B. Changing questions randomly",
+        "C. Using untested measures",
+        "D. Skipping pre-testing entirely"
+      ],
+      "answer": "A",
+      "explanation": "Pilot testing an instrument on a small group identifies inconsistencies, allowing refinements to ensure consistent results across repeated uses."
+    },
+    {
+      "question": "Which is an example of a null hypothesis?",
+      "options": [
+        "A. “There is no difference in test scores between students who study with music and those who do not.”",
+        "B. “Students who study with music always score higher.”",
+        "C. “Music makes studying fun.”",
+        "D. “I think music helps studying.”"
+      ],
+      "answer": "A",
+      "explanation": "A null hypothesis states no effect or no difference, serving as the default assumption to be tested against an alternative hypothesis in statistical analysis."
+    },
+    {
+      "question": "Which term refers to a detailed plan outlining how research will be conducted?",
+      "options": [
+        "A. Methodology",
+        "B. Abstract",
+        "C. Conclusion",
+        "D. Hypothesis"
+      ],
+      "answer": "A",
+      "explanation": "Methodology describes the specific procedures, tools, and techniques used to collect, analyze, and interpret data in the study."
+    },
+    {
+      "question": "Which is an example of a longitudinal study?",
+      "options": [
+        "A. Surveying the same group of people every year for five years",
+        "B. Surveying different people once",
+        "C. Conducting a one-day experiment",
+        "D. Analysing a single historical event"
+      ],
+      "answer": "A",
+      "explanation": "Longitudinal studies track the same subjects over an extended period to observe changes or developments in variables over time."
+    },
+    {
+      "question": "Which practice improves data validity?",
+      "options": [
+        "A. Using appropriate, standardised measurement tools",
+        "B. Recording results without checking accuracy",
+        "C. Changing definitions mid-study",
+        "D. Ignoring confounding variables"
+      ],
+      "answer": "A",
+      "explanation": "Validity is improved by employing standardized, relevant tools that accurately measure the intended constructs while controlling for external influences."
+    },
+    {
+      "question": "Which is an example of a research limitation?",
+      "options": [
+        "A. A small sample size that may reduce generalisability",
+        "B. A strong theoretical framework",
+        "C. Accurate data entry",
+        "D. Ethical approval"
+      ],
+      "answer": "A",
+      "explanation": "Limitations are factors that constrain the study's scope or applicability, such as a small sample limiting how broadly findings can be generalized."
+    },
+    {
+      "question": "Which practice ensures informed consent in research?",
+      "options": [
+        "A. Providing participants with clear information about the study and obtaining their agreement",
+        "B. Assuming participants consent if they don’t object",
+        "C. Using data collected without permission",
+        "D. Only telling participants the benefits, not the risks"
+      ],
+      "answer": "A",
+      "explanation": "Informed consent involves fully disclosing study details, risks, and benefits, and securing voluntary agreement, upholding ethical standards."
+    },
+    {
+      "question": "Which is an example of operationalising a variable?",
+      "options": [
+        "A. Defining “academic success” as “GPA above 3.5” for the purpose of the study",
+        "B. Stating “academic success is important”",
+        "C. Mentioning variables without definitions",
+        "D. Avoiding clear definitions"
+      ],
+      "answer": "A",
+      "explanation": "Operationalizing defines abstract concepts in concrete, measurable terms, allowing consistent quantification and analysis in the study."
+    },
+    {
+      "question": "Which practice strengthens objectivity in data analysis?",
+      "options": [
+        "A. Using predefined coding schemes or statistical procedures",
+        "B. Interpreting data based on personal opinion",
+        "C. Altering outliers to fit your hypothesis",
+        "D. Using inconsistent criteria for analysis"
+      ],
+      "answer": "A",
+      "explanation": "Objectivity is reinforced by applying pre-established, systematic coding or statistical methods, reducing subjective influence in interpretation."
+    },
+    {
+      "question": "Which is an example of a case study?",
+      "options": [
+        "A. An in-depth analysis of one organisation or event",
+        "B. A survey of 1,000 people",
+        "C. A laboratory experiment",
+        "D. A randomised controlled trial"
+      ],
+      "answer": "A",
+      "explanation": "A case study provides detailed examination of a single instance, entity, or event to explore complex issues in real-life contexts."
+    },
+    {
+      "question": "Which practice ensures ethical data storage?",
+      "options": [
+        "A. Encrypting files and limiting access to authorised personnel",
+        "B. Sharing raw data with anyone who asks",
+        "C. Leaving files on an unsecured public computer",
+        "D. Posting data online without consent"
+      ],
+      "answer": "A",
+      "explanation": "Ethical storage protects sensitive data through encryption and access controls, preventing breaches and maintaining participant confidentiality."
+    },
+    {
+      "question": "Which of these is an example of secondary analysis?",
+      "options": [
+        "A. Analysing existing survey data collected by another researcher",
+        "B. Conducting your own interviews",
+        "C. Running your own experiment",
+        "D. Creating your own dataset"
+      ],
+      "answer": "A",
+      "explanation": "Secondary analysis re-examines pre-existing data from other sources to answer new questions, leveraging available resources efficiently."
+    },
+    {
+      "question": "Which practice improves generalisation of findings?",
+      "options": [
+        "A. Using a representative sample of the population",
+        "B. Selecting only participants who support your view",
+        "C. Using a very small convenience sample",
+        "D. Changing sampling procedures mid-study"
+      ],
+      "answer": "A",
+      "explanation": "Generalization is strengthened by sampling that mirrors the population's diversity, allowing findings to be applied more broadly."
+    },
+    {
+      "question": "Which is an example of qualitative data?",
+      "options": [
+        "A. Participants’ written descriptions of their experiences",
+        "B. Their scores on a multiple-choice test",
+        "C. Their height and weight",
+        "D. Their monthly income"
+      ],
+      "answer": "A",
+      "explanation": "Qualitative data are non-numerical, such as textual descriptions or narratives, capturing subjective experiences and meanings."
+    },
+    {
+      "question": "Which practice strengthens data analysis transparency?",
+      "options": [
+        "A. Documenting and reporting all steps taken in coding and analysis",
+        "B. Using secret procedures not described in the report",
+        "C. Deleting records of methods used",
+        "D. Skipping explanation of statistical tests"
+      ],
+      "answer": "A",
+      "explanation": "Transparency in analysis involves detailing every step, from coding to interpretation, enabling others to replicate and verify the process."
+    },
+    {
+      "question": "Which of the following is a research objective rather than a hypothesis?",
+      "options": [
+        "A. “To explore the relationship between sleep and productivity.”",
+        "B. “There is no difference between groups.”",
+        "C. “Sleep improves productivity.”",
+        "D. “People who sleep less are less productive.”"
+      ],
+      "answer": "A",
+      "explanation": "A research objective states the purpose or aim of the study broadly, while a hypothesis is a specific, testable prediction."
+    },
+    {
+      "question": "Which practice improves data reliability?",
+      "options": [
+        "A. Training data collectors and using consistent procedures",
+        "B. Allowing each researcher to record data in their own style",
+        "C. Changing instruments mid-study without testing",
+        "D. Recording results from memory later"
+      ],
+      "answer": "A",
+      "explanation": "Reliability is boosted by standardizing training and procedures for all involved, minimizing variability in data collection."
+    },
+    {
+      "question": "Which is an example of primary research?",
+      "options": [
+        "A. Conducting your own survey to gather new data",
+        "B. Using data from a published journal article",
+        "C. Reading a literature review",
+        "D. Quoting statistics from a government website"
+      ],
+      "answer": "A",
+      "explanation": "Primary research involves collecting original data directly for the study, such as through personal surveys or experiments."
+    },
+    {
+      "question": "Which practice improves ethical citation?",
+      "options": [
+        "A. Quoting sources and providing full references",
+        "B. Copying text without attribution",
+        "C. Changing a few words but not citing",
+        "D. Using only secondary sources without reference"
+      ],
+      "answer": "A",
+      "explanation": "Ethical citation credits original authors by quoting accurately and including complete references, preventing plagiarism."
+    },
+    {
+      "question": "Which term refers to an error that systematically skews research results?",
+      "options": [
+        "A. Hypothesis",
+        "B. Bias",
+        "C. Sampling frame",
+        "D. Reliability"
+      ],
+      "answer": "B",
+      "explanation": "Bias is a systematic error that distorts results in a particular direction, often due to flawed design or selection processes."
+    },
+    {
+      "question": "Which is an example of mixed-methods research?",
+      "options": [
+        "A. Conducting focus groups and administering a survey on the same topic",
+        "B. Using only numerical data",
+        "C. Using only interviews",
+        "D. Analysing one existing dataset"
+      ],
+      "answer": "A",
+      "explanation": "Mixed-methods integrates qualitative (e.g., focus groups) and quantitative (e.g., surveys) approaches for a fuller perspective on the research question."
+    },
+    {
+      "question": "Which practice strengthens data confidentiality?",
+      "options": [
+        "A. Assigning unique codes instead of using participant names",
+        "B. Sharing names with external organisations",
+        "C. Publishing identifiable information",
+        "D. Storing data on unsecured devices"
+      ],
+      "answer": "A",
+      "explanation": "Using codes anonymizes data, protecting identities while allowing analysis, a key practice for confidentiality."
+    },
+    {
+      "question": "Which of the following best describes a research paradigm?",
+      "options": [
+        "A. A researcher’s personal opinion",
+        "B. The underlying philosophical framework that guides the study",
+        "C. A sampling method",
+        "D. A computer program"
+      ],
+      "answer": "B",
+      "explanation": "A research paradigm is the set of beliefs and assumptions about reality, knowledge, and methodology that shapes the research approach."
+    },
+    {
+      "question": "Which is an example of a research hypothesis?",
+      "options": [
+        "A. “There is a positive relationship between exercise and concentration among college students.”",
+        "B. “I like exercise.”",
+        "C. “The study will use surveys.”",
+        "D. “Data collection begins next week.”"
+      ],
+      "answer": "A",
+      "explanation": "A hypothesis is a specific, testable prediction about variables' relationships, based on theory or prior evidence."
+    },
+    {
+      "question": "Which practice helps ensure valid measurement of a construct?",
+      "options": [
+        "A. Selecting instruments previously validated in similar studies",
+        "B. Using an untested questionnaire with unknown properties",
+        "C. Changing scale items randomly",
+        "D. Avoiding pre-testing"
+      ],
+      "answer": "A",
+      "explanation": "Using validated instruments ensures the tool measures the intended construct accurately, as proven in prior research."
+    },
+    {
+      "question": "Which of the following best describes a sampling frame?",
+      "options": [
+        "A. The complete list of all elements from which a sample is drawn",
+        "B. The group of people actually surveyed",
+        "C. The data collection instrument",
+        "D. The researcher’s notes"
+      ],
+      "answer": "A",
+      "explanation": "A sampling frame is the accessible list of population elements from which the sample is selected, ideally representing the full population."
+    },
+    {
+      "question": "Which practice improves data quality control?",
+      "options": [
+        "A. Checking for missing values and inconsistencies before analysis",
+        "B. Entering data once without verification",
+        "C. Accepting all responses without screening",
+        "D. Combining incompatible datasets without checking"
+      ],
+      "answer": "A",
+      "explanation": "Quality control involves pre-analysis checks for errors like missing data or inconsistencies to ensure reliable results."
+    },
+    {
+      "question": "Which is an example of descriptive statistics?",
+      "options": [
+        "A. Calculating the mean, median and standard deviation",
+        "B. Testing for differences between groups",
+        "C. Running regression analysis",
+        "D. Making predictions"
+      ],
+      "answer": "A",
+      "explanation": "Descriptive statistics summarize and describe data features, such as central tendency (mean, median) and dispersion (standard deviation), without inference."
+    },
+    {
+      "question": "Which practice strengthens transparency in research reporting?",
+      "options": [
+        "A. Clearly describing methods, instruments and limitations",
+        "B. Omitting inconvenient details",
+        "C. Hiding negative results",
+        "D. Using vague language"
+      ],
+      "answer": "A",
+      "explanation": "Transparency requires detailed reporting of procedures, tools, and constraints, allowing scrutiny and replication by others."
+    },
+    {
+      "question": "Which of the following is a benefit of pilot testing?",
+      "options": [
+        "A. Identifying potential problems with instruments before the main study",
+        "B. Saving time by skipping pre-testing",
+        "C. Eliminating the need for data analysis",
+        "D. Proving your hypothesis before data collection"
+      ],
+      "answer": "A",
+      "explanation": "Pilot testing reveals issues like unclear questions or logistical problems early, improving the main study's design and efficiency."
+    },
+    {
+      "question": "Which is an example of inferential statistics?",
+      "options": [
+        "A. Estimating the population mean from a sample",
+        "B. Reporting the frequency of answers",
+        "C. Summarising data in a table",
+        "D. Calculating the mode"
+      ],
+      "answer": "A",
+      "explanation": "Inferential statistics use sample data to make generalizations or predictions about the population, such as estimating parameters with confidence intervals."
+    },
+    {
+      "question": "Which practice improves research credibility?",
+      "options": [
+        "A. Following ethical standards and reporting findings honestly",
+        "B. Only reporting results that support your view",
+        "C. Excluding contradictory data without explanation",
+        "D. Using unvalidated instruments"
+      ],
+      "answer": "A",
+      "explanation": "Credibility is built through adherence to ethics, transparent reporting, and honest presentation of all findings, fostering trust in the research."
+    },
+    {
+      "question": "Which of the following is an example of secondary research?",
+      "options": [
+        "A. Conducting your own laboratory experiment",
+        "B. Analysing data collected by a government agency",
+        "C. Interviewing participants directly",
+        "D. Running your own survey"
+      ],
+      "answer": "B",
+      "explanation": "Secondary research analyzes existing data from external sources, like government datasets, to derive new insights without original collection."
+    },
+    {
+      "question": "Which practice strengthens ethical participant recruitment?",
+      "options": [
+        "A. Providing full information about the study and allowing voluntary participation",
+        "B. Recruiting only people who will give desired answers",
+        "C. Offering misleading incentives",
+        "D. Using participants without their consent"
+      ],
+      "answer": "A",
+      "explanation": "Ethical recruitment ensures participants are fully informed and participate voluntarily, without coercion or deception."
+    },
+    {
+      "question": "Which is an example of a research design?",
+      "options": [
+        "A. Cross-sectional study",
+        "B. Statistical analysis",
+        "C. Literature review",
+        "D. Data entry"
+      ],
+      "answer": "A",
+      "explanation": "Research design refers to the overall strategy, such as cross-sectional, that structures how data are collected and analyzed to answer the research question."
+    },
+    {
+      "question": "Which practice improves data analysis accuracy?",
+      "options": [
+        "A. Double-checking coding and calculations",
+        "B. Guessing missing values without justification",
+        "C. Changing results to fit the hypothesis",
+        "D. Skipping verification"
+      ],
+      "answer": "A",
+      "explanation": "Accuracy in analysis is achieved by verifying codes, computations, and processes to minimize errors and ensure reliable interpretations."
+    },
+    {
+      "question": "Which is an example of quantitative data?",
+      "options": [
+        "A. Scores on a standardised test",
+        "B. Participants’ personal stories",
+        "C. Interview transcripts",
+        "D. Open-ended survey comments"
+      ],
+      "answer": "A",
+      "explanation": "Quantitative data are numerical, such as test scores, allowing for statistical analysis and objective measurement."
+    },
+    {
+      "question": "Which practice strengthens objectivity in reporting?",
+      "options": [
+        "A. Presenting findings and limitations honestly",
+        "B. Excluding results that contradict expectations",
+        "C. Using emotional language to persuade",
+        "D. Hiding data that does not fit"
+      ],
+      "answer": "A",
+      "explanation": "Objectivity in reporting involves balanced, factual presentation of all results and limitations, avoiding selective disclosure."
+    },
+    {
+      "question": "Which of these best defines triangulation in research?",
+      "options": [
+        "A. Using multiple methods or sources to cross-check findings",
+        "B. Taking three measurements at the same time",
+        "C. Drawing three conclusions",
+        "D. Using only one method"
+      ],
+      "answer": "A",
+      "explanation": "Triangulation converges evidence from diverse methods or sources to validate findings and reduce bias."
+    },
+    {
+      "question": "Which practice improves sampling representativeness?",
+      "options": [
+        "A. Selecting participants randomly from the entire population",
+        "B. Using only volunteers who are easily available",
+        "C. Choosing only people you know",
+        "D. Ignoring demographic differences"
+      ],
+      "answer": "A",
+      "explanation": "Random selection ensures the sample reflects the population's composition, enhancing representativeness and generalizability."
+    },
+    {
+      "question": "Which is an example of ethical authorship?",
+      "options": [
+        "A. Listing only those who made significant contributions",
+        "B. Adding names of people who did not contribute",
+        "C. Omitting a contributor who helped substantially",
+        "D. Using a false author name"
+      ],
+      "answer": "A",
+      "explanation": "Ethical authorship credits individuals based on substantial contributions to conception, execution, or interpretation, per established criteria."
+    },
+    {
+      "question": "Which practice strengthens data confidentiality during analysis?",
+      "options": [
+        "A. Removing personal identifiers from the dataset",
+        "B. Sharing names openly with external parties",
+        "C. Storing unencrypted files on public computers",
+        "D. Emailing sensitive information without protection"
+      ],
+      "answer": "A",
+      "explanation": "De-identifying data by removing personal details protects privacy during analysis, complying with ethical and legal standards."
+    },
+    {
+      "question": "Which is an example of a research limitation you might report?",
+      "options": [
+        "A. “The sample was drawn from one location, which may limit generalisability.”",
+        "B. “We used validated instruments.”",
+        "C. “Data were collected accurately.”",
+        "D. “We obtained ethical approval.”"
+      ],
+      "answer": "A",
+      "explanation": "Reporting limitations like geographic constraints acknowledges factors that may affect the applicability of findings to broader contexts."
+    },
+    {
+      "question": "Which practice improves validity of survey questions?",
+      "options": [
+        "A. Pre-testing questions with a small group and revising them",
+        "B. Using ambiguous or double-barrelled questions",
+        "C. Changing items randomly during data collection",
+        "D. Avoiding feedback on the questionnaire"
+      ],
+      "answer": "A",
+      "explanation": "Pre-testing identifies confusing or invalid questions, allowing revisions to ensure they measure what is intended."
+    },
+    {
+      "question": "Which is an example of descriptive research?",
+      "options": [
+        "A. A survey measuring how frequently people exercise",
+        "B. An experiment testing a new medication",
+        "C. A randomised controlled trial",
+        "D. A mixed-methods evaluation"
+      ],
+      "answer": "A",
+      "explanation": "Descriptive research documents phenomena as they occur, like exercise frequency, without intervention or causality testing."
+    },
+    {
+      "question": "Which practice improves transparency in data analysis?",
+      "options": [
+        "A. Explaining coding decisions and statistical methods in the report",
+        "B. Keeping methods secret",
+        "C. Hiding steps taken during analysis",
+        "D. Using vague descriptions of techniques"
+      ],
+      "answer": "A",
+      "explanation": "Transparency requires detailing analytical choices and methods, enabling peer review and replication."
+    },
+    {
+      "question": "Which is an example of inferential research question?",
+      "options": [
+        "A. “Is there a significant difference in test scores between two teaching methods?”",
+        "B. “How many students are enrolled in the class?”",
+        "C. “What is the average age of participants?”",
+        "D. “List the characteristics of respondents.”"
+      ],
+      "answer": "A",
+      "explanation": "Inferential questions seek to draw conclusions about populations from samples, often involving statistical tests for differences or relationships."
+    },
+    {
+      "question": "Which of these best defines operational definition in research?",
+      "options": [
+        "A. A general dictionary meaning of a concept",
+        "B. A clear, measurable way to define a variable for a study",
+        "C. A hypothesis statement",
+        "D. A conclusion drawn from data"
+      ],
+      "answer": "B",
+      "explanation": "An operational definition specifies how a variable is measured or observed in concrete terms for the study."
+    },
+    {
+      "question": "Which practice strengthens ethical data sharing?",
+      "options": [
+        "A. Sharing anonymised data only with permission and proper safeguards",
+        "B. Posting raw identifiable data online for anyone to download",
+        "C. Selling participant details to third parties",
+        "D. Giving out information without consent"
+      ],
+      "answer": "A",
+      "explanation": "Ethical sharing involves anonymization, consent, and security measures to protect privacy while promoting open science."
+    },
+    {
+      "question": "Which is an example of a null hypothesis?",
+      "options": [
+        "A. “There is no relationship between caffeine intake and sleep quality.”",
+        "B. “Caffeine intake reduces sleep quality.”",
+        "C. “Sleep quality improves after less caffeine.”",
+        "D. “Caffeine makes people stay awake.”"
+      ],
+      "answer": "A",
+      "explanation": "The null hypothesis posits no effect or relationship, providing a baseline for statistical testing."
+    },
+    {
+      "question": "Which practice improves data reliability during collection?",
+      "options": [
+        "A. Training all data collectors to follow the same protocol",
+        "B. Allowing each person to use their own approach",
+        "C. Skipping instructions to save time",
+        "D. Changing instruments halfway through the study"
+      ],
+      "answer": "A",
+      "explanation": "Standardized training ensures consistent application of protocols, reducing variability and enhancing reliability."
+    },
+    {
+      "question": "Which is an example of ethical use of secondary data?",
+      "options": [
+        "A. Checking licensing or permissions before using and citing the source",
+        "B. Copying it without credit",
+        "C. Misrepresenting the original findings",
+        "D. Combining data sets without permission"
+      ],
+      "answer": "A",
+      "explanation": "Ethical use requires verifying rights to use the data, proper citation, and accurate representation of the original work."
+    },
+    {
+      "question": "Which practice strengthens validity of research findings?",
+      "options": [
+        "A. Using multiple methods to measure the same construct",
+        "B. Using one untested measure",
+        "C. Avoiding pilot testing",
+        "D. Ignoring extraneous variables"
+      ],
+      "answer": "A",
+      "explanation": "Convergent validity is strengthened by multimethod measurement, confirming the construct is captured accurately across approaches."
+    },
+    {
+      "question": "Which of these best describes a research proposal?",
+      "options": [
+        "A. A detailed plan outlining the background, objectives, and methods of a study",
+        "B. A list of references used in the study",
+        "C. The final published report",
+        "D. A hypothesis only"
+      ],
+      "answer": "A",
+      "explanation": "A proposal presents the rationale, goals, and planned methodology to seek approval or funding for the research."
+    },
+    {
+      "question": "Which practice improves credibility of qualitative research?",
+      "options": [
+        "A. Member checking (allowing participants to review and comment on findings)",
+        "B. Hiding participant feedback",
+        "C. Changing quotes to fit your view",
+        "D. Avoiding documentation of methods"
+      ],
+      "answer": "A",
+      "explanation": "Member checking involves participants verifying interpretations, enhancing accuracy and trustworthiness in qualitative findings."
+    },
+    {
+      "question": "Which is an example of random sampling?",
+      "options": [
+        "A. Using a computer program to select participants from a full list",
+        "B. Choosing only friends and acquaintances",
+        "C. Selecting the first 20 people you see",
+        "D. Using only volunteers who respond"
+      ],
+      "answer": "A",
+      "explanation": "Random sampling employs chance mechanisms, like random number generators, to select from a list, ensuring unbiased representation."
+    },
+    {
+      "question": "Which practice demonstrates ethical authorship of research papers?",
+      "options": [
+        "A. Listing only those who made significant contributions",
+        "B. Adding honorary authors to increase prestige",
+        "C. Omitting contributors without reason",
+        "D. Using a pseudonym to appear different"
+      ],
+      "answer": "A",
+      "explanation": "Ethical authorship limits credit to those with substantial input, avoiding inflation or exclusion to maintain integrity."
+    },
+    {
+      "question": "Which is an example of data analysis plan?",
+      "options": [
+        "A. Outlining the statistical tests and coding methods you will use before data collection",
+        "B. Waiting until after data collection to decide what to do",
+        "C. Guessing analysis steps as you go",
+        "D. Only describing sample characteristics"
+      ],
+      "answer": "A",
+      "explanation": "A data analysis plan pre-specifies techniques and procedures, promoting systematic and unbiased analysis."
+    },
+    {
+      "question": "Which practice strengthens integrity in reporting?",
+      "options": [
+        "A. Disclosing conflicts of interest and funding sources",
+        "B. Hiding funders to look independent",
+        "C. Altering data to please sponsors",
+        "D. Reporting only positive findings"
+      ],
+      "answer": "A",
+      "explanation": "Integrity requires revealing potential biases like funding or conflicts, allowing readers to assess impartiality."
+    },
+    {
+      "question": "Which is an example of a research limitation?",
+      "options": [
+        "A. “The study used self-reported data, which may be biased.”",
+        "B. “We followed ethical standards.”",
+        "C. “We used a large, random sample.”",
+        "D. “We pre-tested our questionnaire.”"
+      ],
+      "answer": "A",
+      "explanation": "Limitations highlight potential weaknesses, such as self-report bias, that could affect results' reliability."
+    },
+    {
+      "question": "Which practice improves replicability of research?",
+      "options": [
+        "A. Providing detailed descriptions of methods, instruments and procedures",
+        "B. Using vague language to describe your methods",
+        "C. Omitting information about your sample",
+        "D. Keeping your analysis code secret"
+      ],
+      "answer": "A",
+      "explanation": "Replicability is facilitated by comprehensive method descriptions, enabling others to repeat the study accurately."
+    },
+    {
+      "question": "Which is an example of a measurable research objective?",
+      "options": [
+        "A. “To assess the impact of social media use on students’ study time over one semester.”",
+        "B. “To prove social media is bad.”",
+        "C. “To collect some data.”",
+        "D. “To do research on the internet.”"
+      ],
+      "answer": "A",
+      "explanation": "Measurable objectives are specific, time-bound, and focused on observable outcomes, allowing evaluation through data."
+    }
+  ]
+}
