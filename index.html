@@ -4,11 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UNILAG Postgraduate Exam Flashcards</title>
-  <!-- PWA manifest for making the app installable -->
   <link rel="manifest" href="/manifest.json">
-  <!-- App icon for PWA and favicon -->
   <link rel="icon" href="/icon-192.png" type="image/png">
-  <!-- Preload all seven JSON files for faster loading -->
   <link rel="preload" href="/communication-skills.json" as="fetch" crossorigin="anonymous">
   <link rel="preload" href="/critical-thinking.json" as="fetch" crossorigin="anonymous">
   <link rel="preload" href="/emotional-intelligence.json" as="fetch" crossorigin="anonymous">
@@ -16,7 +13,6 @@
   <link rel="preload" href="/problem-solving.json" as="fetch" crossorigin="anonymous">
   <link rel="preload" href="/research-aptitude.json" as="fetch" crossorigin="anonymous">
   <link rel="preload" href="/verbal-reasoning.json" as="fetch" crossorigin="anonymous">
-  <!-- Inline CSS for styling flashcards, controls, and responsive design -->
   <style>
     * {
       margin: 0;
@@ -47,7 +43,7 @@
       background: var(--bg-gradient);
       color: var(--text-color);
       min-height: 100vh;
-      padding: 20px;
+      padding: 10px;
       transition: background 0.3s ease;
     }
 
@@ -58,40 +54,43 @@
 
     header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       color: var(--footer-text);
-      padding: 20px;
+      padding: 15px;
       background: var(--header-bg);
-      border-radius: 15px;
+      border-radius: 10px;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 2rem;
+      margin-bottom: 8px;
     }
 
     .subtitle {
-      font-size: 1.2rem;
+      font-size: 1rem;
       opacity: 0.9;
     }
 
     .controls {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+      margin-bottom: 15px;
+      justify-items: center;
     }
 
     .control-btn, .control-select {
-      padding: 10px 20px;
+      padding: 8px 15px;
       background: #1a2a6c;
       color: white;
       border: none;
-      border-radius: 50px;
+      border-radius: 25px;
       cursor: pointer;
       font-weight: bold;
+      font-size: 0.9rem;
       transition: all 0.3s ease;
+      width: 100%;
+      text-align: center;
     }
 
     .control-btn:hover, .control-btn:focus,
@@ -101,35 +100,38 @@
     }
 
     .control-select {
-      appearance: none; /* Remove default dropdown arrow */
-      background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+      appearance: none;
+      background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
       background-repeat: no-repeat;
-      background-position: right 10px center;
-      padding-right: 40px; /* Space for arrow */
+      background-position: right 8px center;
+      padding-right: 30px;
     }
 
     .subject-selector {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin-bottom: 20px;
+      justify-items: center;
     }
 
     .subject-btn {
-      padding: 12px 25px;
+      padding: 8px 15px;
       background: var(--card-bg);
       border: none;
-      border-radius: 50px;
+      border-radius: 25px;
       font-weight: bold;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      font-size: 0.9rem;
+      width: 100%;
+      text-align: center;
     }
 
     .subject-btn:hover, .subject-btn:focus {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 
     .subject-btn.active {
@@ -139,18 +141,18 @@
 
     .progress-container {
       background: var(--card-bg);
-      padding: 15px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 
     .progress-bar {
-      height: 10px;
+      height: 8px;
       background: #e0e0e0;
-      border-radius: 5px;
+      border-radius: 4px;
       overflow: hidden;
-      margin-top: 10px;
+      margin-top: 8px;
     }
 
     .progress-fill {
@@ -162,20 +164,20 @@
 
     .timer, .quiz-timer {
       text-align: center;
-      font-size: 1.1rem;
-      margin-bottom: 10px;
-      color: white; /* Changed to white for better visibility */
-      z-index: 1; /* Ensure timer stays above content */
+      font-size: 1rem;
+      margin-bottom: 8px;
+      color: white;
+      z-index: 1;
     }
 
     .flashcard-container {
       perspective: 1000px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .flashcard {
       width: 100%;
-      min-height: 400px; /* Allow dynamic height for long content */
+      min-height: 350px;
       height: auto;
       position: relative;
       transform-style: preserve-3d;
@@ -192,13 +194,13 @@
       width: 100%;
       height: 100%;
       backface-visibility: hidden;
-      border-radius: 15px;
-      padding: 30px;
+      border-radius: 10px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start; /* Align content at top for scrolling */
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-      overflow-y: auto; /* Enable scrolling for long content */
+      justify-content: flex-start;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      overflow-y: auto;
     }
 
     .flashcard-front {
@@ -215,86 +217,86 @@
 
     .question-number {
       position: absolute;
-      top: 15px;
-      left: 15px;
-      font-size: 0.9rem;
+      top: 10px;
+      left: 10px;
+      font-size: 0.8rem;
       opacity: 0.7;
-      z-index: 1; /* Ensure question number stays above content */
+      z-index: 1;
     }
 
     .question-text {
-      font-size: clamp(1.2rem, 2.5vw, 1.4rem); /* Responsive font size */
-      margin-bottom: 20px;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      margin-bottom: 15px;
       line-height: 1.5;
     }
 
     .options {
       display: grid;
-      gap: 12px;
-      margin-top: 20px;
-      font-size: clamp(1rem, 2vw, 1.2rem); /* Responsive option text */
+      gap: 10px;
+      margin-top: 15px;
+      font-size: clamp(0.9rem, 2vw, 1rem);
     }
 
     .option {
-      padding: 12px;
+      padding: 10px;
       background: var(--option-bg);
-      border-radius: 8px;
-      border-left: 4px solid #1a2a6c;
+      border-radius: 6px;
+      border-left: 3px solid #1a2a6c;
       cursor: pointer;
       transition: all 0.3s ease;
     }
 
     .option:hover, .option:focus {
       background: #e9e9e9;
-      transform: translateX(5px);
+      transform: translateX(4px);
     }
 
     .option.correct {
       background: #4CAF50;
       color: white;
-      border-left: 4px solid #2E7D32;
+      border-left: 3px solid #2E7D32;
     }
 
     .option.incorrect {
       background: #F44336;
       color: white;
-      border-left: 4px solid #C62828;
+      border-left: 3px solid #C62828;
     }
 
     .option.selected {
-      border-left: 4px solid #ffcc00;
+      border-left: 3px solid #ffcc00;
     }
 
     .answer-text {
-      font-size: clamp(1.1rem, 2vw, 1.3rem);
-      margin-bottom: 15px;
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      margin-bottom: 10px;
       color: #ffcc00;
     }
 
     .explanation {
-      font-size: clamp(1rem, 2vw, 1.1rem);
+      font-size: clamp(0.9rem, 2vw, 1rem);
       line-height: 1.6;
-      margin-top: 20px;
+      margin-top: 15px;
     }
 
     .buttons-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 20px;
+      margin-top: 15px;
+      gap: 8px;
     }
 
     .nav-btn {
-      padding: 12px 25px;
+      padding: 10px 20px;
       background: #1a2a6c;
       color: white;
       border: none;
-      border-radius: 50px;
+      border-radius: 25px;
       cursor: pointer;
       font-weight: bold;
       transition: all 0.3s ease;
       flex: 1;
-      max-width: 120px;
       text-align: center;
     }
 
@@ -309,16 +311,15 @@
     }
 
     .flip-btn {
-      padding: 12px 25px;
+      padding: 10px 20px;
       background: transparent;
       border: 2px solid #1a2a6c;
       color: #1a2a6c;
-      border-radius: 50px;
+      border-radius: 25px;
       cursor: pointer;
       font-weight: bold;
       transition: all 0.3s ease;
       flex: 2;
-      margin: 0 10px;
       text-align: center;
     }
 
@@ -329,9 +330,9 @@
 
     .selection-feedback {
       text-align: center;
-      margin-top: 15px;
+      margin-top: 10px;
       font-weight: bold;
-      min-height: 24px;
+      min-height: 20px;
     }
 
     .correct-feedback {
@@ -344,15 +345,15 @@
 
     .shuffle-btn, .reset-btn {
       text-align: center;
-      margin-top: 15px;
+      margin-top: 10px;
     }
 
     .shuffle-btn button, .reset-btn button {
-      padding: 10px 20px;
+      padding: 8px 15px;
       background: #9C27B0;
       color: white;
       border: none;
-      border-radius: 50px;
+      border-radius: 25px;
       cursor: pointer;
       font-weight: bold;
       transition: all 0.3s ease;
@@ -366,13 +367,13 @@
     .loading {
       text-align: center;
       color: var(--footer-text);
-      font-size: 1.2rem;
-      margin: 20px 0;
+      font-size: 1rem;
+      margin: 15px 0;
     }
 
     footer {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 20px;
       color: var(--footer-text);
       opacity: 0.8;
     }
@@ -392,44 +393,44 @@
 
     .modal-content {
       background: var(--card-bg);
-      padding: 20px;
-      border-radius: 15px;
-      max-width: 90%;
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 95%;
       max-height: 80vh;
       overflow-y: auto;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     }
 
     .modal-content h2 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
       color: var(--text-color);
     }
 
     .incorrect-question {
-      margin-bottom: 20px;
-      padding: 15px;
-      border-left: 4px solid #F44336;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-left: 3px solid #F44336;
       background: var(--option-bg);
-      border-radius: 8px;
+      border-radius: 6px;
     }
 
     .incorrect-question p {
-      margin: 5px 0;
-      font-size: clamp(0.9rem, 2vw, 1rem);
+      margin: 4px 0;
+      font-size: clamp(0.8rem, 2vw, 0.9rem);
     }
 
     .modal-close {
-      padding: 10px 20px;
+      padding: 8px 15px;
       background: #1a2a6c;
       color: white;
       border: none;
-      border-radius: 50px;
+      border-radius: 25px;
       cursor: pointer;
       font-weight: bold;
       transition: all 0.3s ease;
       display: block;
-      margin: 20px auto 0;
+      margin: 15px auto 0;
     }
 
     .modal-close:hover, .modal-close:focus {
@@ -439,64 +440,65 @@
 
     @media (max-width: 768px) {
       .flashcard {
-        min-height: 500px; /* Adjusted for mobile */
+        min-height: 400px;
       }
 
       .question-text {
-        font-size: clamp(1rem, 2.5vw, 1.2rem);
+        font-size: clamp(0.9rem, 2.5vw, 1.1rem);
       }
 
       .answer-text {
-        font-size: clamp(0.9rem, 2vw, 1.1rem);
+        font-size: clamp(0.8rem, 2vw, 1rem);
       }
 
       .buttons-row {
-        flex-direction: column; /* Stack buttons on small screens */
-        gap: 10px;
+        flex-direction: column;
+        gap: 8px;
       }
 
       .flip-btn, .nav-btn {
-        max-width: none;
         width: 100%;
       }
 
       .modal-content {
         max-width: 95%;
-        padding: 15px;
+        padding: 10px;
       }
 
       .modal-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
     }
 
     @media (max-width: 480px) {
       .flashcard {
-        min-height: 600px; /* Extra space for smaller screens */
+        min-height: 450px;
       }
 
-      .controls, .subject-selector {
-        flex-direction: column;
-        align-items: center;
+      .controls {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 8px;
+      }
+
+      .subject-selector {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 8px;
       }
 
       .control-btn, .control-select, .subject-btn {
-        width: 100%;
-        max-width: 300px;
+        font-size: 0.85rem;
+        padding: 6px 12px;
       }
     }
   </style>
 </head>
 <body>
-  <!-- Main container for the app -->
   <div class="container">
-    <!-- Header with title and subtitle -->
     <header>
       <h1>UNILAG Postgraduate Exam Flashcards</h1>
       <p class="subtitle">Practice questions for 2025/2026 Entrance Exam</p>
     </header>
 
-    <!-- Controls for toggling modes, resetting, and importing/exporting -->
     <div class="controls">
       <button class="control-btn" id="theme-toggle" aria-label="Toggle dark/light mode">Toggle Dark Mode</button>
       <button class="control-btn" id="timer-toggle" aria-label="Toggle timer">Enable Timer</button>
@@ -511,10 +513,8 @@
       </select>
     </div>
 
-    <!-- Subject selection buttons -->
     <div class="subject-selector" id="subject-selector"></div>
 
-    <!-- Progress bar and score display -->
     <div class="progress-container">
       <div class="progress-info">
         <span id="progress-text">Select a subject to begin</span>
@@ -526,14 +526,11 @@
       </div>
     </div>
 
-    <!-- Timers for individual questions and mixed quiz -->
     <div class="timer" id="timer" style="display: none;">Time Left: 30s</div>
     <div class="quiz-timer" id="quiz-timer" style="display: none;">Quiz Time Left: 30:00</div>
 
-    <!-- Loading message -->
     <div id="loading" class="loading">Please select a subject to load questions</div>
 
-    <!-- Flashcard container for question and answer display -->
     <div class="flashcard-container" id="flashcard-container" style="display: none;">
       <div class="flashcard" id="flashcard">
         <div class="flashcard-front">
@@ -548,7 +545,6 @@
         </div>
       </div>
 
-      <!-- Buttons row for Previous, Flip, Next -->
       <div class="buttons-row">
         <button class="nav-btn" id="prev-btn" disabled aria-label="Previous question">Previous</button>
         <button class="flip-btn" id="flip-button" aria-label="Flip flashcard to see answer">Click to Flip Card</button>
@@ -564,7 +560,6 @@
       </div>
     </div>
 
-    <!-- Modal for reviewing incorrect answers -->
     <div class="modal" id="review-modal" style="display: none;">
       <div class="modal-content">
         <h2>Incorrect Answers Review</h2>
@@ -573,16 +568,13 @@
       </div>
     </div>
 
-    <!-- Footer with credits -->
     <footer>
       <p>University of Lagos - School of Postgraduate Studies</p>
       <p>2025/2026 Entrance Exam Prep Tool</p>
     </footer>
   </div>
 
-  <!-- JavaScript for app functionality -->
   <script>
-    // Global state variables
     let currentSubject = null;
     let currentQuestions = [];
     let filteredQuestions = [];
@@ -593,13 +585,12 @@
     let questionCache = {};
     let timerEnabled = false;
     let timerInterval = null;
-    let timeLeft = 30; // Seconds per question
+    let timeLeft = 30;
     let quizTimerInterval = null;
-    let quizTimeLeft = 0; // For mixed quiz
+    let quizTimeLeft = 0;
     let isMixedQuiz = false;
     let currentFilter = 'all';
 
-    // Subject configuration
     const subjects = [
       { name: 'Emotional Intelligence', file: '/emotional-intelligence.json' },
       { name: 'Verbal Reasoning', file: '/verbal-reasoning.json' },
@@ -611,7 +602,6 @@
       { name: 'Mixed Quiz (60 questions, 30 min)', file: 'mixed' }
     ];
 
-    // DOM elements
     const flashcardContainer = document.getElementById('flashcard-container');
     const loadingElement = document.getElementById('loading');
     const flashcard = document.getElementById('flashcard');
@@ -642,7 +632,6 @@
     const quizTimerElement = document.getElementById('quiz-timer');
     const reviewModal = document.getElementById('review-modal');
 
-    // Validate JSON structure
     function validateQuestions(data) {
       if (!data.subject || !Array.isArray(data.questions)) {
         throw new Error('Invalid JSON format: Missing subject or questions array');
@@ -655,7 +644,6 @@
       return true;
     }
 
-    // Create subject buttons dynamically
     function createSubjectButtons() {
       subjectSelector.innerHTML = '';
       subjects.forEach((subject, index) => {
@@ -679,7 +667,6 @@
       });
     }
 
-    // Load questions from JSON file or cache
     function loadQuestions(jsonFile) {
       loadingElement.textContent = 'Loading questions...';
       flashcardContainer.style.display = 'none';
@@ -737,7 +724,6 @@
         });
     }
 
-    // Load mixed quiz (combines questions from all subjects)
     function loadMixedQuiz() {
       loadingElement.textContent = 'Loading mixed quiz questions...';
       Promise.all(subjects.slice(0, -1).map(s => fetch(s.file).then(res => res.json())))
@@ -766,7 +752,6 @@
         });
     }
 
-    // Shuffle array using Fisher-Yates algorithm
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -774,7 +759,6 @@
       }
     }
 
-    // Update UI after loading questions
     function updateUI() {
       subjectNameElement.textContent = currentSubject;
       scoreText.textContent = `Score: ${score.correct}/${score.total}`;
@@ -791,7 +775,6 @@
       if (timerEnabled && !isMixedQuiz) startTimer();
     }
 
-    // Save progress to localStorage
     function saveProgress() {
       localStorage.setItem('flashcardProgress', JSON.stringify({
         subject: currentSubject,
@@ -802,7 +785,6 @@
       }));
     }
 
-    // Load progress from localStorage
     function loadProgress() {
       const progress = JSON.parse(localStorage.getItem('flashcardProgress'));
       if (progress && progress.subject && subjects.some(s => s.file === progress.subject)) {
@@ -820,7 +802,6 @@
       }
     }
 
-    // Export progress as JSON file
     function exportProgressData() {
       const progress = {
         subject: currentSubject,
@@ -843,7 +824,6 @@
       }, 3000);
     }
 
-    // Import progress from JSON file
     function importProgressData(event) {
       const file = event.target.files[0];
       if (!file) return;
@@ -884,7 +864,6 @@
       reader.readAsText(file);
     }
 
-    // Apply question filter (all, unanswered, incorrect)
     function applyFilter() {
       if (currentFilter === 'all') {
         filteredQuestions = [...currentQuestions];
@@ -897,7 +876,6 @@
       if (currentQuestionIndex < 0) currentQuestionIndex = 0;
     }
 
-    // Start per-question timer
     function startTimer() {
       stopTimer();
       timeLeft = 30;
@@ -915,7 +893,6 @@
       }, 1000);
     }
 
-    // Stop per-question timer
     function stopTimer() {
       if (timerInterval) {
         clearInterval(timerInterval);
@@ -924,10 +901,9 @@
       timerElement.style.display = 'none';
     }
 
-    // Start quiz timer for mixed quiz
     function startQuizTimer() {
       stopQuizTimer();
-      quizTimeLeft = 30 * 60; // 30 minutes
+      quizTimeLeft = 30 * 60;
       updateQuizTimerDisplay();
       quizTimerElement.style.display = 'block';
       quizTimerInterval = setInterval(() => {
@@ -940,14 +916,12 @@
       }, 1000);
     }
 
-    // Update quiz timer display
     function updateQuizTimerDisplay() {
       const minutes = Math.floor(quizTimeLeft / 60);
       const seconds = quizTimeLeft % 60;
       quizTimerElement.textContent = `Quiz Time Left: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
     }
 
-    // Stop quiz timer
     function stopQuizTimer() {
       if (quizTimerInterval) {
         clearInterval(quizTimerInterval);
@@ -956,7 +930,6 @@
       quizTimerElement.style.display = 'none';
     }
 
-    // End mixed quiz when time runs out
     function endQuiz() {
       flashcardContainer.style.pointerEvents = 'none';
       selectionFeedback.textContent = `Time's up! Final Score: ${score.correct}/${score.total} (${Math.round((score.correct / score.total) * 100 || 0)}%)`;
@@ -964,7 +937,6 @@
       showReviewModal();
     }
 
-    // Show review modal for incorrect answers
     function showReviewModal() {
       const incorrectQuestions = document.getElementById('incorrect-questions');
       incorrectQuestions.innerHTML = '';
@@ -988,7 +960,6 @@
       document.getElementById('close-review').focus();
     }
 
-    // Event listeners for buttons
     flipButton.addEventListener('click', () => {
       if (userSelection !== null) {
         flashcard.classList.toggle('flipped');
@@ -1124,7 +1095,6 @@
       flashcardContainer.style.pointerEvents = 'auto';
     });
 
-    // Shuffle questions using Fisher-Yates algorithm
     function shuffleQuestions() {
       for (let i = currentQuestions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -1133,15 +1103,12 @@
       applyFilter();
     }
 
-    // Update question display
     function updateQuestion() {
       const questionData = filteredQuestions[currentQuestionIndex];
 
-      // Update question number and text
       questionNumber.textContent = `Q${currentQuestionIndex + 1}`;
       questionText.textContent = questionData.question;
 
-      // Update options
       optionsContainer.innerHTML = '';
       questionData.options.forEach((option, index) => {
         const optionElement = document.createElement('div');
@@ -1151,7 +1118,6 @@
         optionElement.setAttribute('aria-label', `Option ${option}`);
         optionElement.textContent = option;
 
-        // Add click event for option selection
         optionElement.addEventListener('click', () => {
           if (userSelection === null) {
             optionsContainer.querySelectorAll('.option').forEach(opt => {
@@ -1183,7 +1149,6 @@
           }
         });
 
-        // Add keyboard support for options
         optionElement.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             optionElement.click();
@@ -1193,7 +1158,6 @@
         optionsContainer.appendChild(optionElement);
       });
 
-      // Restore previous selection
       if (userAnswers[currentQuestionIndex]) {
         userSelection = userAnswers[currentQuestionIndex];
         optionsContainer.querySelectorAll('.option').forEach(opt => {
@@ -1220,26 +1184,20 @@
         selectionFeedback.className = 'selection-feedback';
       }
 
-      // Update answer and explanation
       answerTextElement.textContent = `Answer: ${questionData.answer}`;
       explanationElement.textContent = questionData.explanation;
 
-      // Update progress
       progressText.textContent = `Question ${currentQuestionIndex + 1} of ${filteredQuestions.length}`;
       progressFill.style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
 
-      // Update navigation buttons
       prevButton.disabled = currentQuestionIndex === 0;
       nextButton.disabled = currentQuestionIndex === filteredQuestions.length - 1;
 
-      // Start timer if enabled
       if (timerEnabled) startTimer();
     }
 
-    // Initialize app
     createSubjectButtons();
 
-    // Restore saved theme
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       document.body.classList.add('dark-mode');
@@ -1247,12 +1205,10 @@
       themeToggle.setAttribute('aria-label', 'Switch to light mode');
     }
 
-    // Restore timer preference
     timerEnabled = localStorage.getItem('timerEnabled') === 'true';
     timerToggle.textContent = timerEnabled ? 'Disable Timer' : 'Enable Timer';
     timerToggle.setAttribute('aria-label', timerEnabled ? 'Disable timer' : 'Enable timer');
 
-    // Preload JSON files for faster access
     try {
       Promise.all(
         subjects.slice(0, -1).map(subject =>
@@ -1270,14 +1226,13 @@
         })
         .catch(error => {
           console.error('Preload error:', error);
-          loadProgress(); // Fallback to normal loading
+          loadProgress();
         });
     } catch (error) {
       console.error('Preload initialization error:', error);
       loadProgress();
     }
 
-    // Register service worker for offline support and PWA
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js')
         .then(reg => console.log('Service Worker registered'))
